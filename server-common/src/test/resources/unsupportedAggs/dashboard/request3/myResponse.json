@@ -1,0 +1,25 @@
+{
+  "id": "78aebe35-6300-482d-abc4-2d6cd137537a",
+  "is_partial": false,
+  "is_running": false,
+  "start_time_in_millis": 1234,
+  "expiration_time_in_millis": 1234,
+  "response": {
+    "took": 113,
+    "timed_out": false,
+    "_shards": {
+      "failed": 0,
+      "successful": 1,
+      "total": 1,
+      "skipped": 0
+    },
+    "hits": {
+      "total": {
+        "relation": "eq",
+        "value": 0
+      },
+      "hits": []
+    },
+    "terminated_early": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "indexName": "hits",
+    "indexAliases": [
+        "stih"
+    ],
+    "primaryKeyField": "WatchID",
+    "timestampField": "EventTime",
+    "nestedFieldsConfig": {
+        "catchAllField": "catch_all",
+        "topLevelFields": ["bar"],
+        "pathSeparator": "_"
+    },
+    "columnMappings": [
+        {
+            "jdbcType": "VARCHAR",
+            "path": [
+                "foo",
+                "foo2",
+                "foo3"
+            ],
+            "elasticType": "Keyword",
+            "columnInfo": null
+        },
+        {
+            "jdbcType": "VARCHAR",
+            "path": [
+                "bar",
+                "bar2",
+                "bar3"
+            ],
+            "elasticType": "Keyword",
+            "columnInfo": null
+        }
+    ],
+    "columnAliases": []
+}

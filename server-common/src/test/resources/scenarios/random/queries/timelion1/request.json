@@ -1,0 +1,28 @@
+{
+    "sheet": [
+        ".es(index=hits, q=*)\n    .mvavg(window=1d)"
+    ],
+    "extended": {
+        "es": {
+            "filter": {
+                "bool": {
+                    "must": [],
+                    "filter": [],
+                    "should": [],
+                    "must_not": []
+                }
+            }
+        }
+    },
+    "time": {
+        "from": "2013-06-26T23:09:01.830Z",
+        "to": "2013-08-05T17:24:19.607Z",
+        "interval": "1h",
+        "timezone": "America/Vancouver"
+    },
+    "searchSession": {
+        "sessionId": "9e884a2f-cbd5-4f01-96f0-700f465f1241",
+        "isRestore": false,
+        "isStored": false
+    }
+}

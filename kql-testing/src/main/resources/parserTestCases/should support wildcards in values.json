@@ -1,0 +1,20 @@
+{
+    "name": "should support wildcards in values",
+    "kql": "foo:ba*",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "ONE_FIELD",
+            "fieldName": "foo"
+        },
+        "value": {
+            "type": "SINGLE_VALUES",
+            "value": {
+                "type": "STRING_LIT",
+                "value": "ba*",
+                "valueType": "STRING"
+            }
+        },
+        "valueType": "BOOLEAN"
+    }
+}

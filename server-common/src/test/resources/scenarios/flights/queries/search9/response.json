@@ -1,0 +1,39 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 2,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 309,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "2": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": 0,
+                        "key_as_string": "false",
+                        "doc_count": 274
+                    },
+                    {
+                        "key": 1,
+                        "key_as_string": "true",
+                        "doc_count": 35
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

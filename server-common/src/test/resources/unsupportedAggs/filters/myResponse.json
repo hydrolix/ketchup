@@ -1,0 +1,3301 @@
+{
+  "id": "a0c098ed-aa90-4eef-a5fc-f168b7652d93",
+  "is_partial": false,
+  "is_running": false,
+  "start_time_in_millis": 1234,
+  "expiration_time_in_millis": 1234,
+  "response": {
+    "took": 549,
+    "timed_out": false,
+    "_shards": {
+      "failed": 0,
+      "successful": 408,
+      "total": 408,
+      "skipped": 0
+    },
+    "hits": {
+      "total": {
+        "relation": "eq",
+        "value": 408
+      },
+      "hits": []
+    },
+    "aggregations": {
+      "q": {
+        "buckets": {
+          "*": {
+            "time_buckets": {
+              "buckets": [
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40949
+                  },
+                  "doc_count": 155847,
+                  "key_as_string": "2013-07-01 20:00:00",
+                  "key": 1372734000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40828
+                  },
+                  "doc_count": 156327,
+                  "key_as_string": "2013-07-01 21:00:00",
+                  "key": 1372737600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40364
+                  },
+                  "doc_count": 153772,
+                  "key_as_string": "2013-07-01 22:00:00",
+                  "key": 1372741200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40568
+                  },
+                  "doc_count": 153571,
+                  "key_as_string": "2013-07-01 23:00:00",
+                  "key": 1372744800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40672
+                  },
+                  "doc_count": 152477,
+                  "key_as_string": "2013-07-02 00:00:00",
+                  "key": 1372748400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40453
+                  },
+                  "doc_count": 153709,
+                  "key_as_string": "2013-07-02 01:00:00",
+                  "key": 1372752000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40817
+                  },
+                  "doc_count": 156425,
+                  "key_as_string": "2013-07-02 02:00:00",
+                  "key": 1372755600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40528
+                  },
+                  "doc_count": 152443,
+                  "key_as_string": "2013-07-02 03:00:00",
+                  "key": 1372759200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40684
+                  },
+                  "doc_count": 157146,
+                  "key_as_string": "2013-07-02 04:00:00",
+                  "key": 1372762800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40869
+                  },
+                  "doc_count": 158282,
+                  "key_as_string": "2013-07-02 05:00:00",
+                  "key": 1372766400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41085
+                  },
+                  "doc_count": 156476,
+                  "key_as_string": "2013-07-02 06:00:00",
+                  "key": 1372770000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40721
+                  },
+                  "doc_count": 153552,
+                  "key_as_string": "2013-07-02 07:00:00",
+                  "key": 1372773600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40587
+                  },
+                  "doc_count": 157352,
+                  "key_as_string": "2013-07-02 08:00:00",
+                  "key": 1372777200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40870
+                  },
+                  "doc_count": 153889,
+                  "key_as_string": "2013-07-02 09:00:00",
+                  "key": 1372780800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40791
+                  },
+                  "doc_count": 154751,
+                  "key_as_string": "2013-07-02 10:00:00",
+                  "key": 1372784400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40727
+                  },
+                  "doc_count": 153483,
+                  "key_as_string": "2013-07-02 11:00:00",
+                  "key": 1372788000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40741
+                  },
+                  "doc_count": 154750,
+                  "key_as_string": "2013-07-02 12:00:00",
+                  "key": 1372791600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40468
+                  },
+                  "doc_count": 151396,
+                  "key_as_string": "2013-07-02 13:00:00",
+                  "key": 1372795200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40708
+                  },
+                  "doc_count": 153649,
+                  "key_as_string": "2013-07-02 14:00:00",
+                  "key": 1372798800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40843
+                  },
+                  "doc_count": 155570,
+                  "key_as_string": "2013-07-02 15:00:00",
+                  "key": 1372802400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40346
+                  },
+                  "doc_count": 150506,
+                  "key_as_string": "2013-07-02 16:00:00",
+                  "key": 1372806000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40918
+                  },
+                  "doc_count": 154634,
+                  "key_as_string": "2013-07-02 17:00:00",
+                  "key": 1372809600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40625
+                  },
+                  "doc_count": 152483,
+                  "key_as_string": "2013-07-02 18:00:00",
+                  "key": 1372813200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 40492
+                  },
+                  "doc_count": 152343,
+                  "key_as_string": "2013-07-02 19:00:00",
+                  "key": 1372816800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86362
+                  },
+                  "doc_count": 423460,
+                  "key_as_string": "2013-07-02 20:00:00",
+                  "key": 1372820400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 87522
+                  },
+                  "doc_count": 410471,
+                  "key_as_string": "2013-07-02 21:00:00",
+                  "key": 1372824000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86505
+                  },
+                  "doc_count": 408686,
+                  "key_as_string": "2013-07-02 22:00:00",
+                  "key": 1372827600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86731
+                  },
+                  "doc_count": 412423,
+                  "key_as_string": "2013-07-02 23:00:00",
+                  "key": 1372831200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86383
+                  },
+                  "doc_count": 408402,
+                  "key_as_string": "2013-07-03 00:00:00",
+                  "key": 1372834800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86806
+                  },
+                  "doc_count": 409529,
+                  "key_as_string": "2013-07-03 01:00:00",
+                  "key": 1372838400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86386
+                  },
+                  "doc_count": 408158,
+                  "key_as_string": "2013-07-03 02:00:00",
+                  "key": 1372842000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86371
+                  },
+                  "doc_count": 412965,
+                  "key_as_string": "2013-07-03 03:00:00",
+                  "key": 1372845600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85312
+                  },
+                  "doc_count": 402816,
+                  "key_as_string": "2013-07-03 04:00:00",
+                  "key": 1372849200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85497
+                  },
+                  "doc_count": 408071,
+                  "key_as_string": "2013-07-03 05:00:00",
+                  "key": 1372852800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86256
+                  },
+                  "doc_count": 404959,
+                  "key_as_string": "2013-07-03 06:00:00",
+                  "key": 1372856400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86088
+                  },
+                  "doc_count": 404017,
+                  "key_as_string": "2013-07-03 07:00:00",
+                  "key": 1372860000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86437
+                  },
+                  "doc_count": 406895,
+                  "key_as_string": "2013-07-03 08:00:00",
+                  "key": 1372863600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86121
+                  },
+                  "doc_count": 409001,
+                  "key_as_string": "2013-07-03 09:00:00",
+                  "key": 1372867200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86503
+                  },
+                  "doc_count": 406439,
+                  "key_as_string": "2013-07-03 10:00:00",
+                  "key": 1372870800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86518
+                  },
+                  "doc_count": 402064,
+                  "key_as_string": "2013-07-03 11:00:00",
+                  "key": 1372874400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 87194
+                  },
+                  "doc_count": 404358,
+                  "key_as_string": "2013-07-03 12:00:00",
+                  "key": 1372878000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86850
+                  },
+                  "doc_count": 407781,
+                  "key_as_string": "2013-07-03 13:00:00",
+                  "key": 1372881600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86974
+                  },
+                  "doc_count": 409177,
+                  "key_as_string": "2013-07-03 14:00:00",
+                  "key": 1372885200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86846
+                  },
+                  "doc_count": 411337,
+                  "key_as_string": "2013-07-03 15:00:00",
+                  "key": 1372888800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86744
+                  },
+                  "doc_count": 413830,
+                  "key_as_string": "2013-07-03 16:00:00",
+                  "key": 1372892400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86399
+                  },
+                  "doc_count": 412961,
+                  "key_as_string": "2013-07-03 17:00:00",
+                  "key": 1372896000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 87077
+                  },
+                  "doc_count": 412403,
+                  "key_as_string": "2013-07-03 18:00:00",
+                  "key": 1372899600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86624
+                  },
+                  "doc_count": 418973,
+                  "key_as_string": "2013-07-03 19:00:00",
+                  "key": 1372903200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41508
+                  },
+                  "doc_count": 187974,
+                  "key_as_string": "2013-07-04 20:00:00",
+                  "key": 1372993200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41581
+                  },
+                  "doc_count": 187176,
+                  "key_as_string": "2013-07-04 21:00:00",
+                  "key": 1372996800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41684
+                  },
+                  "doc_count": 186312,
+                  "key_as_string": "2013-07-04 22:00:00",
+                  "key": 1373000400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41882
+                  },
+                  "doc_count": 191200,
+                  "key_as_string": "2013-07-04 23:00:00",
+                  "key": 1373004000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41692
+                  },
+                  "doc_count": 187331,
+                  "key_as_string": "2013-07-05 00:00:00",
+                  "key": 1373007600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41700
+                  },
+                  "doc_count": 184554,
+                  "key_as_string": "2013-07-05 01:00:00",
+                  "key": 1373011200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41482
+                  },
+                  "doc_count": 187653,
+                  "key_as_string": "2013-07-05 02:00:00",
+                  "key": 1373014800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41453
+                  },
+                  "doc_count": 186511,
+                  "key_as_string": "2013-07-05 03:00:00",
+                  "key": 1373018400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41278
+                  },
+                  "doc_count": 185894,
+                  "key_as_string": "2013-07-05 04:00:00",
+                  "key": 1373022000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41291
+                  },
+                  "doc_count": 188782,
+                  "key_as_string": "2013-07-05 05:00:00",
+                  "key": 1373025600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41416
+                  },
+                  "doc_count": 190617,
+                  "key_as_string": "2013-07-05 06:00:00",
+                  "key": 1373029200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41768
+                  },
+                  "doc_count": 188947,
+                  "key_as_string": "2013-07-05 07:00:00",
+                  "key": 1373032800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41720
+                  },
+                  "doc_count": 192122,
+                  "key_as_string": "2013-07-05 08:00:00",
+                  "key": 1373036400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41365
+                  },
+                  "doc_count": 188677,
+                  "key_as_string": "2013-07-05 09:00:00",
+                  "key": 1373040000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41653
+                  },
+                  "doc_count": 186501,
+                  "key_as_string": "2013-07-05 10:00:00",
+                  "key": 1373043600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41855
+                  },
+                  "doc_count": 187514,
+                  "key_as_string": "2013-07-05 11:00:00",
+                  "key": 1373047200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41889
+                  },
+                  "doc_count": 188332,
+                  "key_as_string": "2013-07-05 12:00:00",
+                  "key": 1373050800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 42103
+                  },
+                  "doc_count": 184789,
+                  "key_as_string": "2013-07-05 13:00:00",
+                  "key": 1373054400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 42180
+                  },
+                  "doc_count": 186141,
+                  "key_as_string": "2013-07-05 14:00:00",
+                  "key": 1373058000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 42043
+                  },
+                  "doc_count": 182369,
+                  "key_as_string": "2013-07-05 15:00:00",
+                  "key": 1373061600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41771
+                  },
+                  "doc_count": 183335,
+                  "key_as_string": "2013-07-05 16:00:00",
+                  "key": 1373065200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41838
+                  },
+                  "doc_count": 184169,
+                  "key_as_string": "2013-07-05 17:00:00",
+                  "key": 1373068800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41532
+                  },
+                  "doc_count": 185794,
+                  "key_as_string": "2013-07-05 18:00:00",
+                  "key": 1373072400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 41776
+                  },
+                  "doc_count": 186837,
+                  "key_as_string": "2013-07-05 19:00:00",
+                  "key": 1373076000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58557
+                  },
+                  "doc_count": 284284,
+                  "key_as_string": "2013-07-05 20:00:00",
+                  "key": 1373079600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58963
+                  },
+                  "doc_count": 285385,
+                  "key_as_string": "2013-07-05 21:00:00",
+                  "key": 1373083200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58635
+                  },
+                  "doc_count": 284356,
+                  "key_as_string": "2013-07-05 22:00:00",
+                  "key": 1373086800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58995
+                  },
+                  "doc_count": 285540,
+                  "key_as_string": "2013-07-05 23:00:00",
+                  "key": 1373090400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 59116
+                  },
+                  "doc_count": 287151,
+                  "key_as_string": "2013-07-06 00:00:00",
+                  "key": 1373094000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58750
+                  },
+                  "doc_count": 285640,
+                  "key_as_string": "2013-07-06 01:00:00",
+                  "key": 1373097600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58459
+                  },
+                  "doc_count": 282012,
+                  "key_as_string": "2013-07-06 02:00:00",
+                  "key": 1373101200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58342
+                  },
+                  "doc_count": 282953,
+                  "key_as_string": "2013-07-06 03:00:00",
+                  "key": 1373104800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58432
+                  },
+                  "doc_count": 286564,
+                  "key_as_string": "2013-07-06 04:00:00",
+                  "key": 1373108400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58211
+                  },
+                  "doc_count": 283032,
+                  "key_as_string": "2013-07-06 05:00:00",
+                  "key": 1373112000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58604
+                  },
+                  "doc_count": 285175,
+                  "key_as_string": "2013-07-06 06:00:00",
+                  "key": 1373115600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58742
+                  },
+                  "doc_count": 284925,
+                  "key_as_string": "2013-07-06 07:00:00",
+                  "key": 1373119200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58232
+                  },
+                  "doc_count": 284809,
+                  "key_as_string": "2013-07-06 08:00:00",
+                  "key": 1373122800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58172
+                  },
+                  "doc_count": 282211,
+                  "key_as_string": "2013-07-06 09:00:00",
+                  "key": 1373126400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58343
+                  },
+                  "doc_count": 282129,
+                  "key_as_string": "2013-07-06 10:00:00",
+                  "key": 1373130000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58049
+                  },
+                  "doc_count": 286065,
+                  "key_as_string": "2013-07-06 11:00:00",
+                  "key": 1373133600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58395
+                  },
+                  "doc_count": 283927,
+                  "key_as_string": "2013-07-06 12:00:00",
+                  "key": 1373137200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58621
+                  },
+                  "doc_count": 284626,
+                  "key_as_string": "2013-07-06 13:00:00",
+                  "key": 1373140800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58546
+                  },
+                  "doc_count": 280714,
+                  "key_as_string": "2013-07-06 14:00:00",
+                  "key": 1373144400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58781
+                  },
+                  "doc_count": 281711,
+                  "key_as_string": "2013-07-06 15:00:00",
+                  "key": 1373148000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58665
+                  },
+                  "doc_count": 283178,
+                  "key_as_string": "2013-07-06 16:00:00",
+                  "key": 1373151600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58410
+                  },
+                  "doc_count": 283019,
+                  "key_as_string": "2013-07-06 17:00:00",
+                  "key": 1373155200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58685
+                  },
+                  "doc_count": 283016,
+                  "key_as_string": "2013-07-06 18:00:00",
+                  "key": 1373158800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 58753
+                  },
+                  "doc_count": 280698,
+                  "key_as_string": "2013-07-06 19:00:00",
+                  "key": 1373162400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8008
+                  },
+                  "doc_count": 48009,
+                  "key_as_string": "2013-07-06 20:00:00",
+                  "key": 1373166000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8064
+                  },
+                  "doc_count": 47436,
+                  "key_as_string": "2013-07-06 21:00:00",
+                  "key": 1373169600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7777
+                  },
+                  "doc_count": 46303,
+                  "key_as_string": "2013-07-06 22:00:00",
+                  "key": 1373173200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7641
+                  },
+                  "doc_count": 45305,
+                  "key_as_string": "2013-07-06 23:00:00",
+                  "key": 1373176800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7558
+                  },
+                  "doc_count": 48165,
+                  "key_as_string": "2013-07-07 00:00:00",
+                  "key": 1373180400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7568
+                  },
+                  "doc_count": 46462,
+                  "key_as_string": "2013-07-07 01:00:00",
+                  "key": 1373184000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7569
+                  },
+                  "doc_count": 47430,
+                  "key_as_string": "2013-07-07 02:00:00",
+                  "key": 1373187600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7621
+                  },
+                  "doc_count": 49023,
+                  "key_as_string": "2013-07-07 03:00:00",
+                  "key": 1373191200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7798
+                  },
+                  "doc_count": 50707,
+                  "key_as_string": "2013-07-07 04:00:00",
+                  "key": 1373194800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7956
+                  },
+                  "doc_count": 52006,
+                  "key_as_string": "2013-07-07 05:00:00",
+                  "key": 1373198400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8125
+                  },
+                  "doc_count": 52383,
+                  "key_as_string": "2013-07-07 06:00:00",
+                  "key": 1373202000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8203
+                  },
+                  "doc_count": 52144,
+                  "key_as_string": "2013-07-07 07:00:00",
+                  "key": 1373205600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7986
+                  },
+                  "doc_count": 48342,
+                  "key_as_string": "2013-07-07 08:00:00",
+                  "key": 1373209200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7694
+                  },
+                  "doc_count": 46580,
+                  "key_as_string": "2013-07-07 09:00:00",
+                  "key": 1373212800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7764
+                  },
+                  "doc_count": 46448,
+                  "key_as_string": "2013-07-07 10:00:00",
+                  "key": 1373216400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7727
+                  },
+                  "doc_count": 44861,
+                  "key_as_string": "2013-07-07 11:00:00",
+                  "key": 1373220000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7803
+                  },
+                  "doc_count": 46044,
+                  "key_as_string": "2013-07-07 12:00:00",
+                  "key": 1373223600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7423
+                  },
+                  "doc_count": 43453,
+                  "key_as_string": "2013-07-07 13:00:00",
+                  "key": 1373227200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7319
+                  },
+                  "doc_count": 42963,
+                  "key_as_string": "2013-07-07 14:00:00",
+                  "key": 1373230800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7260
+                  },
+                  "doc_count": 42056,
+                  "key_as_string": "2013-07-07 15:00:00",
+                  "key": 1373234400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7571
+                  },
+                  "doc_count": 41210,
+                  "key_as_string": "2013-07-07 16:00:00",
+                  "key": 1373238000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7568
+                  },
+                  "doc_count": 44504,
+                  "key_as_string": "2013-07-07 17:00:00",
+                  "key": 1373241600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7817
+                  },
+                  "doc_count": 46435,
+                  "key_as_string": "2013-07-07 18:00:00",
+                  "key": 1373245200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8158
+                  },
+                  "doc_count": 48598,
+                  "key_as_string": "2013-07-07 19:00:00",
+                  "key": 1373248800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15123
+                  },
+                  "doc_count": 105439,
+                  "key_as_string": "2013-07-07 20:00:00",
+                  "key": 1373252400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15367
+                  },
+                  "doc_count": 106046,
+                  "key_as_string": "2013-07-07 21:00:00",
+                  "key": 1373256000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14861
+                  },
+                  "doc_count": 90981,
+                  "key_as_string": "2013-07-07 22:00:00",
+                  "key": 1373259600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14611
+                  },
+                  "doc_count": 90207,
+                  "key_as_string": "2013-07-07 23:00:00",
+                  "key": 1373263200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 13687
+                  },
+                  "doc_count": 91858,
+                  "key_as_string": "2013-07-08 00:00:00",
+                  "key": 1373266800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 13683
+                  },
+                  "doc_count": 91843,
+                  "key_as_string": "2013-07-08 01:00:00",
+                  "key": 1373270400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14934
+                  },
+                  "doc_count": 96630,
+                  "key_as_string": "2013-07-08 02:00:00",
+                  "key": 1373274000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15977
+                  },
+                  "doc_count": 101745,
+                  "key_as_string": "2013-07-08 03:00:00",
+                  "key": 1373277600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16696
+                  },
+                  "doc_count": 104409,
+                  "key_as_string": "2013-07-08 04:00:00",
+                  "key": 1373281200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15962
+                  },
+                  "doc_count": 100518,
+                  "key_as_string": "2013-07-08 05:00:00",
+                  "key": 1373284800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15028
+                  },
+                  "doc_count": 91111,
+                  "key_as_string": "2013-07-08 06:00:00",
+                  "key": 1373288400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14858
+                  },
+                  "doc_count": 92429,
+                  "key_as_string": "2013-07-08 07:00:00",
+                  "key": 1373292000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15061
+                  },
+                  "doc_count": 96232,
+                  "key_as_string": "2013-07-08 08:00:00",
+                  "key": 1373295600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15173
+                  },
+                  "doc_count": 99159,
+                  "key_as_string": "2013-07-08 09:00:00",
+                  "key": 1373299200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15004
+                  },
+                  "doc_count": 98997,
+                  "key_as_string": "2013-07-08 10:00:00",
+                  "key": 1373302800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14884
+                  },
+                  "doc_count": 103172,
+                  "key_as_string": "2013-07-08 11:00:00",
+                  "key": 1373306400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 13878
+                  },
+                  "doc_count": 95017,
+                  "key_as_string": "2013-07-08 12:00:00",
+                  "key": 1373310000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 13320
+                  },
+                  "doc_count": 90913,
+                  "key_as_string": "2013-07-08 13:00:00",
+                  "key": 1373313600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 13589
+                  },
+                  "doc_count": 87116,
+                  "key_as_string": "2013-07-08 14:00:00",
+                  "key": 1373317200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14067
+                  },
+                  "doc_count": 95741,
+                  "key_as_string": "2013-07-08 15:00:00",
+                  "key": 1373320800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14797
+                  },
+                  "doc_count": 101526,
+                  "key_as_string": "2013-07-08 16:00:00",
+                  "key": 1373324400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 14636
+                  },
+                  "doc_count": 104689,
+                  "key_as_string": "2013-07-08 17:00:00",
+                  "key": 1373328000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15276
+                  },
+                  "doc_count": 108688,
+                  "key_as_string": "2013-07-08 18:00:00",
+                  "key": 1373331600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 15415
+                  },
+                  "doc_count": 106111,
+                  "key_as_string": "2013-07-08 19:00:00",
+                  "key": 1373335200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86904
+                  },
+                  "doc_count": 561165,
+                  "key_as_string": "2013-07-08 20:00:00",
+                  "key": 1373338800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 87026
+                  },
+                  "doc_count": 572060,
+                  "key_as_string": "2013-07-08 21:00:00",
+                  "key": 1373342400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86363
+                  },
+                  "doc_count": 564743,
+                  "key_as_string": "2013-07-08 22:00:00",
+                  "key": 1373346000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86251
+                  },
+                  "doc_count": 561015,
+                  "key_as_string": "2013-07-08 23:00:00",
+                  "key": 1373349600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86050
+                  },
+                  "doc_count": 565040,
+                  "key_as_string": "2013-07-09 00:00:00",
+                  "key": 1373353200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85568
+                  },
+                  "doc_count": 557142,
+                  "key_as_string": "2013-07-09 01:00:00",
+                  "key": 1373356800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85504
+                  },
+                  "doc_count": 557878,
+                  "key_as_string": "2013-07-09 02:00:00",
+                  "key": 1373360400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85327
+                  },
+                  "doc_count": 562156,
+                  "key_as_string": "2013-07-09 03:00:00",
+                  "key": 1373364000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86016
+                  },
+                  "doc_count": 556732,
+                  "key_as_string": "2013-07-09 04:00:00",
+                  "key": 1373367600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85146
+                  },
+                  "doc_count": 556199,
+                  "key_as_string": "2013-07-09 05:00:00",
+                  "key": 1373371200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 84771
+                  },
+                  "doc_count": 553352,
+                  "key_as_string": "2013-07-09 06:00:00",
+                  "key": 1373374800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 84985
+                  },
+                  "doc_count": 552646,
+                  "key_as_string": "2013-07-09 07:00:00",
+                  "key": 1373378400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 84434
+                  },
+                  "doc_count": 551483,
+                  "key_as_string": "2013-07-09 08:00:00",
+                  "key": 1373382000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 84529
+                  },
+                  "doc_count": 556747,
+                  "key_as_string": "2013-07-09 09:00:00",
+                  "key": 1373385600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85666
+                  },
+                  "doc_count": 560214,
+                  "key_as_string": "2013-07-09 10:00:00",
+                  "key": 1373389200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85643
+                  },
+                  "doc_count": 561189,
+                  "key_as_string": "2013-07-09 11:00:00",
+                  "key": 1373392800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 84969
+                  },
+                  "doc_count": 564698,
+                  "key_as_string": "2013-07-09 12:00:00",
+                  "key": 1373396400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85342
+                  },
+                  "doc_count": 562161,
+                  "key_as_string": "2013-07-09 13:00:00",
+                  "key": 1373400000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85138
+                  },
+                  "doc_count": 559510,
+                  "key_as_string": "2013-07-09 14:00:00",
+                  "key": 1373403600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 84712
+                  },
+                  "doc_count": 557673,
+                  "key_as_string": "2013-07-09 15:00:00",
+                  "key": 1373407200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 84630
+                  },
+                  "doc_count": 562215,
+                  "key_as_string": "2013-07-09 16:00:00",
+                  "key": 1373410800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85634
+                  },
+                  "doc_count": 573035,
+                  "key_as_string": "2013-07-09 17:00:00",
+                  "key": 1373414400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 85930
+                  },
+                  "doc_count": 573479,
+                  "key_as_string": "2013-07-09 18:00:00",
+                  "key": 1373418000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 86573
+                  },
+                  "doc_count": 563168,
+                  "key_as_string": "2013-07-09 19:00:00",
+                  "key": 1373421600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50569
+                  },
+                  "doc_count": 243822,
+                  "key_as_string": "2013-07-09 20:00:00",
+                  "key": 1373425200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50729
+                  },
+                  "doc_count": 243809,
+                  "key_as_string": "2013-07-09 21:00:00",
+                  "key": 1373428800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50903
+                  },
+                  "doc_count": 241581,
+                  "key_as_string": "2013-07-09 22:00:00",
+                  "key": 1373432400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 51097
+                  },
+                  "doc_count": 244180,
+                  "key_as_string": "2013-07-09 23:00:00",
+                  "key": 1373436000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50965
+                  },
+                  "doc_count": 246532,
+                  "key_as_string": "2013-07-10 00:00:00",
+                  "key": 1373439600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50742
+                  },
+                  "doc_count": 242769,
+                  "key_as_string": "2013-07-10 01:00:00",
+                  "key": 1373443200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50399
+                  },
+                  "doc_count": 242080,
+                  "key_as_string": "2013-07-10 02:00:00",
+                  "key": 1373446800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50374
+                  },
+                  "doc_count": 240933,
+                  "key_as_string": "2013-07-10 03:00:00",
+                  "key": 1373450400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50205
+                  },
+                  "doc_count": 239692,
+                  "key_as_string": "2013-07-10 04:00:00",
+                  "key": 1373454000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50165
+                  },
+                  "doc_count": 239806,
+                  "key_as_string": "2013-07-10 05:00:00",
+                  "key": 1373457600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50291
+                  },
+                  "doc_count": 242246,
+                  "key_as_string": "2013-07-10 06:00:00",
+                  "key": 1373461200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50420
+                  },
+                  "doc_count": 241772,
+                  "key_as_string": "2013-07-10 07:00:00",
+                  "key": 1373464800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50592
+                  },
+                  "doc_count": 244501,
+                  "key_as_string": "2013-07-10 08:00:00",
+                  "key": 1373468400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50430
+                  },
+                  "doc_count": 242199,
+                  "key_as_string": "2013-07-10 09:00:00",
+                  "key": 1373472000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50706
+                  },
+                  "doc_count": 240504,
+                  "key_as_string": "2013-07-10 10:00:00",
+                  "key": 1373475600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50537
+                  },
+                  "doc_count": 240344,
+                  "key_as_string": "2013-07-10 11:00:00",
+                  "key": 1373479200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50577
+                  },
+                  "doc_count": 237479,
+                  "key_as_string": "2013-07-10 12:00:00",
+                  "key": 1373482800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50228
+                  },
+                  "doc_count": 238243,
+                  "key_as_string": "2013-07-10 13:00:00",
+                  "key": 1373486400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50534
+                  },
+                  "doc_count": 236095,
+                  "key_as_string": "2013-07-10 14:00:00",
+                  "key": 1373490000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50548
+                  },
+                  "doc_count": 239045,
+                  "key_as_string": "2013-07-10 15:00:00",
+                  "key": 1373493600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50888
+                  },
+                  "doc_count": 243916,
+                  "key_as_string": "2013-07-10 16:00:00",
+                  "key": 1373497200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 51046
+                  },
+                  "doc_count": 245553,
+                  "key_as_string": "2013-07-10 17:00:00",
+                  "key": 1373500800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50986
+                  },
+                  "doc_count": 248263,
+                  "key_as_string": "2013-07-10 18:00:00",
+                  "key": 1373504400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 50565
+                  },
+                  "doc_count": 242843,
+                  "key_as_string": "2013-07-10 19:00:00",
+                  "key": 1373508000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 149770
+                  },
+                  "doc_count": 527905,
+                  "key_as_string": "2013-07-14 20:00:00",
+                  "key": 1373857200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 149902
+                  },
+                  "doc_count": 524261,
+                  "key_as_string": "2013-07-14 21:00:00",
+                  "key": 1373860800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 149683
+                  },
+                  "doc_count": 524275,
+                  "key_as_string": "2013-07-14 22:00:00",
+                  "key": 1373864400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 149886
+                  },
+                  "doc_count": 523987,
+                  "key_as_string": "2013-07-14 23:00:00",
+                  "key": 1373868000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150410
+                  },
+                  "doc_count": 524206,
+                  "key_as_string": "2013-07-15 00:00:00",
+                  "key": 1373871600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150154
+                  },
+                  "doc_count": 523860,
+                  "key_as_string": "2013-07-15 01:00:00",
+                  "key": 1373875200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150139
+                  },
+                  "doc_count": 528378,
+                  "key_as_string": "2013-07-15 02:00:00",
+                  "key": 1373878800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150089
+                  },
+                  "doc_count": 520952,
+                  "key_as_string": "2013-07-15 03:00:00",
+                  "key": 1373882400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 149791
+                  },
+                  "doc_count": 529895,
+                  "key_as_string": "2013-07-15 04:00:00",
+                  "key": 1373886000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 149726
+                  },
+                  "doc_count": 523982,
+                  "key_as_string": "2013-07-15 05:00:00",
+                  "key": 1373889600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150332
+                  },
+                  "doc_count": 526112,
+                  "key_as_string": "2013-07-15 06:00:00",
+                  "key": 1373893200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150357
+                  },
+                  "doc_count": 526855,
+                  "key_as_string": "2013-07-15 07:00:00",
+                  "key": 1373896800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150496
+                  },
+                  "doc_count": 524303,
+                  "key_as_string": "2013-07-15 08:00:00",
+                  "key": 1373900400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150565
+                  },
+                  "doc_count": 528519,
+                  "key_as_string": "2013-07-15 09:00:00",
+                  "key": 1373904000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150709
+                  },
+                  "doc_count": 524928,
+                  "key_as_string": "2013-07-15 10:00:00",
+                  "key": 1373907600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150760
+                  },
+                  "doc_count": 523740,
+                  "key_as_string": "2013-07-15 11:00:00",
+                  "key": 1373911200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150962
+                  },
+                  "doc_count": 527229,
+                  "key_as_string": "2013-07-15 12:00:00",
+                  "key": 1373914800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150880
+                  },
+                  "doc_count": 529140,
+                  "key_as_string": "2013-07-15 13:00:00",
+                  "key": 1373918400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150906
+                  },
+                  "doc_count": 524563,
+                  "key_as_string": "2013-07-15 14:00:00",
+                  "key": 1373922000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150824
+                  },
+                  "doc_count": 529255,
+                  "key_as_string": "2013-07-15 15:00:00",
+                  "key": 1373925600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150560
+                  },
+                  "doc_count": 526651,
+                  "key_as_string": "2013-07-15 16:00:00",
+                  "key": 1373929200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150596
+                  },
+                  "doc_count": 526924,
+                  "key_as_string": "2013-07-15 17:00:00",
+                  "key": 1373932800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 150387
+                  },
+                  "doc_count": 525890,
+                  "key_as_string": "2013-07-15 18:00:00",
+                  "key": 1373936400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 149523
+                  },
+                  "doc_count": 526021,
+                  "key_as_string": "2013-07-15 19:00:00",
+                  "key": 1373940000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 5987
+                  },
+                  "doc_count": 13646,
+                  "key_as_string": "2013-07-19 20:00:00",
+                  "key": 1374289200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7453
+                  },
+                  "doc_count": 14328,
+                  "key_as_string": "2013-07-19 21:00:00",
+                  "key": 1374292800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9200
+                  },
+                  "doc_count": 17662,
+                  "key_as_string": "2013-07-19 22:00:00",
+                  "key": 1374296400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7535
+                  },
+                  "doc_count": 17539,
+                  "key_as_string": "2013-07-19 23:00:00",
+                  "key": 1374300000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8885
+                  },
+                  "doc_count": 18750,
+                  "key_as_string": "2013-07-20 00:00:00",
+                  "key": 1374303600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 6704
+                  },
+                  "doc_count": 15043,
+                  "key_as_string": "2013-07-20 01:00:00",
+                  "key": 1374307200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9010
+                  },
+                  "doc_count": 20124,
+                  "key_as_string": "2013-07-20 02:00:00",
+                  "key": 1374310800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8289
+                  },
+                  "doc_count": 20822,
+                  "key_as_string": "2013-07-20 03:00:00",
+                  "key": 1374314400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7443
+                  },
+                  "doc_count": 17077,
+                  "key_as_string": "2013-07-20 04:00:00",
+                  "key": 1374318000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9061
+                  },
+                  "doc_count": 18500,
+                  "key_as_string": "2013-07-20 05:00:00",
+                  "key": 1374321600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 12352
+                  },
+                  "doc_count": 25721,
+                  "key_as_string": "2013-07-20 06:00:00",
+                  "key": 1374325200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9029
+                  },
+                  "doc_count": 20751,
+                  "key_as_string": "2013-07-20 07:00:00",
+                  "key": 1374328800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 6755
+                  },
+                  "doc_count": 16893,
+                  "key_as_string": "2013-07-20 08:00:00",
+                  "key": 1374332400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 6993
+                  },
+                  "doc_count": 17398,
+                  "key_as_string": "2013-07-20 09:00:00",
+                  "key": 1374336000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7001
+                  },
+                  "doc_count": 14096,
+                  "key_as_string": "2013-07-20 10:00:00",
+                  "key": 1374339600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8072
+                  },
+                  "doc_count": 16766,
+                  "key_as_string": "2013-07-20 11:00:00",
+                  "key": 1374343200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 10168
+                  },
+                  "doc_count": 21529,
+                  "key_as_string": "2013-07-20 12:00:00",
+                  "key": 1374346800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9137
+                  },
+                  "doc_count": 20073,
+                  "key_as_string": "2013-07-20 13:00:00",
+                  "key": 1374350400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9277
+                  },
+                  "doc_count": 17085,
+                  "key_as_string": "2013-07-20 14:00:00",
+                  "key": 1374354000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 7740
+                  },
+                  "doc_count": 14431,
+                  "key_as_string": "2013-07-20 15:00:00",
+                  "key": 1374357600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9284
+                  },
+                  "doc_count": 18099,
+                  "key_as_string": "2013-07-20 16:00:00",
+                  "key": 1374361200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8575
+                  },
+                  "doc_count": 17950,
+                  "key_as_string": "2013-07-20 17:00:00",
+                  "key": 1374364800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 9564
+                  },
+                  "doc_count": 18027,
+                  "key_as_string": "2013-07-20 18:00:00",
+                  "key": 1374368400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 8937
+                  },
+                  "doc_count": 16950,
+                  "key_as_string": "2013-07-20 19:00:00",
+                  "key": 1374372000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232710
+                  },
+                  "doc_count": 697103,
+                  "key_as_string": "2013-07-20 20:00:00",
+                  "key": 1374375600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232061
+                  },
+                  "doc_count": 696781,
+                  "key_as_string": "2013-07-20 21:00:00",
+                  "key": 1374379200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232871
+                  },
+                  "doc_count": 698653,
+                  "key_as_string": "2013-07-20 22:00:00",
+                  "key": 1374382800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232246
+                  },
+                  "doc_count": 689349,
+                  "key_as_string": "2013-07-20 23:00:00",
+                  "key": 1374386400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 233242
+                  },
+                  "doc_count": 698815,
+                  "key_as_string": "2013-07-21 00:00:00",
+                  "key": 1374390000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232526
+                  },
+                  "doc_count": 689090,
+                  "key_as_string": "2013-07-21 01:00:00",
+                  "key": 1374393600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 231610
+                  },
+                  "doc_count": 691713,
+                  "key_as_string": "2013-07-21 02:00:00",
+                  "key": 1374397200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232208
+                  },
+                  "doc_count": 692689,
+                  "key_as_string": "2013-07-21 03:00:00",
+                  "key": 1374400800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 231691
+                  },
+                  "doc_count": 693142,
+                  "key_as_string": "2013-07-21 04:00:00",
+                  "key": 1374404400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 233115
+                  },
+                  "doc_count": 692160,
+                  "key_as_string": "2013-07-21 05:00:00",
+                  "key": 1374408000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232737
+                  },
+                  "doc_count": 690457,
+                  "key_as_string": "2013-07-21 06:00:00",
+                  "key": 1374411600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 231851
+                  },
+                  "doc_count": 693146,
+                  "key_as_string": "2013-07-21 07:00:00",
+                  "key": 1374415200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232077
+                  },
+                  "doc_count": 685090,
+                  "key_as_string": "2013-07-21 08:00:00",
+                  "key": 1374418800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232037
+                  },
+                  "doc_count": 688810,
+                  "key_as_string": "2013-07-21 09:00:00",
+                  "key": 1374422400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232182
+                  },
+                  "doc_count": 689752,
+                  "key_as_string": "2013-07-21 10:00:00",
+                  "key": 1374426000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232411
+                  },
+                  "doc_count": 693106,
+                  "key_as_string": "2013-07-21 11:00:00",
+                  "key": 1374429600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232938
+                  },
+                  "doc_count": 693485,
+                  "key_as_string": "2013-07-21 12:00:00",
+                  "key": 1374433200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 233009
+                  },
+                  "doc_count": 692814,
+                  "key_as_string": "2013-07-21 13:00:00",
+                  "key": 1374436800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232360
+                  },
+                  "doc_count": 689493,
+                  "key_as_string": "2013-07-21 14:00:00",
+                  "key": 1374440400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232989
+                  },
+                  "doc_count": 694468,
+                  "key_as_string": "2013-07-21 15:00:00",
+                  "key": 1374444000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232836
+                  },
+                  "doc_count": 696039,
+                  "key_as_string": "2013-07-21 16:00:00",
+                  "key": 1374447600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 233078
+                  },
+                  "doc_count": 691100,
+                  "key_as_string": "2013-07-21 17:00:00",
+                  "key": 1374451200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 233211
+                  },
+                  "doc_count": 694037,
+                  "key_as_string": "2013-07-21 18:00:00",
+                  "key": 1374454800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 232406
+                  },
+                  "doc_count": 696980,
+                  "key_as_string": "2013-07-21 19:00:00",
+                  "key": 1374458400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16564
+                  },
+                  "doc_count": 54033,
+                  "key_as_string": "2013-07-21 20:00:00",
+                  "key": 1374462000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16698
+                  },
+                  "doc_count": 52936,
+                  "key_as_string": "2013-07-21 21:00:00",
+                  "key": 1374465600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16600
+                  },
+                  "doc_count": 54218,
+                  "key_as_string": "2013-07-21 22:00:00",
+                  "key": 1374469200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16482
+                  },
+                  "doc_count": 53221,
+                  "key_as_string": "2013-07-21 23:00:00",
+                  "key": 1374472800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16666
+                  },
+                  "doc_count": 52358,
+                  "key_as_string": "2013-07-22 00:00:00",
+                  "key": 1374476400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16794
+                  },
+                  "doc_count": 53266,
+                  "key_as_string": "2013-07-22 01:00:00",
+                  "key": 1374480000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16847
+                  },
+                  "doc_count": 52729,
+                  "key_as_string": "2013-07-22 02:00:00",
+                  "key": 1374483600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17013
+                  },
+                  "doc_count": 55198,
+                  "key_as_string": "2013-07-22 03:00:00",
+                  "key": 1374487200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17128
+                  },
+                  "doc_count": 55306,
+                  "key_as_string": "2013-07-22 04:00:00",
+                  "key": 1374490800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17122
+                  },
+                  "doc_count": 54959,
+                  "key_as_string": "2013-07-22 05:00:00",
+                  "key": 1374494400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17344
+                  },
+                  "doc_count": 53475,
+                  "key_as_string": "2013-07-22 06:00:00",
+                  "key": 1374498000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17183
+                  },
+                  "doc_count": 53329,
+                  "key_as_string": "2013-07-22 07:00:00",
+                  "key": 1374501600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17034
+                  },
+                  "doc_count": 51892,
+                  "key_as_string": "2013-07-22 08:00:00",
+                  "key": 1374505200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16800
+                  },
+                  "doc_count": 53979,
+                  "key_as_string": "2013-07-22 09:00:00",
+                  "key": 1374508800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16879
+                  },
+                  "doc_count": 55505,
+                  "key_as_string": "2013-07-22 10:00:00",
+                  "key": 1374512400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17124
+                  },
+                  "doc_count": 55537,
+                  "key_as_string": "2013-07-22 11:00:00",
+                  "key": 1374516000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17338
+                  },
+                  "doc_count": 56119,
+                  "key_as_string": "2013-07-22 12:00:00",
+                  "key": 1374519600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17205
+                  },
+                  "doc_count": 55710,
+                  "key_as_string": "2013-07-22 13:00:00",
+                  "key": 1374523200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17152
+                  },
+                  "doc_count": 55626,
+                  "key_as_string": "2013-07-22 14:00:00",
+                  "key": 1374526800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17397
+                  },
+                  "doc_count": 55883,
+                  "key_as_string": "2013-07-22 15:00:00",
+                  "key": 1374530400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17771
+                  },
+                  "doc_count": 57063,
+                  "key_as_string": "2013-07-22 16:00:00",
+                  "key": 1374534000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17502
+                  },
+                  "doc_count": 57537,
+                  "key_as_string": "2013-07-22 17:00:00",
+                  "key": 1374537600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17495
+                  },
+                  "doc_count": 56684,
+                  "key_as_string": "2013-07-22 18:00:00",
+                  "key": 1374541200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17080
+                  },
+                  "doc_count": 54554,
+                  "key_as_string": "2013-07-22 19:00:00",
+                  "key": 1374544800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17083
+                  },
+                  "doc_count": 52080,
+                  "key_as_string": "2013-07-22 20:00:00",
+                  "key": 1374548400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17247
+                  },
+                  "doc_count": 54275,
+                  "key_as_string": "2013-07-22 21:00:00",
+                  "key": 1374552000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17089
+                  },
+                  "doc_count": 52454,
+                  "key_as_string": "2013-07-22 22:00:00",
+                  "key": 1374555600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17199
+                  },
+                  "doc_count": 53110,
+                  "key_as_string": "2013-07-22 23:00:00",
+                  "key": 1374559200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17140
+                  },
+                  "doc_count": 53401,
+                  "key_as_string": "2013-07-23 00:00:00",
+                  "key": 1374562800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17187
+                  },
+                  "doc_count": 54215,
+                  "key_as_string": "2013-07-23 01:00:00",
+                  "key": 1374566400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17328
+                  },
+                  "doc_count": 54810,
+                  "key_as_string": "2013-07-23 02:00:00",
+                  "key": 1374570000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17227
+                  },
+                  "doc_count": 51621,
+                  "key_as_string": "2013-07-23 03:00:00",
+                  "key": 1374573600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17332
+                  },
+                  "doc_count": 52869,
+                  "key_as_string": "2013-07-23 04:00:00",
+                  "key": 1374577200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17284
+                  },
+                  "doc_count": 56026,
+                  "key_as_string": "2013-07-23 05:00:00",
+                  "key": 1374580800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17169
+                  },
+                  "doc_count": 53647,
+                  "key_as_string": "2013-07-23 06:00:00",
+                  "key": 1374584400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17236
+                  },
+                  "doc_count": 54393,
+                  "key_as_string": "2013-07-23 07:00:00",
+                  "key": 1374588000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17162
+                  },
+                  "doc_count": 55103,
+                  "key_as_string": "2013-07-23 08:00:00",
+                  "key": 1374591600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17167
+                  },
+                  "doc_count": 53347,
+                  "key_as_string": "2013-07-23 09:00:00",
+                  "key": 1374595200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16677
+                  },
+                  "doc_count": 49978,
+                  "key_as_string": "2013-07-23 10:00:00",
+                  "key": 1374598800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16863
+                  },
+                  "doc_count": 53410,
+                  "key_as_string": "2013-07-23 11:00:00",
+                  "key": 1374602400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17283
+                  },
+                  "doc_count": 54153,
+                  "key_as_string": "2013-07-23 12:00:00",
+                  "key": 1374606000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17116
+                  },
+                  "doc_count": 53110,
+                  "key_as_string": "2013-07-23 13:00:00",
+                  "key": 1374609600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 16956
+                  },
+                  "doc_count": 51320,
+                  "key_as_string": "2013-07-23 14:00:00",
+                  "key": 1374613200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17224
+                  },
+                  "doc_count": 54494,
+                  "key_as_string": "2013-07-23 15:00:00",
+                  "key": 1374616800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17443
+                  },
+                  "doc_count": 53333,
+                  "key_as_string": "2013-07-23 16:00:00",
+                  "key": 1374620400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17364
+                  },
+                  "doc_count": 52473,
+                  "key_as_string": "2013-07-23 17:00:00",
+                  "key": 1374624000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17104
+                  },
+                  "doc_count": 53470,
+                  "key_as_string": "2013-07-23 18:00:00",
+                  "key": 1374627600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 17178
+                  },
+                  "doc_count": 52562,
+                  "key_as_string": "2013-07-23 19:00:00",
+                  "key": 1374631200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131482
+                  },
+                  "doc_count": 397373,
+                  "key_as_string": "2013-07-27 20:00:00",
+                  "key": 1374980400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131289
+                  },
+                  "doc_count": 396000,
+                  "key_as_string": "2013-07-27 21:00:00",
+                  "key": 1374984000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131388
+                  },
+                  "doc_count": 396059,
+                  "key_as_string": "2013-07-27 22:00:00",
+                  "key": 1374987600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131519
+                  },
+                  "doc_count": 396157,
+                  "key_as_string": "2013-07-27 23:00:00",
+                  "key": 1374991200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131617
+                  },
+                  "doc_count": 389803,
+                  "key_as_string": "2013-07-28 00:00:00",
+                  "key": 1374994800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131553
+                  },
+                  "doc_count": 398185,
+                  "key_as_string": "2013-07-28 01:00:00",
+                  "key": 1374998400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 132141
+                  },
+                  "doc_count": 394981,
+                  "key_as_string": "2013-07-28 02:00:00",
+                  "key": 1375002000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131701
+                  },
+                  "doc_count": 396960,
+                  "key_as_string": "2013-07-28 03:00:00",
+                  "key": 1375005600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 132317
+                  },
+                  "doc_count": 399066,
+                  "key_as_string": "2013-07-28 04:00:00",
+                  "key": 1375009200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131545
+                  },
+                  "doc_count": 392583,
+                  "key_as_string": "2013-07-28 05:00:00",
+                  "key": 1375012800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131818
+                  },
+                  "doc_count": 396736,
+                  "key_as_string": "2013-07-28 06:00:00",
+                  "key": 1375016400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131900
+                  },
+                  "doc_count": 400007,
+                  "key_as_string": "2013-07-28 07:00:00",
+                  "key": 1375020000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131413
+                  },
+                  "doc_count": 399056,
+                  "key_as_string": "2013-07-28 08:00:00",
+                  "key": 1375023600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130307
+                  },
+                  "doc_count": 399831,
+                  "key_as_string": "2013-07-28 09:00:00",
+                  "key": 1375027200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130949
+                  },
+                  "doc_count": 406282,
+                  "key_as_string": "2013-07-28 10:00:00",
+                  "key": 1375030800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130862
+                  },
+                  "doc_count": 398296,
+                  "key_as_string": "2013-07-28 11:00:00",
+                  "key": 1375034400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131133
+                  },
+                  "doc_count": 397325,
+                  "key_as_string": "2013-07-28 12:00:00",
+                  "key": 1375038000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130525
+                  },
+                  "doc_count": 394072,
+                  "key_as_string": "2013-07-28 13:00:00",
+                  "key": 1375041600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130920
+                  },
+                  "doc_count": 396127,
+                  "key_as_string": "2013-07-28 14:00:00",
+                  "key": 1375045200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130779
+                  },
+                  "doc_count": 397422,
+                  "key_as_string": "2013-07-28 15:00:00",
+                  "key": 1375048800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131481
+                  },
+                  "doc_count": 400374,
+                  "key_as_string": "2013-07-28 16:00:00",
+                  "key": 1375052400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130695
+                  },
+                  "doc_count": 393060,
+                  "key_as_string": "2013-07-28 17:00:00",
+                  "key": 1375056000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 130703
+                  },
+                  "doc_count": 394022,
+                  "key_as_string": "2013-07-28 18:00:00",
+                  "key": 1375059600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 131635
+                  },
+                  "doc_count": 402844,
+                  "key_as_string": "2013-07-28 19:00:00",
+                  "key": 1375063200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64330
+                  },
+                  "doc_count": 287343,
+                  "key_as_string": "2013-07-28 20:00:00",
+                  "key": 1375066800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64239
+                  },
+                  "doc_count": 284602,
+                  "key_as_string": "2013-07-28 21:00:00",
+                  "key": 1375070400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63901
+                  },
+                  "doc_count": 287513,
+                  "key_as_string": "2013-07-28 22:00:00",
+                  "key": 1375074000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64004
+                  },
+                  "doc_count": 282943,
+                  "key_as_string": "2013-07-28 23:00:00",
+                  "key": 1375077600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63885
+                  },
+                  "doc_count": 286795,
+                  "key_as_string": "2013-07-29 00:00:00",
+                  "key": 1375081200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63817
+                  },
+                  "doc_count": 283899,
+                  "key_as_string": "2013-07-29 01:00:00",
+                  "key": 1375084800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63923
+                  },
+                  "doc_count": 286310,
+                  "key_as_string": "2013-07-29 02:00:00",
+                  "key": 1375088400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63989
+                  },
+                  "doc_count": 287023,
+                  "key_as_string": "2013-07-29 03:00:00",
+                  "key": 1375092000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63357
+                  },
+                  "doc_count": 280661,
+                  "key_as_string": "2013-07-29 04:00:00",
+                  "key": 1375095600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63411
+                  },
+                  "doc_count": 281903,
+                  "key_as_string": "2013-07-29 05:00:00",
+                  "key": 1375099200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64048
+                  },
+                  "doc_count": 286379,
+                  "key_as_string": "2013-07-29 06:00:00",
+                  "key": 1375102800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64126
+                  },
+                  "doc_count": 286429,
+                  "key_as_string": "2013-07-29 07:00:00",
+                  "key": 1375106400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63405
+                  },
+                  "doc_count": 283406,
+                  "key_as_string": "2013-07-29 08:00:00",
+                  "key": 1375110000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63735
+                  },
+                  "doc_count": 285857,
+                  "key_as_string": "2013-07-29 09:00:00",
+                  "key": 1375113600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63888
+                  },
+                  "doc_count": 286076,
+                  "key_as_string": "2013-07-29 10:00:00",
+                  "key": 1375117200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63452
+                  },
+                  "doc_count": 281591,
+                  "key_as_string": "2013-07-29 11:00:00",
+                  "key": 1375120800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64581
+                  },
+                  "doc_count": 285413,
+                  "key_as_string": "2013-07-29 12:00:00",
+                  "key": 1375124400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64716
+                  },
+                  "doc_count": 287865,
+                  "key_as_string": "2013-07-29 13:00:00",
+                  "key": 1375128000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64471
+                  },
+                  "doc_count": 287988,
+                  "key_as_string": "2013-07-29 14:00:00",
+                  "key": 1375131600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64701
+                  },
+                  "doc_count": 285260,
+                  "key_as_string": "2013-07-29 15:00:00",
+                  "key": 1375135200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63849
+                  },
+                  "doc_count": 285663,
+                  "key_as_string": "2013-07-29 16:00:00",
+                  "key": 1375138800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64156
+                  },
+                  "doc_count": 284191,
+                  "key_as_string": "2013-07-29 17:00:00",
+                  "key": 1375142400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 64064
+                  },
+                  "doc_count": 283167,
+                  "key_as_string": "2013-07-29 18:00:00",
+                  "key": 1375146000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 63962
+                  },
+                  "doc_count": 285061,
+                  "key_as_string": "2013-07-29 19:00:00",
+                  "key": 1375149600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1110
+                  },
+                  "doc_count": 2268,
+                  "key_as_string": "2013-07-29 20:00:00",
+                  "key": 1375153200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1243
+                  },
+                  "doc_count": 2485,
+                  "key_as_string": "2013-07-29 21:00:00",
+                  "key": 1375156800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1332
+                  },
+                  "doc_count": 2963,
+                  "key_as_string": "2013-07-29 22:00:00",
+                  "key": 1375160400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1384
+                  },
+                  "doc_count": 3101,
+                  "key_as_string": "2013-07-29 23:00:00",
+                  "key": 1375164000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1521
+                  },
+                  "doc_count": 3645,
+                  "key_as_string": "2013-07-30 00:00:00",
+                  "key": 1375167600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1759
+                  },
+                  "doc_count": 3747,
+                  "key_as_string": "2013-07-30 01:00:00",
+                  "key": 1375171200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1966
+                  },
+                  "doc_count": 4319,
+                  "key_as_string": "2013-07-30 02:00:00",
+                  "key": 1375174800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 2006
+                  },
+                  "doc_count": 3765,
+                  "key_as_string": "2013-07-30 03:00:00",
+                  "key": 1375178400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1930
+                  },
+                  "doc_count": 3774,
+                  "key_as_string": "2013-07-30 04:00:00",
+                  "key": 1375182000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1900
+                  },
+                  "doc_count": 3699,
+                  "key_as_string": "2013-07-30 05:00:00",
+                  "key": 1375185600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 2015
+                  },
+                  "doc_count": 3836,
+                  "key_as_string": "2013-07-30 06:00:00",
+                  "key": 1375189200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 2273
+                  },
+                  "doc_count": 4299,
+                  "key_as_string": "2013-07-30 07:00:00",
+                  "key": 1375192800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 2225
+                  },
+                  "doc_count": 4175,
+                  "key_as_string": "2013-07-30 08:00:00",
+                  "key": 1375196400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1966
+                  },
+                  "doc_count": 3729,
+                  "key_as_string": "2013-07-30 09:00:00",
+                  "key": 1375200000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1762
+                  },
+                  "doc_count": 2974,
+                  "key_as_string": "2013-07-30 10:00:00",
+                  "key": 1375203600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1816
+                  },
+                  "doc_count": 3117,
+                  "key_as_string": "2013-07-30 11:00:00",
+                  "key": 1375207200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1818
+                  },
+                  "doc_count": 3523,
+                  "key_as_string": "2013-07-30 12:00:00",
+                  "key": 1375210800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1707
+                  },
+                  "doc_count": 3575,
+                  "key_as_string": "2013-07-30 13:00:00",
+                  "key": 1375214400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1433
+                  },
+                  "doc_count": 3211,
+                  "key_as_string": "2013-07-30 14:00:00",
+                  "key": 1375218000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1199
+                  },
+                  "doc_count": 2520,
+                  "key_as_string": "2013-07-30 15:00:00",
+                  "key": 1375221600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1230
+                  },
+                  "doc_count": 2630,
+                  "key_as_string": "2013-07-30 16:00:00",
+                  "key": 1375225200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1194
+                  },
+                  "doc_count": 2692,
+                  "key_as_string": "2013-07-30 17:00:00",
+                  "key": 1375228800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1246
+                  },
+                  "doc_count": 2809,
+                  "key_as_string": "2013-07-30 18:00:00",
+                  "key": 1375232400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 1116
+                  },
+                  "doc_count": 2519,
+                  "key_as_string": "2013-07-30 19:00:00",
+                  "key": 1375236000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18877
+                  },
+                  "doc_count": 151498,
+                  "key_as_string": "2013-07-30 20:00:00",
+                  "key": 1375239600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18898
+                  },
+                  "doc_count": 152096,
+                  "key_as_string": "2013-07-30 21:00:00",
+                  "key": 1375243200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18835
+                  },
+                  "doc_count": 153697,
+                  "key_as_string": "2013-07-30 22:00:00",
+                  "key": 1375246800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19064
+                  },
+                  "doc_count": 155387,
+                  "key_as_string": "2013-07-30 23:00:00",
+                  "key": 1375250400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19020
+                  },
+                  "doc_count": 155875,
+                  "key_as_string": "2013-07-31 00:00:00",
+                  "key": 1375254000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19149
+                  },
+                  "doc_count": 157494,
+                  "key_as_string": "2013-07-31 01:00:00",
+                  "key": 1375257600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18815
+                  },
+                  "doc_count": 153159,
+                  "key_as_string": "2013-07-31 02:00:00",
+                  "key": 1375261200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19075
+                  },
+                  "doc_count": 155404,
+                  "key_as_string": "2013-07-31 03:00:00",
+                  "key": 1375264800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19080
+                  },
+                  "doc_count": 153458,
+                  "key_as_string": "2013-07-31 04:00:00",
+                  "key": 1375268400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19112
+                  },
+                  "doc_count": 156386,
+                  "key_as_string": "2013-07-31 05:00:00",
+                  "key": 1375272000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19061
+                  },
+                  "doc_count": 154417,
+                  "key_as_string": "2013-07-31 06:00:00",
+                  "key": 1375275600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18789
+                  },
+                  "doc_count": 152047,
+                  "key_as_string": "2013-07-31 07:00:00",
+                  "key": 1375279200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18974
+                  },
+                  "doc_count": 154502,
+                  "key_as_string": "2013-07-31 08:00:00",
+                  "key": 1375282800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18660
+                  },
+                  "doc_count": 149603,
+                  "key_as_string": "2013-07-31 09:00:00",
+                  "key": 1375286400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18691
+                  },
+                  "doc_count": 148631,
+                  "key_as_string": "2013-07-31 10:00:00",
+                  "key": 1375290000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18793
+                  },
+                  "doc_count": 149848,
+                  "key_as_string": "2013-07-31 11:00:00",
+                  "key": 1375293600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18980
+                  },
+                  "doc_count": 154302,
+                  "key_as_string": "2013-07-31 12:00:00",
+                  "key": 1375297200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19197
+                  },
+                  "doc_count": 152476,
+                  "key_as_string": "2013-07-31 13:00:00",
+                  "key": 1375300800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19428
+                  },
+                  "doc_count": 154675,
+                  "key_as_string": "2013-07-31 14:00:00",
+                  "key": 1375304400000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19205
+                  },
+                  "doc_count": 155027,
+                  "key_as_string": "2013-07-31 15:00:00",
+                  "key": 1375308000000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19233
+                  },
+                  "doc_count": 155051,
+                  "key_as_string": "2013-07-31 16:00:00",
+                  "key": 1375311600000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 19393
+                  },
+                  "doc_count": 155329,
+                  "key_as_string": "2013-07-31 17:00:00",
+                  "key": 1375315200000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18964
+                  },
+                  "doc_count": 152635,
+                  "key_as_string": "2013-07-31 18:00:00",
+                  "key": 1375318800000
+                },
+                {
+                  "cardinality(ClientIP)": {
+                    "value": 18993
+                  },
+                  "doc_count": 151021,
+                  "key_as_string": "2013-07-31 19:00:00",
+                  "key": 1375322400000
+                }
+              ]
+            },
+            "doc_count": 408
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5911 @@
+{
+  "isPartial": false,
+  "isRunning": false,
+  "rawResponse": {
+    "took": 8,
+    "timed_out": false,
+    "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1610,
+      "max_score": null,
+      "hits": []
+    },
+    "aggregations": {
+      "table": {
+        "after_key": {
+          "stk1": "ZW",
+          "stk2": "CN"
+        },
+        "buckets": [
+          {
+            "key": {
+              "stk1": "AE",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "EC"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AF",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AL",
+              "stk2": "KZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AM",
+              "stk2": "DE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AM",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AO",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AO",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AO",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AR",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AR",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AR",
+              "stk2": "CG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AR",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "AR",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AR",
+              "stk2": "TD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AR",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AT",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AU",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AU",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AU",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AU",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AU",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AZ",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "AZ",
+              "stk2": "IL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BA",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "AF"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "AR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "CI"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "CN"
+            },
+            "doc_count": 6
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "ES"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "ET"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "GT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "KP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "MG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "MX"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "PH"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "TZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "US"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "VE"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BD",
+              "stk2": "ZM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BF",
+              "stk2": "BR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BG",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BJ",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BJ",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BO",
+              "stk2": "ES"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BO",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "AR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "BD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "BI"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "CN"
+            },
+            "doc_count": 10
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "DO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "DZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "EC"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "GB"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "ID"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "IN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "LK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "MG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "MY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "RU"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "TN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "TZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "BR",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BY",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BY",
+              "stk2": "TH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "BZ",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "AF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "BG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "BR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CA",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "BR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "CN"
+            },
+            "doc_count": 6
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "ES"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "IQ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "LT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "MG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "MX"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "TH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CD",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CG",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CG",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CH",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CH",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CI",
+              "stk2": "AU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CI",
+              "stk2": "CN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CI",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CI",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CI",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CL",
+              "stk2": "BF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CL",
+              "stk2": "BO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CM",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CM",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "AF"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "AO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "AR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "AU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "AZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "BD"
+            },
+            "doc_count": 9
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "BE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "BG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "BR"
+            },
+            "doc_count": 10
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CI"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CN"
+            },
+            "doc_count": 59
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CO"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "CZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "DE"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "DZ"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "EC"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "EG"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "ES"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "ET"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "FR"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "GH"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "GR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "GT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "GW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "HT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "ID"
+            },
+            "doc_count": 12
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "IN"
+            },
+            "doc_count": 50
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "IQ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "IR"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "IT"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "JP"
+            },
+            "doc_count": 7
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "KE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "KG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "KH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "KP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "LK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "LT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "LY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "MA"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "MM"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "MQ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "MX"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "NE"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "NG"
+            },
+            "doc_count": 10
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "NL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "NP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "PE"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "PH"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "PK"
+            },
+            "doc_count": 8
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "PS"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "PT"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "RO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "RS"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "RU"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "SA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "SL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "SO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "SS"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "SY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "TH"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "TJ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "TN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "TR"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "TW"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "TZ"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "UA"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "UG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "US"
+            },
+            "doc_count": 19
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "UZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "VN"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "ZA"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "CN",
+              "stk2": "ZM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "CI"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "NE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "SY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "TH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "TW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CO",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CR",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CS",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CS",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CS",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CS",
+              "stk2": "TR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "CU",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "CU",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "CO"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "ET"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "IN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "IQ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "IT"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DE",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DK",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DK",
+              "stk2": "PH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DO",
+              "stk2": "CA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DZ",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DZ",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DZ",
+              "stk2": "IQ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DZ",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DZ",
+              "stk2": "PH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DZ",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "DZ",
+              "stk2": "SO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EC",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EC",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EC",
+              "stk2": "GT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EC",
+              "stk2": "HU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EC",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "AU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "CN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "ER"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "ET"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "ML"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "PK"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "TD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "EG",
+              "stk2": "US"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "ER",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ER",
+              "stk2": "IE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "AU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "CN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "EG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "GN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "SE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ES",
+              "stk2": "TH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "CN"
+            },
+            "doc_count": 6
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "ID"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "IT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "RU"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "RW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "TD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ET",
+              "stk2": "TM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FI",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "CF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "CN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "EG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "IN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "LT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "NG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "NP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "PL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "FR",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "GA",
+              "stk2": "TR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "BD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "CI"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "CN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "ER"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "GB"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "IT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GB",
+              "stk2": "US"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "GF",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GH",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GH",
+              "stk2": "CL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GH",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "GH",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GM",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GN",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GR",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "GT",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HK",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HN",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HN",
+              "stk2": "ES"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HN",
+              "stk2": "TZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HR",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "HR",
+              "stk2": "HK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HR",
+              "stk2": "KZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HR",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HT",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HT",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HU",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HU",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HU",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "HU",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "AF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "AO"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "AU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "BR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "CN"
+            },
+            "doc_count": 15
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "DZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "EE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "EG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "GB"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "ID"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "IN"
+            },
+            "doc_count": 9
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "IT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "KE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "KR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "KZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "MX"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "NL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "TR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "US"
+            },
+            "doc_count": 6
+          },
+          {
+            "key": {
+              "stk1": "ID",
+              "stk2": "ZA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IE",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IL",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IL",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IL",
+              "stk2": "ET"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IL",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "AR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "AT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "AZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BD"
+            },
+            "doc_count": 9
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BF"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BJ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BR"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "BY"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CI"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CL"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CN"
+            },
+            "doc_count": 50
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CO"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CS"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "CZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "DE"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "DK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "DO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "DZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "EG"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "ES"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "ET"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "GB"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "GH"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "GM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "HK"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "HN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "ID"
+            },
+            "doc_count": 9
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "IN"
+            },
+            "doc_count": 44
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "IR"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "IT"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "JP"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "KE"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "KH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "KP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "KZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "LA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "LB"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "LY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MA"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MM"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MX"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MY"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "MZ"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "NE"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "NG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "NL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "NO"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "PE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "PH"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "PK"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "PL"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "PS"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "RO"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "RU"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "SD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "SK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "SZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "TH"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "TR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "TW"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "UA"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "US"
+            },
+            "doc_count": 17
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "UY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "UZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IN",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IQ",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IQ",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IQ",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IQ",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "GW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "SV"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IR",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IS",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IT",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IT",
+              "stk2": "CN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "IT",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IT",
+              "stk2": "MA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IT",
+              "stk2": "MG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "IT",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "IT",
+              "stk2": "ZA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JM",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JM",
+              "stk2": "DE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JO",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JO",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "AR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "BD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "BF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "CI"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "CN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "ET"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "IN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "KZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "MX"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "NP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "RO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "SA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "SD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "SV"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "TM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "US"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "JP",
+              "stk2": "UZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "MZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "PH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KE",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KG",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KG",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KG",
+              "stk2": "GH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KH",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KH",
+              "stk2": "BR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "KH",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KH",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KH",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KH",
+              "stk2": "SN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KP",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KP",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KP",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KP",
+              "stk2": "GB"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KP",
+              "stk2": "IT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KP",
+              "stk2": "RO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "BD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "MD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "NE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "PH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "US"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "KR",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "KZ",
+              "stk2": "BF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "LA",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "LK",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "LK",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "LK",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "LR",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "LT",
+              "stk2": "PR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "LY",
+              "stk2": "AT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "LY",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MA",
+              "stk2": "GR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MA",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MA",
+              "stk2": "SO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MA",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "MD",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MG",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MG",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ML",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "MM",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MM",
+              "stk2": "CL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MM",
+              "stk2": "IN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "MM",
+              "stk2": "PY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MM",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "MM",
+              "stk2": "ZA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MR",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MR",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MR",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MW",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MW",
+              "stk2": "SD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "CN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "GH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "IN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "MG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "NG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "NL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "RU"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "SY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MX",
+              "stk2": "US"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "MY",
+              "stk2": "AF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MY",
+              "stk2": "AR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MY",
+              "stk2": "CA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MY",
+              "stk2": "FR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "MY",
+              "stk2": "SD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MY",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MY",
+              "stk2": "ZW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MZ",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MZ",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MZ",
+              "stk2": "NO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "MZ",
+              "stk2": "UY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NE",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "BE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "CN"
+            },
+            "doc_count": 11
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "GN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "HK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "IN"
+            },
+            "doc_count": 8
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "IR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "JP"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "MW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "NE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "NG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "NP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "SY"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "TN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "US"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "NG",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NI",
+              "stk2": "NO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NL",
+              "stk2": "GT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NL",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NL",
+              "stk2": "NE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NO",
+              "stk2": "GR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NP",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NP",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NP",
+              "stk2": "LK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NP",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NP",
+              "stk2": "PL"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "NP",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NP",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NZ",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "NZ",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "OM",
+              "stk2": "ZA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PA",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PA",
+              "stk2": "MW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PE",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PE",
+              "stk2": "ER"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PE",
+              "stk2": "GB"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PE",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PE",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PE",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "AL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "CN"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "GN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "IN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "KE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "ML"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "PH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "PS"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "RO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "SV"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "TZ"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "VE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PH",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "CD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "CN"
+            },
+            "doc_count": 7
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "CO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "EG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "ET"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "KH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "KZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "LA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "NG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "NO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "PH"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "PK"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "PL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "SD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "SK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "TR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "TW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PK",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "GT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "JO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "LK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "ML"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "MR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "PE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PL",
+              "stk2": "UG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PR",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PT",
+              "stk2": "MZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PY",
+              "stk2": "AO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "PY",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RO",
+              "stk2": "ET"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RO",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RO",
+              "stk2": "KR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RO",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RO",
+              "stk2": "ZW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RS",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "AU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "CN"
+            },
+            "doc_count": 7
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "DE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "DZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "EG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "IN"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "PK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "RU",
+              "stk2": "VE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RW",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RW",
+              "stk2": "DE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "RW",
+              "stk2": "NG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SA",
+              "stk2": "CN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "SA",
+              "stk2": "IN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "SA",
+              "stk2": "IT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SA",
+              "stk2": "MG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SA",
+              "stk2": "RW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SA",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SD",
+              "stk2": "CN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "SD",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SD",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SD",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SE",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SE",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SE",
+              "stk2": "TH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SG",
+              "stk2": "CA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SL",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SL",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SO",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SS",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SS",
+              "stk2": "ET"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "SY",
+              "stk2": "SL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TD",
+              "stk2": "CZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TD",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "AR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "BD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "CA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "DE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "DZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "HK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "KP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "SO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "TH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "TZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TH",
+              "stk2": "YE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TJ",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TJ",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TJ",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TM",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TM",
+              "stk2": "KE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "CN"
+            },
+            "doc_count": 9
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "IN"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "JP"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "MX"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "PK"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "PL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "TG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "TW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TR",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TW",
+              "stk2": "BD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TW",
+              "stk2": "ZA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TZ",
+              "stk2": "BO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TZ",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TZ",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "TZ",
+              "stk2": "IQ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "TZ",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "BD"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "BF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "IN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "IR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "MG"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UA",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UG",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UG",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UG",
+              "stk2": "UZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "AE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "AF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "BD"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "BE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "BI"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "BR"
+            },
+            "doc_count": 5
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "CA"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "CI"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "CL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "CM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "CN"
+            },
+            "doc_count": 25
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "CO"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "DE"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "DO"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "DZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "EG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "ET"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "FR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "GB"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "GN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "GT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "ID"
+            },
+            "doc_count": 10
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "IN"
+            },
+            "doc_count": 20
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "IQ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "IR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "IT"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "KH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "KR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "KZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "LR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "MD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "MR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "MX"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "NG"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "PK"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "PL"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "PR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "RO"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "RS"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "SD"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "TD"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "TH"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "TN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "TR"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "TZ"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "UA"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "US"
+            },
+            "doc_count": 11
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "UZ"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "VE"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "VN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "US",
+              "stk2": "ZM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UY",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UY",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UZ",
+              "stk2": "AF"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UZ",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UZ",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "UZ",
+              "stk2": "TW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VE",
+              "stk2": "AR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VE",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VE",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "VE",
+              "stk2": "GH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VE",
+              "stk2": "IN"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "VE",
+              "stk2": "PK"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "CN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "EG"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "JP"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "ML"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "MM"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "MX"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "PH"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "PK"
+            },
+            "doc_count": 3
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "RU"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "TW"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "VN",
+              "stk2": "US"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "YE",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "YE",
+              "stk2": "HK"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "YE",
+              "stk2": "HR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "YE",
+              "stk2": "IN"
+            },
+            "doc_count": 2
+          },
+          {
+            "key": {
+              "stk1": "ZA",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ZA",
+              "stk2": "CN"
+            },
+            "doc_count": 4
+          },
+          {
+            "key": {
+              "stk1": "ZA",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ZA",
+              "stk2": "IN"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ZA",
+              "stk2": "US"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ZM",
+              "stk2": "ID"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ZW",
+              "stk2": "BR"
+            },
+            "doc_count": 1
+          },
+          {
+            "key": {
+              "stk1": "ZW",
+              "stk2": "CN"
+            },
+            "doc_count": 1
+          }
+        ]
+      }
+    }
+  },
+  "total": 1,
+  "loaded": 1
+}

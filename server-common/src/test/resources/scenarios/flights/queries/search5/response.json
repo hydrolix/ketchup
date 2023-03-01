@@ -1,0 +1,45 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 1,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 309,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "2": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "OpenSearch-Air",
+                        "doc_count": 88
+                    },
+                    {
+                        "key": "Logstash Airways",
+                        "doc_count": 76
+                    },
+                    {
+                        "key": "BeatsWest",
+                        "doc_count": 74
+                    },
+                    {
+                        "key": "OpenSearch Dashboards Airlines",
+                        "doc_count": 71
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

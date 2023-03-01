@@ -1,0 +1,91 @@
+{
+    "indices": [
+        {
+            "name": ".kibana_1",
+            "aliases": [
+                ".kibana"
+            ],
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": ".kibana_92668751_admin_1",
+            "aliases": [
+                ".kibana_92668751_admin"
+            ],
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": ".opendistro_security",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": ".opensearch-observability",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": "opensearch_dashboards_sample_data_ecommerce",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": "opensearch_dashboards_sample_data_flights",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": "opensearch_dashboards_sample_data_logs",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": "security-auditlog-2022.07.26",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": "security-auditlog-2022.07.27",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": "security-auditlog-2022.07.28",
+            "attributes": [
+                "open"
+            ]
+        },
+        {
+            "name": "security-auditlog-2022.08.05",
+            "attributes": [
+                "open"
+            ]
+        }
+    ],
+    "aliases": [
+        {
+            "name": ".kibana",
+            "indices": [
+                ".kibana_1"
+            ]
+        },
+        {
+            "name": ".kibana_92668751_admin",
+            "indices": [
+                ".kibana_92668751_admin_1"
+            ]
+        }
+    ],
+    "data_streams": []
+}

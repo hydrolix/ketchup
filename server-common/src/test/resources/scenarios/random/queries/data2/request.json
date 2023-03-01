@@ -1,0 +1,90 @@
+{
+    "timerange": {
+        "timezone": "America/Vancouver",
+        "min": "2013-06-01T19:05:34.937Z",
+        "max": "2013-08-31T19:20:48.227Z"
+    },
+    "query": [
+        {
+            "query": "",
+            "language": "kuery"
+        }
+    ],
+    "filters": [],
+    "panels": [
+        {
+            "time_range_mode": "entire_time_range",
+            "id": "ef25b801-3ce6-4123-ad0d-73f232804ef0",
+            "type": "timeseries",
+            "series": [
+                {
+                    "time_range_mode": "entire_time_range",
+                    "id": "c88c29ca-d35f-4a1d-ac9c-71c3f5231a59",
+                    "color": "#68BC00",
+                    "split_mode": "everything",
+                    "palette": {
+                        "type": "palette",
+                        "name": "default"
+                    },
+                    "metrics": [
+                        {
+                            "id": "8a95c599-45c5-49d0-960d-992e224f780f",
+                            "type": "cardinality",
+                            "field": "ClientIP"
+                        },
+                        {
+                            "model_type": "simple",
+                            "alpha": 0.3,
+                            "beta": 0.1,
+                            "gamma": 0.3,
+                            "period": 1,
+                            "multiplicative": true,
+                            "window": 7,
+                            "id": "1ca36b00-1f2b-11ed-892a-35c94a03ef45",
+                            "type": "moving_average",
+                            "field": "8a95c599-45c5-49d0-960d-992e224f780f"
+                        }
+                    ],
+                    "separate_axis": 0,
+                    "axis_position": "right",
+                    "formatter": "default",
+                    "chart_type": "line",
+                    "line_width": 1,
+                    "point_size": 1,
+                    "fill": 0.5,
+                    "stacked": "none",
+                    "override_index_pattern": 0,
+                    "series_drop_last_bucket": 0,
+                    "label": ""
+                }
+            ],
+            "time_field": "",
+            "index_pattern": {
+                "id": "82471b20-1803-11ed-84b7-abd4e47428f1"
+            },
+            "use_kibana_indexes": true,
+            "interval": "",
+            "axis_position": "left",
+            "axis_formatter": "number",
+            "axis_scale": "normal",
+            "show_legend": 1,
+            "truncate_legend": 1,
+            "max_lines_legend": 1,
+            "show_grid": 1,
+            "tooltip_mode": "show_all",
+            "drop_last_bucket": 0,
+            "isModelInvalid": false,
+            "background_color_rules": [
+                {
+                    "id": "fc013b20-1f2a-11ed-892a-35c94a03ef45"
+                }
+            ]
+        }
+    ],
+    "state": {},
+    "searchSession": {
+        "sessionId": "67c239ba-9283-4fae-a96c-b644a9403f71",
+        "isRestore": false,
+        "isStored": false
+    }
+}

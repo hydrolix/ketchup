@@ -1,0 +1,69 @@
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "range": {
+                        "@timestamp": {
+                            "gte": "2013-06-26T23:09:01.830Z",
+                            "lte": "2013-08-05T17:24:19.607Z",
+                            "format": "strict_date_optional_time"
+                        }
+                    }
+                }
+            ],
+            "filter": {
+                "bool": {
+                    "must": [],
+                    "filter": [],
+                    "should": [],
+                    "must_not": []
+                }
+            }
+        }
+    },
+    "aggs": {
+        "q": {
+            "meta": {
+                "type": "split"
+            },
+            "filters": {
+                "filters": {
+                    "*": {
+                        "query_string": {
+                            "query": "*"
+                        }
+                    }
+                }
+            },
+            "aggs": {
+                "time_buckets": {
+                    "meta": {
+                        "type": "time_buckets"
+                    },
+                    "date_histogram": {
+                        "field": "@timestamp",
+                        "time_zone": "America/Vancouver",
+                        "extended_bounds": {
+                            "min": 1372288141830,
+                            "max": 1375723459607
+                        },
+                        "min_doc_count": 0,
+                        "calendar_interval": "1h"
+                    },
+                    "aggs": {
+                        "cardinality(ClientIP)": {
+                            "cardinality": {
+                                "field": "ClientIP"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "size": 0,
+    "runtime_mappings": {},
+    "track_total_hits": true,
+    "timeout": "30000ms"
+}

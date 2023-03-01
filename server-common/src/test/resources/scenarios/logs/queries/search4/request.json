@@ -1,0 +1,80 @@
+{
+  "params": {
+    "index": "opensearch_dashboards_sample_data_logs",
+    "body": {
+      "aggs": {
+        "3": {
+          "date_histogram": {
+            "field": "timestamp",
+            "fixed_interval": "3h",
+            "time_zone": "America/Vancouver",
+            "min_doc_count": 1
+          },
+          "aggs": {
+            "1": {
+              "avg": {
+                "field": "bytes"
+              }
+            },
+            "2": {
+              "cardinality": {
+                "field": "clientip"
+              }
+            }
+          }
+        }
+      },
+      "size": 0,
+      "stored_fields": [
+        "*"
+      ],
+      "script_fields": {
+        "hour_of_day": {
+          "script": {
+            "source": "doc['timestamp'].value.getHour()",
+            "lang": "painless"
+          }
+        }
+      },
+      "docvalue_fields": [
+        {
+          "field": "@timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "utc_time",
+          "format": "date_time"
+        }
+      ],
+      "_source": {
+        "excludes": []
+      },
+      "query": {
+        "bool": {
+          "must": [],
+          "filter": [
+            {
+              "match_all": {}
+            },
+            {
+              "range": {
+                "timestamp": {
+                  "gte": "2022-07-20T22:43:00.576Z",
+                  "lte": "2022-07-27T22:43:00.576Z",
+                  "format": "strict_date_optional_time"
+                }
+              }
+            }
+          ],
+          "should": [],
+          "must_not": []
+        }
+      }
+    },
+    "preference": 1658961537079
+  }
+}

@@ -1,0 +1,81 @@
+{
+    "index": "hits",
+    "body": {
+        "aggs": {
+            "0": {
+                "date_histogram": {
+                    "field": "EventTime",
+                    "fixed_interval": "12h",
+                    "time_zone": "America/Vancouver",
+                    "extended_bounds": {
+                        "min": 1372288141830,
+                        "max": 1375723459607
+                    }
+                },
+                "aggs": {
+                    "1": {
+                        "min": {
+                            "field": "Age"
+                        }
+                    },
+                    "2": {
+                        "avg": {
+                            "field": "Age"
+                        }
+                    },
+                    "3": {
+                        "max": {
+                            "field": "Age"
+                        }
+                    }
+                }
+            }
+        },
+        "size": 0,
+        "fields": [
+            {
+                "field": "ClientEventTime",
+                "format": "date_time"
+            },
+            {
+                "field": "EventDate",
+                "format": "date_time"
+            },
+            {
+                "field": "EventTime",
+                "format": "date_time"
+            },
+            {
+                "field": "LocalEventTime",
+                "format": "date_time"
+            }
+        ],
+        "script_fields": {},
+        "stored_fields": [
+            "*"
+        ],
+        "runtime_mappings": {},
+        "_source": {
+            "excludes": []
+        },
+        "query": {
+            "bool": {
+                "must": [],
+                "filter": [
+                    {
+                        "range": {
+                            "EventTime": {
+                                "format": "strict_date_optional_time",
+                                "gte": "2013-06-26T23:09:01.830Z",
+                                "lte": "2013-08-05T17:24:19.607Z"
+                            }
+                        }
+                    }
+                ],
+                "should": [],
+                "must_not": []
+            }
+        }
+    },
+    "preference": 1669671962982
+}

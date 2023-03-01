@@ -1,0 +1,36 @@
+{
+  "params": {
+    "index": "opensearch_dashboards_sample_data_logs",
+    "body": {
+      "size": 10000,
+      "_source": [
+        "timestamp",
+        "bytes",
+        "extension"
+      ],
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "range": {
+                "timestamp": {
+                  "gte": "2022-07-20T22:43:00.653Z",
+                  "lte": "2022-07-27T22:43:00.653Z",
+                  "format": "strict_date_optional_time"
+                }
+              }
+            }
+          ],
+          "filter": [
+            {
+              "match_all": {}
+            }
+          ],
+          "should": [],
+          "must_not": []
+        }
+      }
+    },
+    "preference": 1658961537079
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "should support a shorthand for matching multiple values against a single field",
+    "kql": "foo:(bar or baz)",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "ONE_FIELD",
+            "fieldName": "foo"
+        },
+        "value": {
+            "type": "OR_VALUES",
+            "values": [
+                {
+                    "type": "AND_VALUES",
+                    "values": [
+                        {
+                            "type": "SINGLE_VALUES",
+                            "value": {
+                                "type": "STRING_LIT",
+                                "value": "bar",
+                                "valueType": "STRING"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "AND_VALUES",
+                    "values": [
+                        {
+                            "type": "SINGLE_VALUES",
+                            "value": {
+                                "type": "STRING_LIT",
+                                "value": "baz",
+                                "valueType": "STRING"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "valueType": "BOOLEAN"
+    }
+}

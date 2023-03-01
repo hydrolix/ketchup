@@ -1,0 +1,61 @@
+{
+    "name": "should support grouping to override default precedence",
+    "kql": "(foo or bar) and baz",
+    "parsed": {
+        "type": "AND",
+        "children": [
+            {
+                "type": "OR",
+                "children": [
+                    {
+                        "type": "FIELD_MATCH",
+                        "target": {
+                            "type": "DEFAULT_FIELDS"
+                        },
+                        "value": {
+                            "type": "SINGLE_VALUES",
+                            "value": {
+                                "type": "STRING_LIT",
+                                "value": "foo",
+                                "valueType": "STRING"
+                            }
+                        },
+                        "valueType": "BOOLEAN"
+                    },
+                    {
+                        "type": "FIELD_MATCH",
+                        "target": {
+                            "type": "DEFAULT_FIELDS"
+                        },
+                        "value": {
+                            "type": "SINGLE_VALUES",
+                            "value": {
+                                "type": "STRING_LIT",
+                                "value": "bar",
+                                "valueType": "STRING"
+                            }
+                        },
+                        "valueType": "BOOLEAN"
+                    }
+                ],
+                "valueType": "BOOLEAN"
+            },
+            {
+                "type": "FIELD_MATCH",
+                "target": {
+                    "type": "DEFAULT_FIELDS"
+                },
+                "value": {
+                    "type": "SINGLE_VALUES",
+                    "value": {
+                        "type": "STRING_LIT",
+                        "value": "baz",
+                        "valueType": "STRING"
+                    }
+                },
+                "valueType": "BOOLEAN"
+            }
+        ],
+        "valueType": "BOOLEAN"
+    }
+}

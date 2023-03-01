@@ -1,0 +1,65 @@
+{
+  "params": {
+    "index": "opensearch_dashboards_sample_data_logs",
+    "body": {
+      "aggs": {
+        "1": {
+          "cardinality": {
+            "field": "clientip"
+          }
+        }
+      },
+      "size": 0,
+      "stored_fields": [
+        "*"
+      ],
+      "script_fields": {
+        "hour_of_day": {
+          "script": {
+            "source": "doc['timestamp'].value.getHour()",
+            "lang": "painless"
+          }
+        }
+      },
+      "docvalue_fields": [
+        {
+          "field": "@timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "utc_time",
+          "format": "date_time"
+        }
+      ],
+      "_source": {
+        "excludes": []
+      },
+      "query": {
+        "bool": {
+          "must": [],
+          "filter": [
+            {
+              "match_all": {}
+            },
+            {
+              "range": {
+                "timestamp": {
+                  "gte": "2022-07-20T22:43:00.578Z",
+                  "lte": "2022-07-27T22:43:00.578Z",
+                  "format": "strict_date_optional_time"
+                }
+              }
+            }
+          ],
+          "should": [],
+          "must_not": []
+        }
+      }
+    },
+    "preference": 1658961537079
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "should support wildcards in field names",
+    "kql": "machine*:osx",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "FIELD_NAME_WILDCARD",
+            "pattern": "machine*"
+        },
+        "value": {
+            "type": "SINGLE_VALUES",
+            "value": {
+                "type": "STRING_LIT",
+                "value": "osx",
+                "valueType": "STRING"
+            }
+        },
+        "valueType": "BOOLEAN"
+    }
+}

@@ -1,0 +1,252 @@
+{
+  "type": "metric",
+  "uiRestrictions": {
+    "whiteListedMetrics": {
+      "*": false,
+      "avg": {
+        "*": true
+      },
+      "cardinality": {
+        "*": true
+      },
+      "count": {
+        "*": true
+      },
+      "filter_ratio": {
+        "*": true
+      },
+      "positive_rate": {
+        "*": true
+      },
+      "max": {
+        "*": true
+      },
+      "min": {
+        "*": true
+      },
+      "percentile": {
+        "*": true
+      },
+      "percentile_rank": {
+        "*": true
+      },
+      "static": {
+        "*": true
+      },
+      "std_deviation": {
+        "*": true
+      },
+      "sum": {
+        "*": true
+      },
+      "sum_of_squares": {
+        "*": true
+      },
+      "top_hit": {
+        "*": true
+      },
+      "value_count": {
+        "*": true
+      },
+      "variance": {
+        "*": true
+      },
+      "avg_bucket": {
+        "*": true
+      },
+      "max_bucket": {
+        "*": true
+      },
+      "min_bucket": {
+        "*": true
+      },
+      "std_deviation_bucket": {
+        "*": true
+      },
+      "sum_bucket": {
+        "*": true
+      },
+      "sum_of_squares_bucket": {
+        "*": true
+      },
+      "variance_bucket": {
+        "*": true
+      },
+      "math": {
+        "*": true
+      },
+      "calculation": {
+        "*": true
+      },
+      "terms": {
+        "*": true
+      },
+      "series_agg": {
+        "*": true
+      }
+    },
+    "whiteListedGroupByFields": {
+      "*": true
+    },
+    "whiteListedTimerangeModes": {
+      "*": true
+    },
+    "whiteListedConfigurationFeatures": {
+      "*": true
+    }
+  },
+  "trackedEsSearches": {
+    "f96578c2-0fd0-4816-b044-decbe1590da2": {
+      "body": {
+        "size": 0,
+        "query": {
+          "bool": {
+            "must": [
+              {
+                "range": {
+                  "EventTime": {
+                    "gte": "2013-06-26T23:09:01.830Z",
+                    "lte": "2013-08-05T17:24:19.607Z",
+                    "format": "strict_date_optional_time"
+                  }
+                }
+              }
+            ],
+            "filter": [],
+            "should": [],
+            "must_not": []
+          }
+        },
+        "aggs": {
+          "timeseries": {
+            "auto_date_histogram": {
+              "field": "EventTime",
+              "buckets": 1
+            },
+            "aggs": {
+              "66054ffc-7b21-4b27-a4f0-07d55873b0e3-numerator": {
+                "filter": {
+                  "bool": {
+                    "must": [],
+                    "filter": [
+                      {
+                        "bool": {
+                          "should": [
+                            {
+                              "match": {
+                                "IsMobile": "1"
+                              }
+                            }
+                          ],
+                          "minimum_should_match": 1
+                        }
+                      }
+                    ],
+                    "should": [],
+                    "must_not": []
+                  }
+                }
+              },
+              "66054ffc-7b21-4b27-a4f0-07d55873b0e3-denominator": {
+                "filter": {
+                  "bool": {
+                    "must": [],
+                    "filter": [
+                      {
+                        "bool": {
+                          "should": [
+                            {
+                              "match": {
+                                "IsMobile": "0"
+                              }
+                            }
+                          ],
+                          "minimum_should_match": 1
+                        }
+                      }
+                    ],
+                    "should": [],
+                    "must_not": []
+                  }
+                }
+              },
+              "66054ffc-7b21-4b27-a4f0-07d55873b0e3": {
+                "bucket_script": {
+                  "buckets_path": {
+                    "numerator": "66054ffc-7b21-4b27-a4f0-07d55873b0e3-numerator>_count",
+                    "denominator": "66054ffc-7b21-4b27-a4f0-07d55873b0e3-denominator>_count"
+                  },
+                  "script": "params.numerator != null && params.denominator != null && params.denominator > 0 ? params.numerator / params.denominator : 0"
+                }
+              }
+            },
+            "meta": {
+              "timeField": "EventTime",
+              "panelId": "02345404-263f-476f-ae55-60a0a7751def",
+              "seriesId": "f96578c2-0fd0-4816-b044-decbe1590da2",
+              "intervalString": "3435317777ms",
+              "dataViewId": "82471b20-1803-11ed-84b7-abd4e47428f1",
+              "indexPatternString": "hits",
+              "normalized": true
+            }
+          }
+        },
+        "runtime_mappings": {},
+        "timeout": "30000ms"
+      },
+      "time": 8,
+      "label": "Series: f96578c2-0fd0-4816-b044-decbe1590da2",
+      "response": {
+        "took": 1,
+        "timed_out": false,
+        "_shards": {
+          "total": 4,
+          "successful": 4,
+          "skipped": 0,
+          "failed": 0
+        },
+        "hits": {
+          "total": 99997497,
+          "max_score": null,
+          "hits": []
+        }
+      }
+    }
+  },
+  "02345404-263f-476f-ae55-60a0a7751def": {
+    "annotations": null,
+    "id": "02345404-263f-476f-ae55-60a0a7751def",
+    "series": [
+      {
+        "id": "f96578c2-0fd0-4816-b044-decbe1590da2",
+        "label": "IsMobile",
+        "splitByLabel": "Filter Ratio",
+        "color": "rgb(104, 188, 0)",
+        "data": [
+          [
+            1372636800000,
+            0.1132470440630758
+          ]
+        ],
+        "seriesId": "f96578c2-0fd0-4816-b044-decbe1590da2",
+        "stack": "none",
+        "lines": {
+          "show": true,
+          "fill": 0.5,
+          "lineWidth": 1,
+          "steps": false
+        },
+        "points": {
+          "show": true,
+          "radius": 1,
+          "lineWidth": 1
+        },
+        "bars": {
+          "show": false,
+          "fill": 0.5,
+          "lineWidth": 1
+        }
+      }
+    ]
+  }
+}

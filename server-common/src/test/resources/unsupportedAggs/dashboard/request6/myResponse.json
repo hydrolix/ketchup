@@ -1,0 +1,342 @@
+{
+  "id": "4fc54094-8c69-44b5-a419-80a10dd27261",
+  "is_partial": false,
+  "is_running": false,
+  "start_time_in_millis": 1234,
+  "expiration_time_in_millis": 1234,
+  "response": {
+    "took": 618,
+    "timed_out": false,
+    "_shards": {
+      "failed": 0,
+      "successful": 39,
+      "total": 39,
+      "skipped": 0
+    },
+    "hits": {
+      "total": {
+        "relation": "eq",
+        "value": 39
+      },
+      "hits": []
+    },
+    "aggregations": {
+      "date_histogram#0": {
+        "buckets": [
+          {
+            "cardinality#1": {
+              "value": 134269
+            },
+            "doc_count": 619517,
+            "key_as_string": "2013-07-01 12:00:00",
+            "key": 1372705200000
+          },
+          {
+            "cardinality#1": {
+              "value": 337123
+            },
+            "doc_count": 1859985,
+            "key_as_string": "2013-07-02 00:00:00",
+            "key": 1372748400000
+          },
+          {
+            "cardinality#1": {
+              "value": 479241
+            },
+            "doc_count": 2880371,
+            "key_as_string": "2013-07-02 12:00:00",
+            "key": 1372791600000
+          },
+          {
+            "cardinality#1": {
+              "value": 692932
+            },
+            "doc_count": 4883316,
+            "key_as_string": "2013-07-03 00:00:00",
+            "key": 1372834800000
+          },
+          {
+            "cardinality#1": {
+              "value": 498806
+            },
+            "doc_count": 3290820,
+            "key_as_string": "2013-07-03 12:00:00",
+            "key": 1372878000000
+          },
+          {
+            "cardinality#1": {
+              "value": 138051
+            },
+            "doc_count": 752662,
+            "key_as_string": "2013-07-04 12:00:00",
+            "key": 1372964400000
+          },
+          {
+            "cardinality#1": {
+              "value": 360241
+            },
+            "doc_count": 2255103,
+            "key_as_string": "2013-07-05 00:00:00",
+            "key": 1373007600000
+          },
+          {
+            "cardinality#1": {
+              "value": 417012
+            },
+            "doc_count": 2621331,
+            "key_as_string": "2013-07-05 12:00:00",
+            "key": 1373050800000
+          },
+          {
+            "cardinality#1": {
+              "value": 482089
+            },
+            "doc_count": 3412666,
+            "key_as_string": "2013-07-06 00:00:00",
+            "key": 1373094000000
+          },
+          {
+            "cardinality#1": {
+              "value": 359862
+            },
+            "doc_count": 2447942,
+            "key_as_string": "2013-07-06 12:00:00",
+            "key": 1373137200000
+          },
+          {
+            "cardinality#1": {
+              "value": 71885
+            },
+            "doc_count": 584551,
+            "key_as_string": "2013-07-07 00:00:00",
+            "key": 1373180400000
+          },
+          {
+            "cardinality#1": {
+              "value": 96589
+            },
+            "doc_count": 747936,
+            "key_as_string": "2013-07-07 12:00:00",
+            "key": 1373223600000
+          },
+          {
+            "cardinality#1": {
+              "value": 139156
+            },
+            "doc_count": 1168103,
+            "key_as_string": "2013-07-08 00:00:00",
+            "key": 1373266800000
+          },
+          {
+            "cardinality#1": {
+              "value": 338002
+            },
+            "doc_count": 3048784,
+            "key_as_string": "2013-07-08 12:00:00",
+            "key": 1373310000000
+          },
+          {
+            "cardinality#1": {
+              "value": 635971
+            },
+            "doc_count": 6690778,
+            "key_as_string": "2013-07-09 00:00:00",
+            "key": 1373353200000
+          },
+          {
+            "cardinality#1": {
+              "value": 582227
+            },
+            "doc_count": 5489331,
+            "key_as_string": "2013-07-09 12:00:00",
+            "key": 1373396400000
+          },
+          {
+            "cardinality#1": {
+              "value": 412772
+            },
+            "doc_count": 2903378,
+            "key_as_string": "2013-07-10 00:00:00",
+            "key": 1373439600000
+          },
+          {
+            "cardinality#1": {
+              "value": 295530
+            },
+            "doc_count": 1931437,
+            "key_as_string": "2013-07-10 12:00:00",
+            "key": 1373482800000
+          },
+          {
+            "cardinality#1": {
+              "value": 465941
+            },
+            "doc_count": 2100428,
+            "key_as_string": "2013-07-14 12:00:00",
+            "key": 1373828400000
+          },
+          {
+            "cardinality#1": {
+              "value": 1116751
+            },
+            "doc_count": 6305730,
+            "key_as_string": "2013-07-15 00:00:00",
+            "key": 1373871600000
+          },
+          {
+            "cardinality#1": {
+              "value": 811617
+            },
+            "doc_count": 4215673,
+            "key_as_string": "2013-07-15 12:00:00",
+            "key": 1373914800000
+          },
+          {
+            "cardinality#1": {
+              "value": 28689
+            },
+            "doc_count": 63175,
+            "key_as_string": "2013-07-19 12:00:00",
+            "key": 1374260400000
+          },
+          {
+            "cardinality#1": {
+              "value": 88158
+            },
+            "doc_count": 221941,
+            "key_as_string": "2013-07-20 00:00:00",
+            "key": 1374303600000
+          },
+          {
+            "cardinality#1": {
+              "value": 785779
+            },
+            "doc_count": 2926030,
+            "key_as_string": "2013-07-20 12:00:00",
+            "key": 1374346800000
+          },
+          {
+            "cardinality#1": {
+              "value": 1843811
+            },
+            "doc_count": 8297970,
+            "key_as_string": "2013-07-21 00:00:00",
+            "key": 1374390000000
+          },
+          {
+            "cardinality#1": {
+              "value": 1361648
+            },
+            "doc_count": 5762824,
+            "key_as_string": "2013-07-21 12:00:00",
+            "key": 1374433200000
+          },
+          {
+            "cardinality#1": {
+              "value": 159556
+            },
+            "doc_count": 647533,
+            "key_as_string": "2013-07-22 00:00:00",
+            "key": 1374476400000
+          },
+          {
+            "cardinality#1": {
+              "value": 164455
+            },
+            "doc_count": 661095,
+            "key_as_string": "2013-07-22 12:00:00",
+            "key": 1374519600000
+          },
+          {
+            "cardinality#1": {
+              "value": 158816
+            },
+            "doc_count": 642820,
+            "key_as_string": "2013-07-23 00:00:00",
+            "key": 1374562800000
+          },
+          {
+            "cardinality#1": {
+              "value": 111830
+            },
+            "doc_count": 424915,
+            "key_as_string": "2013-07-23 12:00:00",
+            "key": 1374606000000
+          },
+          {
+            "cardinality#1": {
+              "value": 427087
+            },
+            "doc_count": 1585589,
+            "key_as_string": "2013-07-27 12:00:00",
+            "key": 1374951600000
+          },
+          {
+            "cardinality#1": {
+              "value": 1097168
+            },
+            "doc_count": 4771786,
+            "key_as_string": "2013-07-28 00:00:00",
+            "key": 1374994800000
+          },
+          {
+            "cardinality#1": {
+              "value": 939474
+            },
+            "doc_count": 4317647,
+            "key_as_string": "2013-07-28 12:00:00",
+            "key": 1375038000000
+          },
+          {
+            "cardinality#1": {
+              "value": 520913
+            },
+            "doc_count": 3416329,
+            "key_as_string": "2013-07-29 00:00:00",
+            "key": 1375081200000
+          },
+          {
+            "cardinality#1": {
+              "value": 379256
+            },
+            "doc_count": 2295425,
+            "key_as_string": "2013-07-29 12:00:00",
+            "key": 1375124400000
+          },
+          {
+            "cardinality#1": {
+              "value": 21045
+            },
+            "doc_count": 45079,
+            "key_as_string": "2013-07-30 00:00:00",
+            "key": 1375167600000
+          },
+          {
+            "cardinality#1": {
+              "value": 72899
+            },
+            "doc_count": 636157,
+            "key_as_string": "2013-07-30 12:00:00",
+            "key": 1375210800000
+          },
+          {
+            "cardinality#1": {
+              "value": 166771
+            },
+            "doc_count": 1840824,
+            "key_as_string": "2013-07-31 00:00:00",
+            "key": 1375254000000
+          },
+          {
+            "cardinality#1": {
+              "value": 118866
+            },
+            "doc_count": 1230516,
+            "key_as_string": "2013-07-31 12:00:00",
+            "key": 1375297200000
+          }
+        ]
+      }
+    }
+  }
+}

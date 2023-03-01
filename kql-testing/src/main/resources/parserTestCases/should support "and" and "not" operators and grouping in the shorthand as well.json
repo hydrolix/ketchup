@@ -1,0 +1,64 @@
+{
+    "name": "should support \"and\" and \"not\" operators and grouping in the shorthand as well",
+    "kql": "foo:((bar or baz) and not qux)",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "ONE_FIELD",
+            "fieldName": "foo"
+        },
+        "value": {
+            "type": "OR_VALUES",
+            "values": [
+                {
+                    "type": "AND_VALUES",
+                    "values": [
+                        {
+                            "type": "OR_VALUES",
+                            "values": [
+                                {
+                                    "type": "AND_VALUES",
+                                    "values": [
+                                        {
+                                            "type": "SINGLE_VALUES",
+                                            "value": {
+                                                "type": "STRING_LIT",
+                                                "value": "bar",
+                                                "valueType": "STRING"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "AND_VALUES",
+                                    "values": [
+                                        {
+                                            "type": "SINGLE_VALUES",
+                                            "value": {
+                                                "type": "STRING_LIT",
+                                                "value": "baz",
+                                                "valueType": "STRING"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "NOT_VALUES",
+                            "value": {
+                                "type": "SINGLE_VALUES",
+                                "value": {
+                                    "type": "STRING_LIT",
+                                    "value": "qux",
+                                    "valueType": "STRING"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "valueType": "BOOLEAN"
+    }
+}

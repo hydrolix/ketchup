@@ -1,0 +1,42 @@
+{
+    "name": "should support \"and\" as a binary operator",
+    "kql": "foo and bar",
+    "parsed": {
+        "type": "AND",
+        "children": [
+            {
+                "type": "FIELD_MATCH",
+                "target": {
+                    "type": "DEFAULT_FIELDS"
+                },
+                "value": {
+                    "type": "SINGLE_VALUES",
+                    "value": {
+                        "type": "STRING_LIT",
+                        "value": "foo",
+                        "valueType": "STRING"
+                    }
+                },
+                "valueType": "BOOLEAN"
+            },
+            {
+                "type": "FIELD_MATCH",
+                "target": {
+                    "type": "DEFAULT_FIELDS"
+                },
+                "value": {
+                    "type": "SINGLE_VALUES",
+                    "value": {
+                        "type": "STRING_LIT",
+                        "value": "bar",
+                        "valueType": "STRING"
+                    }
+                },
+                "valueType": "BOOLEAN"
+            }
+        ],
+        "valueType": "BOOLEAN"
+    }
+}
+
+

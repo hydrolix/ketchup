@@ -1,0 +1,118 @@
+Program <- Space* query:OrQuery? Space*;
+
+OrQuery
+    <- (left:AndQuery Or right:OrQuery)
+    / AndQuery
+    ;
+
+AndQuery
+    <- (left:NotQuery And right:AndQuery)
+    / NotQuery
+    ;
+
+NotQuery
+    <- (Not query:SubQuery)
+    / SubQuery
+    ;
+
+SubQuery
+    <- ('(' Space* query:OrQuery Space* ')')
+    / NestedQuery
+    ;
+
+NestedQuery
+    <- (field:Field Space* ":" Space* '{' Space* query:OrQuery Space* '}')
+    / Expression
+    ;
+
+Expression
+    <- FieldRangeExpression
+    / FieldValueExpression
+    / ValueExpression
+    ;
+
+Field <- Literal;
+
+FieldRangeExpression <- (field:Field Space* operator:RangeOperator Space* value:Literal);
+
+FieldValueExpression <- (field:Field Space* ':' Space* partial:ListOfValues);
+
+ValueExpression <- (partial:Value);
+
+ListOfValues
+    <- ('(' Space* partial:OrListOfValues Space* ')')
+    / Value
+    ;
+
+OrListOfValues
+    <- (partialLeft:AndListOfValues Or partialRight:OrListOfValues)
+    / AndListOfValues
+    ;
+
+AndListOfValues
+    <- (partialLeft:NotListOfValues And partialRight:AndListOfValues)
+    / NotListOfValues
+    ;
+
+NotListOfValues
+    <- (Not partial:ListOfValues)
+    / ListOfValues
+    ;
+
+Value
+    <- QuotedString
+    / UnquotedLiteral
+    ;
+
+Or <- Space+ "or" Space+;
+
+And <- Space+ "and" Space+;
+
+Not <- "not" Space+;
+
+Literal
+    <- QuotedString
+    / UnquotedLiteral
+    ;
+
+QuotedString <- ('"' chars:QuotedCharacter* '"');
+
+QuotedCharacter
+    <- EscapedWhitespace
+    / '\\' char:[\\"]
+    / char:[^"]
+    ;
+
+UnquotedLiteral <- chars:UnquotedCharacter+ ;
+
+UnquotedCharacter <- EscapedWhitespace
+    / EscapedSpecialCharacter
+    / EscapedKeyword
+    / Wildcard
+    / (!SpecialCharacter !Keyword char:.)
+    ;
+
+Wildcard <- '*';
+
+EscapedWhitespace
+    <- '\\t'
+    / '\\r'
+    / '\\n'
+    ;
+
+EscapedSpecialCharacter <- '\\' char:SpecialCharacter;
+
+EscapedKeyword <- '\\' keyword:("or" / "and" / "not");
+
+Keyword <- Or / And / Not;
+
+SpecialCharacter <- [\\():<>"*{}];
+
+RangeOperator
+    <- "<="
+    / ">="
+    / "<"
+    / ">"
+    ;
+
+Space <- [ \t\r\n];

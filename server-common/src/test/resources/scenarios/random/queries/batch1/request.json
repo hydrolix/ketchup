@@ -1,0 +1,229 @@
+{
+    "batch": [
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {
+                            "0": {
+                                "avg": {
+                                    "field": "Age"
+                                }
+                            }
+                        },
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-24T07:00:00.000Z",
+                                                "lte": "2013-08-17T18:29:20.352Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        }
+                    },
+                    "preference": 1660063767180
+                }
+            },
+            "options": {
+                "sessionId": "0314deb6-755b-4ca3-83c1-48f8725b6321",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "lens",
+                    "url": "/app/lens",
+                    "type": "application",
+                    "id": "new",
+                    "page": "editor"
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {
+                            "0": {
+                                "min": {
+                                    "field": "Age"
+                                }
+                            }
+                        },
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-24T07:00:00.000Z",
+                                                "lte": "2013-08-17T18:29:20.352Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        }
+                    },
+                    "preference": 1660063767180
+                }
+            },
+            "options": {
+                "sessionId": "0314deb6-755b-4ca3-83c1-48f8725b6321",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "lens",
+                    "url": "/app/lens",
+                    "type": "application",
+                    "id": "new",
+                    "page": "editor"
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {
+                            "0": {
+                                "max": {
+                                    "field": "Age"
+                                }
+                            }
+                        },
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-24T07:00:00.000Z",
+                                                "lte": "2013-08-17T18:29:20.352Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        }
+                    },
+                    "preference": 1660063767180
+                }
+            },
+            "options": {
+                "sessionId": "0314deb6-755b-4ca3-83c1-48f8725b6321",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "lens",
+                    "url": "/app/lens",
+                    "type": "application",
+                    "id": "new",
+                    "page": "editor"
+                }
+            }
+        }
+    ]
+}

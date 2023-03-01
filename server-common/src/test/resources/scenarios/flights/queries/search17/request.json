@@ -1,0 +1,67 @@
+{
+    "params": {
+        "index": "opensearch_dashboards_sample_data_flights",
+        "body": {
+            "aggs": {
+                "2": {
+                    "histogram": {
+                        "field": "FlightDelayMin",
+                        "interval": 30,
+                        "min_doc_count": 1
+                    }
+                }
+            },
+            "size": 0,
+            "stored_fields": [
+                "*"
+            ],
+            "script_fields": {
+                "hour_of_day": {
+                    "script": {
+                        "source": "doc['timestamp'].value.hourOfDay",
+                        "lang": "painless"
+                    }
+                }
+            },
+            "docvalue_fields": [
+                {
+                    "field": "timestamp",
+                    "format": "date_time"
+                }
+            ],
+            "_source": {
+                "excludes": []
+            },
+            "query": {
+                "bool": {
+                    "must": [],
+                    "filter": [
+                        {
+                            "match_all": {}
+                        },
+                        {
+                            "range": {
+                                "timestamp": {
+                                    "gte": "2022-07-27T21:50:49.158Z",
+                                    "lte": "2022-07-28T21:50:49.159Z",
+                                    "format": "strict_date_optional_time"
+                                }
+                            }
+                        }
+                    ],
+                    "should": [],
+                    "must_not": [
+                        {
+                            "match_phrase": {
+                                "FlightDelayMin": {
+                                    "query": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "preference": 1659044750801
+    }
+}

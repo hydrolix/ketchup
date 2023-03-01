@@ -1,0 +1,141 @@
+{
+    "id": "FkN5T2htbW5wUjNPMkJMa3NCNkZhY2cgS3djejd3OThSY3VnTEtoX05oT0QzUToxOTg5NTcwMjI=",
+    "is_partial": false,
+    "is_running": false,
+    "start_time_in_millis": 1672868094111,
+    "expiration_time_in_millis": 1673472894111,
+    "response": {
+        "took": 3105,
+        "timed_out": false,
+        "_shards": {
+            "total": 4,
+            "successful": 4,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": {
+                "value": 99996870,
+                "relation": "eq"
+            },
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "2": {
+                "buckets": [
+                    {
+                        "key_as_string": "2013-07-01 00:00:00",
+                        "key": 1372662000000,
+                        "doc_count": 1706475
+                    },
+                    {
+                        "key_as_string": "2013-07-02 00:00:00",
+                        "key": 1372748400000,
+                        "doc_count": 6508298
+                    },
+                    {
+                        "key_as_string": "2013-07-03 00:00:00",
+                        "key": 1372834800000,
+                        "doc_count": 5319236
+                    },
+                    {
+                        "key_as_string": "2013-07-04 00:00:00",
+                        "key": 1372921200000,
+                        "doc_count": 2064001
+                    },
+                    {
+                        "key_as_string": "2013-07-05 00:00:00",
+                        "key": 1373007600000,
+                        "doc_count": 5557617
+                    },
+                    {
+                        "key_as_string": "2013-07-06 00:00:00",
+                        "key": 1373094000000,
+                        "doc_count": 4214256
+                    },
+                    {
+                        "key_as_string": "2013-07-07 00:00:00",
+                        "key": 1373180400000,
+                        "doc_count": 1664424
+                    },
+                    {
+                        "key_as_string": "2013-07-08 00:00:00",
+                        "key": 1373266800000,
+                        "doc_count": 7447266
+                    },
+                    {
+                        "key_as_string": "2013-07-09 00:00:00",
+                        "key": 1373353200000,
+                        "doc_count": 9965655
+                    },
+                    {
+                        "key_as_string": "2013-07-10 00:00:00",
+                        "key": 1373439600000,
+                        "doc_count": 3140757
+                    },
+                    {
+                        "key_as_string": "2013-07-14 00:00:00",
+                        "key": 1373785200000,
+                        "doc_count": 5777785
+                    },
+                    {
+                        "key_as_string": "2013-07-15 00:00:00",
+                        "key": 1373871600000,
+                        "doc_count": 6844013
+                    },
+                    {
+                        "key_as_string": "2013-07-19 00:00:00",
+                        "key": 1374217200000,
+                        "doc_count": 199212
+                    },
+                    {
+                        "key_as_string": "2013-07-20 00:00:00",
+                        "key": 1374303600000,
+                        "doc_count": 7859846
+                    },
+                    {
+                        "key_as_string": "2013-07-21 00:00:00",
+                        "key": 1374390000000,
+                        "doc_count": 9589782
+                    },
+                    {
+                        "key_as_string": "2013-07-22 00:00:00",
+                        "key": 1374476400000,
+                        "doc_count": 1307901
+                    },
+                    {
+                        "key_as_string": "2013-07-23 00:00:00",
+                        "key": 1374562800000,
+                        "doc_count": 691146
+                    },
+                    {
+                        "key_as_string": "2013-07-27 00:00:00",
+                        "key": 1374908400000,
+                        "doc_count": 4353868
+                    },
+                    {
+                        "key_as_string": "2013-07-28 00:00:00",
+                        "key": 1374994800000,
+                        "doc_count": 8314005
+                    },
+                    {
+                        "key_as_string": "2013-07-29 00:00:00",
+                        "key": 1375081200000,
+                        "doc_count": 3745554
+                    },
+                    {
+                        "key_as_string": "2013-07-30 00:00:00",
+                        "key": 1375167600000,
+                        "doc_count": 1740631
+                    },
+                    {
+                        "key_as_string": "2013-07-31 00:00:00",
+                        "key": 1375254000000,
+                        "doc_count": 1985142
+                    }
+                ]
+            }
+        }
+    }
+}

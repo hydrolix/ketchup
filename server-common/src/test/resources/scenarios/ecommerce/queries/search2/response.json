@@ -1,0 +1,2628 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 4,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 1051,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "2": {
+                "buckets": [
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-21T09:00:00.000-07:00",
+                        "key": 1658419200000,
+                        "doc_count": 2
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 4
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-21T12:00:00.000-07:00",
+                        "key": 1658430000000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 28
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-21T15:00:00.000-07:00",
+                        "key": 1658440800000,
+                        "doc_count": 27
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 28
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 24
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-21T18:00:00.000-07:00",
+                        "key": 1658451600000,
+                        "doc_count": 24
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-21T21:00:00.000-07:00",
+                        "key": 1658462400000,
+                        "doc_count": 19
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T00:00:00.000-07:00",
+                        "key": 1658473200000,
+                        "doc_count": 16
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T03:00:00.000-07:00",
+                        "key": 1658484000000,
+                        "doc_count": 21
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T06:00:00.000-07:00",
+                        "key": 1658494800000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 26
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T09:00:00.000-07:00",
+                        "key": 1658505600000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 4,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 26
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T12:00:00.000-07:00",
+                        "key": 1658516400000,
+                        "doc_count": 23
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T15:00:00.000-07:00",
+                        "key": 1658527200000,
+                        "doc_count": 14
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 30
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 14
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T18:00:00.000-07:00",
+                        "key": 1658538000000,
+                        "doc_count": 21
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-22T21:00:00.000-07:00",
+                        "key": 1658548800000,
+                        "doc_count": 15
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T00:00:00.000-07:00",
+                        "key": 1658559600000,
+                        "doc_count": 19
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T03:00:00.000-07:00",
+                        "key": 1658570400000,
+                        "doc_count": 16
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T06:00:00.000-07:00",
+                        "key": 1658581200000,
+                        "doc_count": 16
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T09:00:00.000-07:00",
+                        "key": 1658592000000,
+                        "doc_count": 16
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 5
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T12:00:00.000-07:00",
+                        "key": 1658602800000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T15:00:00.000-07:00",
+                        "key": 1658613600000,
+                        "doc_count": 23
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T18:00:00.000-07:00",
+                        "key": 1658624400000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-23T21:00:00.000-07:00",
+                        "key": 1658635200000,
+                        "doc_count": 17
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T00:00:00.000-07:00",
+                        "key": 1658646000000,
+                        "doc_count": 17
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 24
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T03:00:00.000-07:00",
+                        "key": 1658656800000,
+                        "doc_count": 19
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 26
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T06:00:00.000-07:00",
+                        "key": 1658667600000,
+                        "doc_count": 22
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T09:00:00.000-07:00",
+                        "key": 1658678400000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T12:00:00.000-07:00",
+                        "key": 1658689200000,
+                        "doc_count": 16
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T15:00:00.000-07:00",
+                        "key": 1658700000000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T18:00:00.000-07:00",
+                        "key": 1658710800000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-24T21:00:00.000-07:00",
+                        "key": 1658721600000,
+                        "doc_count": 17
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T00:00:00.000-07:00",
+                        "key": 1658732400000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 24
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T03:00:00.000-07:00",
+                        "key": 1658743200000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T06:00:00.000-07:00",
+                        "key": 1658754000000,
+                        "doc_count": 14
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 24
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T09:00:00.000-07:00",
+                        "key": 1658764800000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T12:00:00.000-07:00",
+                        "key": 1658775600000,
+                        "doc_count": 19
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T15:00:00.000-07:00",
+                        "key": 1658786400000,
+                        "doc_count": 19
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T18:00:00.000-07:00",
+                        "key": 1658797200000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 30
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-25T21:00:00.000-07:00",
+                        "key": 1658808000000,
+                        "doc_count": 19
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 1
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T00:00:00.000-07:00",
+                        "key": 1658818800000,
+                        "doc_count": 14
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T03:00:00.000-07:00",
+                        "key": 1658829600000,
+                        "doc_count": 16
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 26
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T06:00:00.000-07:00",
+                        "key": 1658840400000,
+                        "doc_count": 22
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 24
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T09:00:00.000-07:00",
+                        "key": 1658851200000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 24
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T12:00:00.000-07:00",
+                        "key": 1658862000000,
+                        "doc_count": 17
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 0,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 2
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T15:00:00.000-07:00",
+                        "key": 1658872800000,
+                        "doc_count": 13
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T18:00:00.000-07:00",
+                        "key": 1658883600000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-26T21:00:00.000-07:00",
+                        "key": 1658894400000,
+                        "doc_count": 17
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T00:00:00.000-07:00",
+                        "key": 1658905200000,
+                        "doc_count": 15
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 26
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T03:00:00.000-07:00",
+                        "key": 1658916000000,
+                        "doc_count": 19
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T06:00:00.000-07:00",
+                        "key": 1658926800000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 10
+                                },
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T09:00:00.000-07:00",
+                        "key": 1658937600000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T12:00:00.000-07:00",
+                        "key": 1658948400000,
+                        "doc_count": 17
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 32
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 22
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 11
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T15:00:00.000-07:00",
+                        "key": 1658959200000,
+                        "doc_count": 25
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 3,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 26
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 12
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T18:00:00.000-07:00",
+                        "key": 1658970000000,
+                        "doc_count": 20
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 1,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 4
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-27T21:00:00.000-07:00",
+                        "key": 1658980800000,
+                        "doc_count": 17
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 25
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 13
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 4
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-28T00:00:00.000-07:00",
+                        "key": 1658991600000,
+                        "doc_count": 22
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 4,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 32
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 15
+                                },
+                                {
+                                    "1": {
+                                        "value": 23
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "1": {
+                                        "value": 20
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 10
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 5
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-28T03:00:00.000-07:00",
+                        "key": 1659002400000,
+                        "doc_count": 29
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 18
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "1": {
+                                        "value": 12
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 6
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Shoes",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-28T06:00:00.000-07:00",
+                        "key": 1659013200000,
+                        "doc_count": 18
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 2,
+                            "buckets": [
+                                {
+                                    "1": {
+                                        "value": 16
+                                    },
+                                    "key": "Men's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 14
+                                    },
+                                    "key": "Women's Clothing",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Men's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 8
+                                    },
+                                    "key": "Women's Accessories",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "1": {
+                                        "value": 6
+                                    },
+                                    "key": "Men's Shoes",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key_as_string": "2022-07-28T09:00:00.000-07:00",
+                        "key": 1659024000000,
+                        "doc_count": 15
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

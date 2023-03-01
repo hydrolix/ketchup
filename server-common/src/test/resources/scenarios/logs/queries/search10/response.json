@@ -1,0 +1,30 @@
+{
+  "isPartial": false,
+  "isRunning": false,
+  "rawResponse": {
+    "took": 4,
+    "timed_out": false,
+    "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1610,
+      "max_score": null,
+      "hits": []
+    },
+    "aggregations": {
+      "other-filter": {
+        "buckets": {
+          "": {
+            "doc_count": 0
+          }
+        }
+      }
+    }
+  },
+  "total": 1,
+  "loaded": 1
+}

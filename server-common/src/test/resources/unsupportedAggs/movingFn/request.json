@@ -1,0 +1,61 @@
+{
+    "size": 0,
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "range": {
+                        "EventTime": {
+                            "gte": "2013-06-26T23:09:01.830Z",
+                            "lte": "2013-08-05T17:24:19.607Z",
+                            "format": "strict_date_optional_time"
+                        }
+                    }
+                }
+            ],
+            "filter": [],
+            "should": [],
+            "must_not": []
+        }
+    },
+    "aggs": {
+        "timeseries": {
+            "date_histogram": {
+                "field": "EventTime",
+                "min_doc_count": 0,
+                "time_zone": "America/Vancouver",
+                "extended_bounds": {
+                    "min": 1372288141830,
+                    "max": 1375723459607
+                },
+                "fixed_interval": "43200s"
+            },
+            "aggs": {
+                "8a95c599-45c5-49d0-960d-992e224f780f": {
+                    "cardinality": {
+                        "field": "ClientIP"
+                    }
+                },
+                "1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+                    "moving_fn": {
+                        "buckets_path": "8a95c599-45c5-49d0-960d-992e224f780f",
+                        "window": 7,
+                        "script": "MovingFunctions.unweightedAvg(values)"
+                    }
+                }
+            },
+            "meta": {
+                "timeField": "EventTime",
+                "panelId": "ef25b801-3ce6-4123-ad0d-73f232804ef0",
+                "seriesId": "c88c29ca-d35f-4a1d-ac9c-71c3f5231a59",
+                "intervalString": "43200s",
+                "dataViewId": "82471b20-1803-11ed-84b7-abd4e47428f1",
+                "indexPatternString": "hits",
+                "normalized": true
+            }
+        }
+    },
+    "runtime_mappings": {},
+    "timeout": "30000ms",
+    "track_total_hits": true
+}

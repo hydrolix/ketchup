@@ -1,0 +1,19 @@
+{
+    "name": "should return a match all \"is\" function for whitespace",
+    "kql": "  ",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "DEFAULT_FIELDS"
+        },
+        "value": {
+            "type": "SINGLE_VALUES",
+            "value": {
+                "type": "STRING_LIT",
+                "value": "",
+                "valueType": "STRING"
+            }
+        },
+        "valueType": "BOOLEAN"
+    }
+}

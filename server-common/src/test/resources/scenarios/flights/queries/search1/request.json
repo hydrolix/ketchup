@@ -1,0 +1,74 @@
+{
+    "params": {
+        "index": "opensearch_dashboards_sample_data_flights",
+        "body": {
+            "version": true,
+            "size": 500,
+            "sort": [
+                {
+                    "timestamp": {
+                        "order": "desc",
+                        "unmapped_type": "boolean"
+                    }
+                }
+            ],
+            "stored_fields": [
+                "*"
+            ],
+            "script_fields": {
+                "hour_of_day": {
+                    "script": {
+                        "source": "doc['timestamp'].value.hourOfDay",
+                        "lang": "painless"
+                    }
+                }
+            },
+            "docvalue_fields": [
+                {
+                    "field": "timestamp",
+                    "format": "date_time"
+                }
+            ],
+            "_source": {
+                "excludes": []
+            },
+            "query": {
+                "bool": {
+                    "must": [],
+                    "filter": [
+                        {
+                            "match_all": {}
+                        },
+                        {
+                            "match_all": {}
+                        },
+                        {
+                            "range": {
+                                "timestamp": {
+                                    "gte": "2022-07-27T21:50:47.446Z",
+                                    "lte": "2022-07-28T21:50:47.446Z",
+                                    "format": "strict_date_optional_time"
+                                }
+                            }
+                        }
+                    ],
+                    "should": [],
+                    "must_not": []
+                }
+            },
+            "highlight": {
+                "pre_tags": [
+                    "@opensearch-dashboards-highlighted-field@"
+                ],
+                "post_tags": [
+                    "@/opensearch-dashboards-highlighted-field@"
+                ],
+                "fields": {
+                    "*": {}
+                },
+                "fragment_size": 2147483647
+            }
+        },
+        "preference": 1659044750801
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": "FmVXRDdtQ0txUzQtejlYellwT2tYaVEgS3djejd3OThSY3VnTEtoX05oT0QzUToxOTg5NTcwMzQ=",
+    "is_partial": false,
+    "is_running": false,
+    "start_time_in_millis": 1672868094112,
+    "expiration_time_in_millis": 1673472894112,
+    "response": {
+        "took": 537,
+        "timed_out": false,
+        "_shards": {
+            "total": 4,
+            "successful": 4,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": {
+                "value": 5563212,
+                "relation": "eq"
+            },
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "1": {
+                "value": 165
+            }
+        }
+    }
+}

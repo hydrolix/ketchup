@@ -1,0 +1,30 @@
+{
+    "name": "should support nested groups inside other nested groups",
+    "kql": "nestedField:{ nestedChild:{ doublyNestedChild:foo } }",
+    "parsed": {
+        "type": "NESTED",
+        "fieldName": "nestedField",
+        "child": {
+            "type": "NESTED",
+            "fieldName": "nestedChild",
+            "child": {
+                "type": "FIELD_MATCH",
+                "target": {
+                    "type": "ONE_FIELD",
+                    "fieldName": "doublyNestedChild"
+                },
+                "value": {
+                    "type": "SINGLE_VALUES",
+                    "value": {
+                        "type": "STRING_LIT",
+                        "value": "foo",
+                        "valueType": "STRING"
+                    }
+                },
+                "valueType": "BOOLEAN"
+            },
+            "valueType": "BOOLEAN"
+        },
+        "valueType": "BOOLEAN"
+    }
+}

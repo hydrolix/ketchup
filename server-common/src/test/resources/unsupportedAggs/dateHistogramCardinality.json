@@ -1,0 +1,73 @@
+{
+    "_source": {
+        "excludes": []
+    },
+    "aggregations": {
+        "0": {
+            "aggregations": {
+                "1": {
+                    "cardinality": {
+                        "field": "ClientIP"
+                    }
+                },
+                "2": {
+                    "cardinality": {
+                        "field": "ClientIP"
+                    }
+                }
+            },
+            "date_histogram": {
+                "extended_bounds": {
+                    "max": 1.375723459607E12,
+                    "min": 1.37228814183E12
+                },
+                "field": "EventTime",
+                "fixed_interval": "12h",
+                "time_zone": "America/Vancouver"
+            }
+        }
+    },
+    "fields": [
+        {
+            "field": "ClientEventTime",
+            "format": "date_time"
+        },
+        {
+            "field": "EventDate",
+            "format": "date_time"
+        },
+        {
+            "field": "EventTime",
+            "format": "date_time"
+        },
+        {
+            "field": "LocalEventTime",
+            "format": "date_time"
+        }
+    ],
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "range": {
+                        "EventTime": {
+                            "gte": "2013-06-26T23:09:01.830Z",
+                            "lte": "2013-08-05T17:24:19.607Z",
+                            "format": "strict_date_optional_time"
+                        }
+                    }
+                }
+            ],
+            "must": [],
+            "must_not": [],
+            "should": []
+        }
+    },
+    "runtime_mappings": {},
+    "script_fields": {},
+    "size": 0,
+    "stored_fields": [
+        "*"
+    ],
+    "track_total_hits": true
+}

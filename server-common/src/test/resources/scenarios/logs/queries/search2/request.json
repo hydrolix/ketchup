@@ -1,0 +1,68 @@
+{
+  "params": {
+    "index": "opensearch_dashboards_sample_data_logs",
+    "body": {
+      "timeout": "1000ms",
+      "terminate_after": 100000,
+      "size": 0,
+      "aggs": {
+        "termsAgg": {
+          "terms": {
+            "order": {
+              "_count": "desc"
+            },
+            "size": 100,
+            "field": "geo.src"
+          }
+        }
+      },
+      "stored_fields": [
+        "*"
+      ],
+      "script_fields": {
+        "hour_of_day": {
+          "script": {
+            "source": "doc['timestamp'].value.getHour()",
+            "lang": "painless"
+          }
+        }
+      },
+      "docvalue_fields": [
+        {
+          "field": "@timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "utc_time",
+          "format": "date_time"
+        }
+      ],
+      "_source": {
+        "excludes": []
+      },
+      "query": {
+        "bool": {
+          "must": [],
+          "filter": [
+            {
+              "range": {
+                "timestamp": {
+                  "gte": "2022-07-20T22:43:00.507Z",
+                  "lte": "2022-07-27T22:43:00.507Z",
+                  "format": "strict_date_optional_time"
+                }
+              }
+            }
+          ],
+          "should": [],
+          "must_not": []
+        }
+      }
+    },
+    "preference": 1658961537079
+  }
+}

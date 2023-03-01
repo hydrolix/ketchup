@@ -1,0 +1,60 @@
+{
+    "size": 10000,
+    "seq_no_primary_term": true,
+    "from": 0,
+    "_source": [
+        "index-pattern.title",
+        "index-pattern.type",
+        "index-pattern.typeMeta",
+        "namespace",
+        "namespaces",
+        "type",
+        "references",
+        "migrationVersion",
+        "coreMigrationVersion",
+        "updated_at",
+        "originId",
+        "title",
+        "type",
+        "typeMeta"
+    ],
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "bool": {
+                        "should": [
+                            {
+                                "bool": {
+                                    "must": [
+                                        {
+                                            "term": {
+                                                "type": "index-pattern"
+                                            }
+                                        },
+                                        {
+                                            "terms": {
+                                                "namespaces": [
+                                                    "default",
+                                                    "*"
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "must_not": [
+                                        {
+                                            "exists": {
+                                                "field": "namespace"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "minimum_should_match": 1
+                    }
+                }
+            ]
+        }
+    }
+}

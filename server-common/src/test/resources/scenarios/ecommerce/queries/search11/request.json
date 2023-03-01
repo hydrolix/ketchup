@@ -1,0 +1,47 @@
+{
+    "params": {
+        "index": "opensearch_dashboards_sample_data_ecommerce",
+        "body": {
+            "size": 0,
+            "aggs": {
+                "gridSplit": {
+                    "geotile_grid": {
+                        "field": "geoip.location",
+                        "precision": 4,
+                        "size": 10000
+                    },
+                    "aggs": {
+                        "gridCentroid": {
+                            "geo_centroid": {
+                                "field": "geoip.location"
+                            }
+                        }
+                    }
+                }
+            },
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "range": {
+                                "order_date": {
+                                    "gte": "2022-07-21T18:52:32.849Z",
+                                    "lte": "2022-07-28T18:52:32.849Z",
+                                    "format": "strict_date_optional_time"
+                                }
+                            }
+                        }
+                    ],
+                    "filter": [
+                        {
+                            "match_all": {}
+                        }
+                    ],
+                    "should": [],
+                    "must_not": []
+                }
+            }
+        },
+        "preference": 1659034350050
+    }
+}

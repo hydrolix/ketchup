@@ -1,0 +1,79 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 2,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 78,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "2": {
+                "buckets": [
+                    {
+                        "key": 0,
+                        "doc_count": 3
+                    },
+                    {
+                        "key": 30,
+                        "doc_count": 6
+                    },
+                    {
+                        "key": 60,
+                        "doc_count": 8
+                    },
+                    {
+                        "key": 90,
+                        "doc_count": 6
+                    },
+                    {
+                        "key": 120,
+                        "doc_count": 3
+                    },
+                    {
+                        "key": 150,
+                        "doc_count": 10
+                    },
+                    {
+                        "key": 180,
+                        "doc_count": 5
+                    },
+                    {
+                        "key": 210,
+                        "doc_count": 7
+                    },
+                    {
+                        "key": 240,
+                        "doc_count": 5
+                    },
+                    {
+                        "key": 270,
+                        "doc_count": 11
+                    },
+                    {
+                        "key": 300,
+                        "doc_count": 8
+                    },
+                    {
+                        "key": 330,
+                        "doc_count": 5
+                    },
+                    {
+                        "key": 360,
+                        "doc_count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

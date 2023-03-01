@@ -1,0 +1,79 @@
+{
+    "params": {
+        "index": "opensearch_dashboards_sample_data_ecommerce",
+        "body": {
+            "aggs": {
+                "2": {
+                    "date_histogram": {
+                        "field": "order_date",
+                        "fixed_interval": "3h",
+                        "time_zone": "America/Vancouver",
+                        "min_doc_count": 1
+                    },
+                    "aggs": {
+                        "3": {
+                            "terms": {
+                                "field": "category.keyword",
+                                "order": {
+                                    "1": "desc"
+                                },
+                                "size": 5
+                            },
+                            "aggs": {
+                                "1": {
+                                    "sum": {
+                                        "field": "total_quantity"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "size": 0,
+            "stored_fields": [
+                "*"
+            ],
+            "script_fields": {},
+            "docvalue_fields": [
+                {
+                    "field": "customer_birth_date",
+                    "format": "date_time"
+                },
+                {
+                    "field": "order_date",
+                    "format": "date_time"
+                },
+                {
+                    "field": "products.created_on",
+                    "format": "date_time"
+                }
+            ],
+            "_source": {
+                "excludes": []
+            },
+            "query": {
+                "bool": {
+                    "must": [],
+                    "filter": [
+                        {
+                            "match_all": {}
+                        },
+                        {
+                            "range": {
+                                "order_date": {
+                                    "gte": "2022-07-21T18:52:31.066Z",
+                                    "lte": "2022-07-28T18:52:31.066Z",
+                                    "format": "strict_date_optional_time"
+                                }
+                            }
+                        }
+                    ],
+                    "should": [],
+                    "must_not": []
+                }
+            }
+        },
+        "preference": 1659034350050
+    }
+}

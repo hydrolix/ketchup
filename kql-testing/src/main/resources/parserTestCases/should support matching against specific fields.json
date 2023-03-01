@@ -1,0 +1,20 @@
+{
+    "name": "should support matching against specific fields",
+    "kql": "foo:bar",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "ONE_FIELD",
+            "fieldName": "foo"
+        },
+        "value": {
+            "type": "SINGLE_VALUES",
+            "value": {
+                "type": "STRING_LIT",
+                "value": "bar",
+                "valueType": "STRING"
+            }
+        },
+        "valueType": "BOOLEAN"
+    }
+}

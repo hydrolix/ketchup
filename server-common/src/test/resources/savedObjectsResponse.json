@@ -1,0 +1,75 @@
+{
+    "page": 1,
+    "per_page": 10000,
+    "total": 4,
+    "saved_objects": [
+        {
+            "type": "index-pattern",
+            "id": "d6a53a10-0dce-11ed-95df-47538e9a0433",
+            "attributes": {
+                "title": "opensearch_dashboards_sample_data_logs"
+            },
+            "references": [],
+            "migrationVersion": {
+                "index-pattern": "7.6.0"
+            },
+            "updated_at": "2022-07-27T17:09:13.393Z",
+            "version": "WzEsMV0=",
+            "namespaces": [
+                "default"
+            ],
+            "score": 0
+        },
+        {
+            "type": "index-pattern",
+            "id": "d3d7af60-4c81-11e8-b3d7-01146121b73d",
+            "attributes": {
+                "title": "opensearch_dashboards_sample_data_flights"
+            },
+            "references": [],
+            "migrationVersion": {
+                "index-pattern": "7.6.0"
+            },
+            "updated_at": "2022-07-27T17:09:57.677Z",
+            "version": "WzIxLDFd",
+            "namespaces": [
+                "default"
+            ],
+            "score": 0
+        },
+        {
+            "type": "index-pattern",
+            "id": "90943e30-9a47-11e8-b64d-95841ca0b247",
+            "attributes": {
+                "title": "opensearch_dashboards_sample_data_logs"
+            },
+            "references": [],
+            "migrationVersion": {
+                "index-pattern": "7.6.0"
+            },
+            "updated_at": "2022-07-28T18:46:37.389Z",
+            "version": "WzM0LDFd",
+            "namespaces": [
+                "default"
+            ],
+            "score": 0
+        },
+        {
+            "type": "index-pattern",
+            "id": "ff959d40-b880-11e8-a6d9-e546fe2bba5f",
+            "attributes": {
+                "title": "opensearch_dashboards_sample_data_ecommerce"
+            },
+            "references": [],
+            "migrationVersion": {
+                "index-pattern": "7.6.0"
+            },
+            "updated_at": "2022-07-28T18:46:42.295Z",
+            "version": "WzQ4LDFd",
+            "namespaces": [
+                "default"
+            ],
+            "score": 0
+        }
+    ]
+}

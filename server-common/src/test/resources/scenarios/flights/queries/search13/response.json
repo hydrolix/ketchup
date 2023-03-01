@@ -1,0 +1,179 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 6,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 309,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "2": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 162,
+                "buckets": [
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 17,
+                            "buckets": [
+                                {
+                                    "key": "IT",
+                                    "doc_count": 13
+                                },
+                                {
+                                    "key": "US",
+                                    "doc_count": 8
+                                },
+                                {
+                                    "key": "JP",
+                                    "doc_count": 4
+                                },
+                                {
+                                    "key": "PE",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "key": "AU",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key": "IT",
+                        "doc_count": 47
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 19,
+                            "buckets": [
+                                {
+                                    "key": "US",
+                                    "doc_count": 9
+                                },
+                                {
+                                    "key": "IT",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "key": "CN",
+                                    "doc_count": 5
+                                },
+                                {
+                                    "key": "AT",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "key": "CA",
+                                    "doc_count": 3
+                                }
+                            ]
+                        },
+                        "key": "US",
+                        "doc_count": 46
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 6,
+                            "buckets": [
+                                {
+                                    "key": "IT",
+                                    "doc_count": 7
+                                },
+                                {
+                                    "key": "PL",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "key": "US",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "key": "JP",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "key": "RU",
+                                    "doc_count": 2
+                                }
+                            ]
+                        },
+                        "key": "JP",
+                        "doc_count": 23
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 8,
+                            "buckets": [
+                                {
+                                    "key": "AU",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "key": "CN",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "key": "IT",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "key": "CA",
+                                    "doc_count": 1
+                                },
+                                {
+                                    "key": "CH",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key": "CN",
+                        "doc_count": 16
+                    },
+                    {
+                        "3": {
+                            "doc_count_error_upper_bound": 0,
+                            "sum_other_doc_count": 6,
+                            "buckets": [
+                                {
+                                    "key": "JP",
+                                    "doc_count": 3
+                                },
+                                {
+                                    "key": "CA",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "key": "CH",
+                                    "doc_count": 2
+                                },
+                                {
+                                    "key": "CN",
+                                    "doc_count": 1
+                                },
+                                {
+                                    "key": "CO",
+                                    "doc_count": 1
+                                }
+                            ]
+                        },
+                        "key": "DE",
+                        "doc_count": 15
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

@@ -1,0 +1,29 @@
+{
+  "id": "08622854-ccd2-428d-803e-63595fc7747b",
+  "is_partial": false,
+  "is_running": false,
+  "start_time_in_millis": 1234,
+  "expiration_time_in_millis": 1234,
+  "response": {
+    "took": 135,
+    "timed_out": false,
+    "_shards": {
+      "failed": 0,
+      "successful": 1,
+      "total": 1,
+      "skipped": 0
+    },
+    "hits": {
+      "total": {
+        "relation": "eq",
+        "value": 1
+      },
+      "hits": []
+    },
+    "aggregations": {
+      "cardinality#1": {
+        "value": 165
+      }
+    }
+  }
+}

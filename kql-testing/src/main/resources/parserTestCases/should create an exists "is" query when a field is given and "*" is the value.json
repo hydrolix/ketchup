@@ -1,0 +1,15 @@
+{
+    "name": "should create an exists \"is\" query when a field is given and \"*\" is the value",
+    "kql": "foo:*",
+    "parsed": {
+        "target": {
+            "type": "ONE_FIELD",
+            "fieldName": "foo"
+        },
+        "value": {
+            "type": "ANY_VALUE"
+        },
+        "type": "FIELD_MATCH",
+        "valueType": "BOOLEAN"
+    }
+}

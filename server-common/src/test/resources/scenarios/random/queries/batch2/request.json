@@ -1,0 +1,559 @@
+{
+    "batch": [
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {
+                            "0": {
+                                "date_histogram": {
+                                    "field": "EventTime",
+                                    "fixed_interval": "12h",
+                                    "time_zone": "America/Vancouver",
+                                    "extended_bounds": {
+                                        "min": 1372288141830,
+                                        "max": 1375723459607
+                                    }
+                                },
+                                "aggs": {
+                                    "1": {
+                                        "min": {
+                                            "field": "Age"
+                                        }
+                                    },
+                                    "2": {
+                                        "avg": {
+                                            "field": "Age"
+                                        }
+                                    },
+                                    "3": {
+                                        "max": {
+                                            "field": "Age"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        }
+                    },
+                    "preference": 1660155150784
+                }
+            },
+            "options": {
+                "sessionId": "5aeebf63-0983-4dac-a756-125ac4c096c5",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "dashboards",
+                    "url": "/app/dashboards",
+                    "type": "application",
+                    "page": "app",
+                    "id": "f014f090-185e-11ed-84b7-abd4e47428f1",
+                    "description": "Hits Dashboard - wip",
+                    "child": {
+                        "type": "lens",
+                        "name": "lnsXY",
+                        "id": "34f46390-69a5-43cf-99ff-ba0514f9a015",
+                        "description": "ages and ages",
+                        "url": "/app/lens#/edit_by_value"
+                    }
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {
+                            "2": {
+                                "date_histogram": {
+                                    "field": "EventTime",
+                                    "calendar_interval": "1d",
+                                    "time_zone": "America/Vancouver",
+                                    "min_doc_count": 1
+                                }
+                            }
+                        },
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "bool": {
+                                            "should": [
+                                                {
+                                                    "match": {
+                                                        "BrowserCountry": "1R"
+                                                    }
+                                                }
+                                            ],
+                                            "minimum_should_match": 1
+                                        }
+                                    },
+                                    {
+                                        "match_phrase": {
+                                            "BrowserCountry": "1R"
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        }
+                    },
+                    "preference": 1660155150784
+                }
+            },
+            "options": {
+                "sessionId": "5aeebf63-0983-4dac-a756-125ac4c096c5",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "dashboards",
+                    "url": "/app/dashboards",
+                    "type": "application",
+                    "page": "app",
+                    "id": "f014f090-185e-11ed-84b7-abd4e47428f1",
+                    "description": "Hits Dashboard - wip",
+                    "child": {
+                        "type": "visualization",
+                        "name": "histogram",
+                        "id": "",
+                        "description": "DateTime Historgram 1 filter",
+                        "url": ""
+                    }
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {
+                            "2": {
+                                "date_histogram": {
+                                    "field": "EventTime",
+                                    "calendar_interval": "1d",
+                                    "time_zone": "America/Vancouver",
+                                    "min_doc_count": 1
+                                }
+                            }
+                        },
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": [
+                                    {
+                                        "match_phrase": {
+                                            "BrowserCountry": "1R"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "preference": 1660155150784
+                }
+            },
+            "options": {
+                "sessionId": "5aeebf63-0983-4dac-a756-125ac4c096c5",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "dashboards",
+                    "url": "/app/dashboards",
+                    "type": "application",
+                    "page": "app",
+                    "id": "f014f090-185e-11ed-84b7-abd4e47428f1",
+                    "description": "Hits Dashboard - wip",
+                    "child": {
+                        "type": "visualization",
+                        "name": "histogram",
+                        "id": "new",
+                        "description": "DateTime Histogram Inverse Filter",
+                        "url": ""
+                    }
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {},
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        }
+                    },
+                    "preference": 1660155150784
+                }
+            },
+            "options": {
+                "sessionId": "5aeebf63-0983-4dac-a756-125ac4c096c5",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "dashboards",
+                    "url": "/app/dashboards",
+                    "type": "application",
+                    "page": "app",
+                    "id": "f014f090-185e-11ed-84b7-abd4e47428f1",
+                    "description": "Hits Dashboard - wip",
+                    "child": {
+                        "type": "visualization",
+                        "name": "metric",
+                        "id": "",
+                        "description": "Count Aggregate No Filter",
+                        "url": ""
+                    }
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {},
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": [
+                                    {
+                                        "match_phrase": {
+                                            "AdvEngineID": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "preference": 1660155150784
+                }
+            },
+            "options": {
+                "sessionId": "5aeebf63-0983-4dac-a756-125ac4c096c5",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "dashboards",
+                    "url": "/app/dashboards",
+                    "type": "application",
+                    "page": "app",
+                    "id": "f014f090-185e-11ed-84b7-abd4e47428f1",
+                    "description": "Hits Dashboard - wip",
+                    "child": {
+                        "type": "visualization",
+                        "name": "metric",
+                        "id": "",
+                        "description": "Count Aggregate 1 Filter",
+                        "url": ""
+                    }
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "aggs": {
+                            "1": {
+                                "cardinality": {
+                                    "field": "MobilePhoneModel"
+                                }
+                            }
+                        },
+                        "size": 0,
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [],
+                                "filter": [
+                                    {
+                                        "match_phrase": {
+                                            "IsMobile": 1
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": [
+                                    {
+                                        "match_phrase": {
+                                            "MobilePhoneModel": ""
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "preference": 1660155150784
+                }
+            },
+            "options": {
+                "sessionId": "5aeebf63-0983-4dac-a756-125ac4c096c5",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "dashboards",
+                    "url": "/app/dashboards",
+                    "type": "application",
+                    "page": "app",
+                    "id": "f014f090-185e-11ed-84b7-abd4e47428f1",
+                    "description": "Hits Dashboard - wip",
+                    "child": {
+                        "type": "visualization",
+                        "name": "metric",
+                        "id": "",
+                        "description": "Count Aggregate 2 Filters",
+                        "url": ""
+                    }
+                }
+            }
+        }
+    ]
+}

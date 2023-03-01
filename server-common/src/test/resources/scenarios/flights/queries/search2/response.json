@@ -1,0 +1,29 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 1,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 3280,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "maxAgg": {
+                "value": 360
+            },
+            "minAgg": {
+                "value": 15
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

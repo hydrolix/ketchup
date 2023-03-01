@@ -1,0 +1,193 @@
+{
+    "batch": [
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "sort": [
+                            {
+                                "EventTime": {
+                                    "order": "desc",
+                                    "unmapped_type": "boolean"
+                                }
+                            }
+                        ],
+                        "fields": [
+                            {
+                                "field": "*",
+                                "include_unmapped": "true"
+                            },
+                            {
+                                "field": "ClientEventTime",
+                                "format": "strict_date_optional_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "strict_date_optional_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "strict_date_optional_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "strict_date_optional_time"
+                            }
+                        ],
+                        "size": 500,
+                        "version": true,
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": false,
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "query_string": {
+                                            "query": "ClientIP:* || BrowserCountry:*",
+                                            "analyze_wildcard": true,
+                                            "time_zone": "America/Vancouver"
+                                        }
+                                    }
+                                ],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        },
+                        "highlight": {
+                            "pre_tags": [
+                                "@kibana-highlighted-field@"
+                            ],
+                            "post_tags": [
+                                "@/kibana-highlighted-field@"
+                            ],
+                            "fields": {
+                                "*": {}
+                            },
+                            "fragment_size": 2147483647
+                        }
+                    },
+                    "track_total_hits": false,
+                    "preference": 1660926699195
+                }
+            },
+            "options": {
+                "sessionId": "e5b0002c-b4cb-4d45-9162-a5b56d8a2dcc",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "discover",
+                    "url": "/app/discover",
+                    "type": "application",
+                    "page": "app",
+                    "id": "new",
+                    "description": "fetch documents"
+                }
+            }
+        },
+        {
+            "request": {
+                "params": {
+                    "index": "hits",
+                    "body": {
+                        "size": 0,
+                        "aggs": {
+                            "2": {
+                                "date_histogram": {
+                                    "field": "EventTime",
+                                    "fixed_interval": "12h",
+                                    "time_zone": "America/Vancouver",
+                                    "min_doc_count": 1
+                                }
+                            }
+                        },
+                        "fields": [
+                            {
+                                "field": "ClientEventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventDate",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "EventTime",
+                                "format": "date_time"
+                            },
+                            {
+                                "field": "LocalEventTime",
+                                "format": "date_time"
+                            }
+                        ],
+                        "script_fields": {},
+                        "stored_fields": [
+                            "*"
+                        ],
+                        "runtime_mappings": {},
+                        "_source": {
+                            "excludes": []
+                        },
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "query_string": {
+                                            "query": "ClientIP:* || BrowserCountry:*",
+                                            "analyze_wildcard": true,
+                                            "time_zone": "America/Vancouver"
+                                        }
+                                    }
+                                ],
+                                "filter": [
+                                    {
+                                        "range": {
+                                            "EventTime": {
+                                                "format": "strict_date_optional_time",
+                                                "gte": "2013-06-26T23:09:01.830Z",
+                                                "lte": "2013-08-05T17:24:19.607Z"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "should": [],
+                                "must_not": []
+                            }
+                        }
+                    },
+                    "track_total_hits": true,
+                    "preference": 1660926699195
+                }
+            },
+            "options": {
+                "sessionId": "e5b0002c-b4cb-4d45-9162-a5b56d8a2dcc",
+                "isRestore": false,
+                "strategy": "ese",
+                "isStored": false,
+                "executionContext": {
+                    "name": "discover",
+                    "url": "/app/discover",
+                    "type": "application",
+                    "page": "app",
+                    "id": "new",
+                    "description": "fetch chart data and total hits"
+                }
+            }
+        }
+    ]
+}

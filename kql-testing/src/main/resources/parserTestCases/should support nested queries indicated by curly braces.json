@@ -1,0 +1,25 @@
+{
+    "name": "should support nested queries indicated by curly braces",
+    "kql": "nestedField:{ childOfNested: foo }",
+    "parsed": {
+        "type": "NESTED",
+        "fieldName": "nestedField",
+        "child": {
+            "type": "FIELD_MATCH",
+            "target": {
+                "type": "ONE_FIELD",
+                "fieldName": "childOfNested"
+            },
+            "value": {
+                "type": "SINGLE_VALUES",
+                "value": {
+                    "type": "STRING_LIT",
+                    "value": "foo",
+                    "valueType": "STRING"
+                }
+            },
+            "valueType": "BOOLEAN"
+        },
+        "valueType": "BOOLEAN"
+    }
+}

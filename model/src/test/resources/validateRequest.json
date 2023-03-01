@@ -1,0 +1,871 @@
+{
+    "transform": {
+        "name": "clickhouse_sample_data.hits",
+        "description": null,
+        "type": "json",
+        "table": "clickhouse_sample_data.hits",
+        "settings": {
+            "is_default": true,
+            "compression": "gzip",
+            "format_details": {
+                "type": "json",
+                "flattening": {
+                    "active": false
+                }
+            },
+            "output_columns": [
+                {
+                    "name": "WatchID",
+                    "datatype": {
+                        "type": "int64",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "JavaEnable",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "Title",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "GoodEvent",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "EventTime",
+                    "datatype": {
+                        "type": "datetime64",
+                        "primary": true,
+                        "format": "2006-01-02 15:04:05",
+                        "resolution": "s"
+                    }
+                },
+                {
+                    "name": "EventDate",
+                    "datatype": {
+                        "type": "datetime",
+                        "primary": false,
+                        "format": "2006-01-02"
+                    }
+                },
+                {
+                    "name": "CounterID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ClientIP",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "RegionID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UserID",
+                    "datatype": {
+                        "type": "int64",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "CounterClass",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "OS",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UserAgent",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "URL",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "Referer",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsRefresh",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "RefererCategoryID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "RefererRegionID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "URLCategoryID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "URLRegionID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ResolutionWidth",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ResolutionHeight",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ResolutionDepth",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "FlashMajor",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "FlashMinor",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "FlashMinor2",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "NetMajor",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "NetMinor",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UserAgentMajor",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UserAgentMinor",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "CookieEnable",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "JavascriptEnable",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsMobile",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "MobilePhone",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "MobilePhoneModel",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "Params",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IPNetworkID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "TrafficSourceID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SearchEngineID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SearchPhrase",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "AdvEngineID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsArtificial",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "WindowClientWidth",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "WindowClientHeight",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ClientTimeZone",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ClientEventTime",
+                    "datatype": {
+                        "type": "datetime64",
+                        "primary": false,
+                        "format": "2006-01-02 15:04:05",
+                        "resolution": "s"
+                    }
+                },
+                {
+                    "name": "SilverlightVersion1",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SilverlightVersion2",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SilverlightVersion3",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SilverlightVersion4",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "PageCharset",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "CodeVersion",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsLink",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsDownload",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsNotBounce",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "FUniqID",
+                    "datatype": {
+                        "type": "int64",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "OriginalURL",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "HID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsOldCounter",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsEvent",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "IsParameter",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "DontCountHits",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "WithHash",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "HitColor",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "LocalEventTime",
+                    "datatype": {
+                        "type": "datetime64",
+                        "primary": false,
+                        "format": "2006-01-02 15:04:05",
+                        "resolution": "s"
+                    }
+                },
+                {
+                    "name": "Age",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "Sex",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "Income",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "Interests",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "Robotness",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "RemoteIP",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "WindowName",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "OpenerName",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "HistoryLength",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "BrowserLanguage",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "BrowserCountry",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SocialNetwork",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SocialAction",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "HTTPError",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SendTiming",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "DNSTiming",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ConnectTiming",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ResponseStartTiming",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ResponseEndTiming",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "FetchTiming",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SocialSourceNetworkID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "SocialSourcePage",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ParamPrice",
+                    "datatype": {
+                        "type": "int64",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ParamOrderID",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ParamCurrency",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "ParamCurrencyID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "OpenstatServiceName",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "OpenstatCampaignID",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "OpenstatAdID",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "OpenstatSourceID",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UTMSource",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UTMMedium",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UTMCampaign",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UTMContent",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "UTMTerm",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "FromTag",
+                    "datatype": {
+                        "type": "string",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "HasGCLID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "RefererHash",
+                    "datatype": {
+                        "type": "int64",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "URLHash",
+                    "datatype": {
+                        "type": "int64",
+                        "primary": false
+                    }
+                },
+                {
+                    "name": "CLID",
+                    "datatype": {
+                        "type": "int32",
+                        "primary": false
+                    }
+                }
+            ]
+        }
+    },
+    "data": [
+        {
+            "WatchID": "9110818468285196899",
+            "JavaEnable": 0,
+            "Title": "",
+            "GoodEvent": 1,
+            "EventTime": "2013-07-14 20:38:47",
+            "EventDate": "2013-07-15",
+            "CounterID": 17,
+            "ClientIP": -1216690514,
+            "RegionID": 839,
+            "UserID": "-2461439046089301801",
+            "CounterClass": 0,
+            "OS": 0,
+            "UserAgent": 0,
+            "URL": "",
+            "Referer": "",
+            "IsRefresh": 0,
+            "RefererCategoryID": 0,
+            "RefererRegionID": 0,
+            "URLCategoryID": 0,
+            "URLRegionID": 0,
+            "ResolutionWidth": 0,
+            "ResolutionHeight": 0,
+            "ResolutionDepth": 0,
+            "FlashMajor": 0,
+            "FlashMinor": 0,
+            "FlashMinor2": "",
+            "NetMajor": 0,
+            "NetMinor": 0,
+            "UserAgentMajor": 0,
+            "UserAgentMinor": "�O",
+            "CookieEnable": 0,
+            "JavascriptEnable": 0,
+            "IsMobile": 0,
+            "MobilePhone": 0,
+            "MobilePhoneModel": "",
+            "Params": "",
+            "IPNetworkID": 3793327,
+            "TraficSourceID": 4,
+            "SearchEngineID": 0,
+            "SearchPhrase": "",
+            "AdvEngineID": 0,
+            "IsArtifical": 0,
+            "WindowClientWidth": 0,
+            "WindowClientHeight": 0,
+            "ClientTimeZone": -1,
+            "ClientEventTime": "1971-01-01 14:16:06",
+            "SilverlightVersion1": 0,
+            "SilverlightVersion2": 0,
+            "SilverlightVersion3": 0,
+            "SilverlightVersion4": 0,
+            "PageCharset": "",
+            "CodeVersion": 0,
+            "IsLink": 0,
+            "IsDownload": 0,
+            "IsNotBounce": 0,
+            "FUniqID": "0",
+            "OriginalURL": "",
+            "HID": 0,
+            "IsOldCounter": 0,
+            "IsEvent": 0,
+            "IsParameter": 0,
+            "DontCountHits": 0,
+            "WithHash": 0,
+            "HitColor": "5",
+            "LocalEventTime": "2013-07-15 10:47:34",
+            "Age": 0,
+            "Sex": 0,
+            "Income": 0,
+            "Interests": 0,
+            "Robotness": 0,
+            "RemoteIP": -1001831330,
+            "WindowName": -1,
+            "OpenerName": -1,
+            "HistoryLength": -1,
+            "BrowserLanguage": "�",
+            "BrowserCountry": "�\f",
+            "SocialNetwork": "",
+            "SocialAction": "",
+            "HTTPError": 0,
+            "SendTiming": 0,
+            "DNSTiming": 0,
+            "ConnectTiming": 0,
+            "ResponseStartTiming": 0,
+            "ResponseEndTiming": 0,
+            "FetchTiming": 0,
+            "SocialSourceNetworkID": 0,
+            "SocialSourcePage": "",
+            "ParamPrice": "0",
+            "ParamOrderID": "",
+            "ParamCurrency": "NH\u001C",
+            "ParamCurrencyID": 0,
+            "OpenstatServiceName": "",
+            "OpenstatCampaignID": "",
+            "OpenstatAdID": "",
+            "OpenstatSourceID": "",
+            "UTMSource": "",
+            "UTMMedium": "",
+            "UTMCampaign": "",
+            "UTMContent": "",
+            "UTMTerm": "",
+            "FromTag": "",
+            "HasGCLID": 0,
+            "RefererHash": "-296158784638538920",
+            "URLHash": "-8417682003818480435",
+            "CLID": 0
+        }
+    ]
+}

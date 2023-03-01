@@ -1,0 +1,49 @@
+{
+  "isPartial": false,
+  "isRunning": false,
+  "rawResponse": {
+    "took": 5,
+    "timed_out": false,
+    "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 1610,
+      "max_score": null,
+      "hits": []
+    },
+    "aggregations": {
+      "2": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+          {
+            "key": "osx",
+            "doc_count": 357
+          },
+          {
+            "key": "win xp",
+            "doc_count": 344
+          },
+          {
+            "key": "ios",
+            "doc_count": 304
+          },
+          {
+            "key": "win 7",
+            "doc_count": 304
+          },
+          {
+            "key": "win 8",
+            "doc_count": 301
+          }
+        ]
+      }
+    }
+  },
+  "total": 1,
+  "loaded": 1
+}

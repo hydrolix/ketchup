@@ -1,0 +1,20 @@
+{
+    "name": "should treat quoted values as phrases",
+    "kql": "foo:\"bar baz\"",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "ONE_FIELD",
+            "fieldName": "foo"
+        },
+        "value": {
+            "type": "SINGLE_VALUES",
+            "value": {
+                "type": "STRING_LIT",
+                "value": "bar baz",
+                "valueType": "STRING"
+            }
+        },
+        "valueType": "BOOLEAN"
+    }
+}

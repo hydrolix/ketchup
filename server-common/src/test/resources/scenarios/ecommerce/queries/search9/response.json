@@ -1,0 +1,70 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 6,
+        "timed_out": false,
+        "terminated_early": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 1051,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "termsAgg": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 201,
+                "buckets": [
+                    {
+                        "key": "Low Tide Media",
+                        "doc_count": 334
+                    },
+                    {
+                        "key": "Elitelligence",
+                        "doc_count": 303
+                    },
+                    {
+                        "key": "Oceanavigations",
+                        "doc_count": 267
+                    },
+                    {
+                        "key": "Tigress Enterprises",
+                        "doc_count": 241
+                    },
+                    {
+                        "key": "Pyramidustries",
+                        "doc_count": 194
+                    },
+                    {
+                        "key": "Angeldale",
+                        "doc_count": 113
+                    },
+                    {
+                        "key": "Spherecords",
+                        "doc_count": 107
+                    },
+                    {
+                        "key": "Gnomehouse",
+                        "doc_count": 104
+                    },
+                    {
+                        "key": "Microlutions",
+                        "doc_count": 89
+                    },
+                    {
+                        "key": "Spritechnologies",
+                        "doc_count": 61
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

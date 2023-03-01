@@ -1,0 +1,73 @@
+{
+    "type": "gauge",
+    "uiRestrictions": {
+        "whiteListedMetrics": {
+            "*": true
+        },
+        "whiteListedGroupByFields": {
+            "*": true
+        },
+        "whiteListedTimerangeModes": {
+            "*": true
+        }
+    },
+    "61ca57f0-469d-11e7-af02-69e470af7417": {
+        "annotations": null,
+        "id": "61ca57f0-469d-11e7-af02-69e470af7417",
+        "series": [
+            {
+                "id": "61ca57f1-469d-11e7-af02-69e470af7417",
+                "label": "Trxns / day",
+                "color": "rgb(104, 188, 0)",
+                "data": [
+                    [
+                        1658386800000,
+                        90
+                    ],
+                    [
+                        1658473200000,
+                        150
+                    ],
+                    [
+                        1658559600000,
+                        145
+                    ],
+                    [
+                        1658646000000,
+                        145
+                    ],
+                    [
+                        1658732400000,
+                        149
+                    ],
+                    [
+                        1658818800000,
+                        137
+                    ],
+                    [
+                        1658905200000,
+                        151
+                    ]
+                ],
+                "seriesId": "61ca57f1-469d-11e7-af02-69e470af7417",
+                "stack": "none",
+                "lines": {
+                    "show": true,
+                    "fill": 0.5,
+                    "lineWidth": 1,
+                    "steps": false
+                },
+                "points": {
+                    "show": true,
+                    "radius": 1,
+                    "lineWidth": 1
+                },
+                "bars": {
+                    "show": false,
+                    "fill": 0.5,
+                    "lineWidth": 1
+                }
+            }
+        ]
+    }
+}

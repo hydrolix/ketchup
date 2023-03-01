@@ -1,0 +1,19 @@
+{
+    "name": "quoted literal matches all fields",
+    "kql": "\"hello\"",
+    "parsed": {
+        "type": "FIELD_MATCH",
+        "target": {
+            "type": "DEFAULT_FIELDS"
+        },
+        "value": {
+            "type": "SINGLE_VALUES",
+            "value": {
+                "type": "STRING_LIT",
+                "value": "hello",
+                "valueType": "STRING"
+            }
+        },
+        "valueType": "BOOLEAN"
+    }
+}

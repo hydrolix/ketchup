@@ -1,0 +1,106 @@
+{
+  "params": {
+    "index": "opensearch_dashboards_sample_data_logs",
+    "body": {
+      "aggs": {
+        "other-filter": {
+          "filters": {
+            "filters": {
+              "": {
+                "bool": {
+                  "must": [],
+                  "filter": [
+                    {
+                      "exists": {
+                        "field": "machine.os.keyword"
+                      }
+                    }
+                  ],
+                  "should": [],
+                  "must_not": [
+                    {
+                      "match_phrase": {
+                        "machine.os.keyword": "osx"
+                      }
+                    },
+                    {
+                      "match_phrase": {
+                        "machine.os.keyword": "win xp"
+                      }
+                    },
+                    {
+                      "match_phrase": {
+                        "machine.os.keyword": "ios"
+                      }
+                    },
+                    {
+                      "match_phrase": {
+                        "machine.os.keyword": "win 7"
+                      }
+                    },
+                    {
+                      "match_phrase": {
+                        "machine.os.keyword": "win 8"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "size": 0,
+      "stored_fields": [
+        "*"
+      ],
+      "script_fields": {
+        "hour_of_day": {
+          "script": {
+            "source": "doc['timestamp'].value.getHour()",
+            "lang": "painless"
+          }
+        }
+      },
+      "docvalue_fields": [
+        {
+          "field": "@timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "timestamp",
+          "format": "date_time"
+        },
+        {
+          "field": "utc_time",
+          "format": "date_time"
+        }
+      ],
+      "_source": {
+        "excludes": []
+      },
+      "query": {
+        "bool": {
+          "must": [],
+          "filter": [
+            {
+              "match_all": {}
+            },
+            {
+              "range": {
+                "timestamp": {
+                  "gte": "2022-07-20T22:43:00.705Z",
+                  "lte": "2022-07-27T22:43:00.705Z",
+                  "format": "strict_date_optional_time"
+                }
+              }
+            }
+          ],
+          "should": [],
+          "must_not": []
+        }
+      }
+    },
+    "preference": 1658961537079
+  }
+}

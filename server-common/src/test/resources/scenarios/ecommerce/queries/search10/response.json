@@ -1,0 +1,54 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 5,
+        "timed_out": false,
+        "terminated_early": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 1051,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "termsAgg": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Men's Clothing",
+                        "doc_count": 464
+                    },
+                    {
+                        "key": "Women's Clothing",
+                        "doc_count": 427
+                    },
+                    {
+                        "key": "Women's Shoes",
+                        "doc_count": 242
+                    },
+                    {
+                        "key": "Men's Shoes",
+                        "doc_count": 222
+                    },
+                    {
+                        "key": "Women's Accessories",
+                        "doc_count": 169
+                    },
+                    {
+                        "key": "Men's Accessories",
+                        "doc_count": 129
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

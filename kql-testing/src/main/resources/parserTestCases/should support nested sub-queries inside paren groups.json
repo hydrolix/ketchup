@@ -1,0 +1,75 @@
+{
+    "name": "should support nested sub-queries inside paren groups",
+    "kql": "response:200 and ( nestedField:{ childOfNested:foo } or nestedField:{ childOfNested:bar } )",
+    "comment": "TODO replace Or(Nested(x:y), Nested(x:z)) with Nested(x, Or(y, z))",
+    "parsed": {
+        "type": "AND",
+        "children": [
+            {
+                "type": "FIELD_MATCH",
+                "target": {
+                    "type": "ONE_FIELD",
+                    "fieldName": "response"
+                },
+                "value": {
+                    "type": "SINGLE_VALUES",
+                    "value": {
+                        "type": "DOUBLE_LIT",
+                        "value": 200.0,
+                        "valueType": "DOUBLE"
+                    }
+                },
+                "valueType": "BOOLEAN"
+            },
+            {
+                "type": "OR",
+                "children": [
+                    {
+                        "type": "NESTED",
+                        "fieldName": "nestedField",
+                        "child": {
+                            "type": "FIELD_MATCH",
+                            "target": {
+                                "type": "ONE_FIELD",
+                                "fieldName": "childOfNested"
+                            },
+                            "value": {
+                                "type": "SINGLE_VALUES",
+                                "value": {
+                                    "type": "STRING_LIT",
+                                    "value": "foo",
+                                    "valueType": "STRING"
+                                }
+                            },
+                            "valueType": "BOOLEAN"
+                        },
+                        "valueType": "BOOLEAN"
+                    },
+                    {
+                        "type": "NESTED",
+                        "fieldName": "nestedField",
+                        "child": {
+                            "type": "FIELD_MATCH",
+                            "target": {
+                                "type": "ONE_FIELD",
+                                "fieldName": "childOfNested"
+                            },
+                            "value": {
+                                "type": "SINGLE_VALUES",
+                                "value": {
+                                    "type": "STRING_LIT",
+                                    "value": "bar",
+                                    "valueType": "STRING"
+                                }
+                            },
+                            "valueType": "BOOLEAN"
+                        },
+                        "valueType": "BOOLEAN"
+                    }
+                ],
+                "valueType": "BOOLEAN"
+            }
+        ],
+        "valueType": "BOOLEAN"
+    }
+}

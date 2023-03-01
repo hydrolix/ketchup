@@ -1,0 +1,368 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 1,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 309,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "gridSplit": {
+                "buckets": [
+                    {
+                        "key": "4/8/5",
+                        "doc_count": 67,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 46.74218944190487,
+                                "lon": 10.042737971351885
+                            },
+                            "count": 67
+                        }
+                    },
+                    {
+                        "key": "4/4/6",
+                        "doc_count": 27,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 35.77102239243686,
+                                "lon": -83.08055653547247
+                            },
+                            "count": 27
+                        }
+                    },
+                    {
+                        "key": "4/14/6",
+                        "doc_count": 21,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 35.13118511598025,
+                                "lon": 137.907331216016
+                            },
+                            "count": 21
+                        }
+                    },
+                    {
+                        "key": "4/13/6",
+                        "doc_count": 21,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 34.960233845881056,
+                                "lon": 122.22895147012812
+                            },
+                            "count": 21
+                        }
+                    },
+                    {
+                        "key": "4/14/9",
+                        "doc_count": 14,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": -34.82010754357491,
+                                "lon": 146.02971745987557
+                            },
+                            "count": 14
+                        }
+                    },
+                    {
+                        "key": "4/7/5",
+                        "doc_count": 13,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 52.22716167999002,
+                                "lon": -1.4734478273357337
+                            },
+                            "count": 13
+                        }
+                    },
+                    {
+                        "key": "4/8/6",
+                        "doc_count": 12,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 38.85545023251325,
+                                "lon": 13.212013305164874
+                            },
+                            "count": 12
+                        }
+                    },
+                    {
+                        "key": "4/4/8",
+                        "doc_count": 12,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": -5.084472239250317,
+                                "lon": -77.83950170036405
+                            },
+                            "count": 12
+                        }
+                    },
+                    {
+                        "key": "4/4/7",
+                        "doc_count": 11,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 4.701589993201196,
+                                "lon": -74.14690000936389
+                            },
+                            "count": 11
+                        }
+                    },
+                    {
+                        "key": "4/9/9",
+                        "doc_count": 10,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": -26.834248912520707,
+                                "lon": 28.82074441574514
+                            },
+                            "count": 10
+                        }
+                    },
+                    {
+                        "key": "4/3/5",
+                        "doc_count": 10,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 46.94782025786117,
+                                "lon": -97.81575932353735
+                            },
+                            "count": 10
+                        }
+                    },
+                    {
+                        "key": "4/2/5",
+                        "doc_count": 9,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 51.168422256596386,
+                                "lon": -115.99122283048928
+                            },
+                            "count": 9
+                        }
+                    },
+                    {
+                        "key": "4/11/7",
+                        "doc_count": 8,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 15.174777005449869,
+                                "lon": 76.58714304096065
+                            },
+                            "count": 8
+                        }
+                    },
+                    {
+                        "key": "4/10/6",
+                        "doc_count": 8,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 24.81170868384652,
+                                "lon": 55.020783118670806
+                            },
+                            "count": 8
+                        }
+                    },
+                    {
+                        "key": "4/9/3",
+                        "doc_count": 7,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 68.15180202014744,
+                                "lon": 33.46390150487423
+                            },
+                            "count": 7
+                        }
+                    },
+                    {
+                        "key": "4/8/4",
+                        "doc_count": 7,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 59.806758309714496,
+                                "lon": 15.970542847311922
+                            },
+                            "count": 7
+                        }
+                    },
+                    {
+                        "key": "4/4/5",
+                        "doc_count": 7,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 43.65833185147494,
+                                "lon": -76.88408126921526
+                            },
+                            "count": 7
+                        }
+                    },
+                    {
+                        "key": "4/9/4",
+                        "doc_count": 6,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 58.144899343606085,
+                                "lon": 31.18895030580461
+                            },
+                            "count": 6
+                        }
+                    },
+                    {
+                        "key": "4/3/7",
+                        "doc_count": 6,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 19.436299977824092,
+                                "lon": -99.07209808006883
+                            },
+                            "count": 6
+                        }
+                    },
+                    {
+                        "key": "4/12/6",
+                        "doc_count": 5,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 31.35222098696977,
+                                "lon": 104.90799863263965
+                            },
+                            "count": 5
+                        }
+                    },
+                    {
+                        "key": "4/3/6",
+                        "doc_count": 5,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 35.15843884181231,
+                                "lon": -98.25943914055824
+                            },
+                            "count": 5
+                        }
+                    },
+                    {
+                        "key": "4/5/7",
+                        "doc_count": 4,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 18.439399707131088,
+                                "lon": -66.00180060602725
+                            },
+                            "count": 4
+                        }
+                    },
+                    {
+                        "key": "4/13/5",
+                        "doc_count": 3,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 51.16999696008861,
+                                "lon": 128.44500697217882
+                            },
+                            "count": 3
+                        }
+                    },
+                    {
+                        "key": "4/8/9",
+                        "doc_count": 3,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": -33.96480181720108,
+                                "lon": 18.601699797436595
+                            },
+                            "count": 3
+                        }
+                    },
+                    {
+                        "key": "4/5/9",
+                        "doc_count": 3,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": -34.822200019843876,
+                                "lon": -58.535800063982606
+                            },
+                            "count": 3
+                        }
+                    },
+                    {
+                        "key": "4/14/5",
+                        "doc_count": 2,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 42.77519986499101,
+                                "lon": 141.69200127013028
+                            },
+                            "count": 2
+                        }
+                    },
+                    {
+                        "key": "4/11/6",
+                        "doc_count": 2,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 28.56649998575449,
+                                "lon": 77.1031039673835
+                            },
+                            "count": 2
+                        }
+                    },
+                    {
+                        "key": "4/7/6",
+                        "doc_count": 2,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 40.471925963647664,
+                                "lon": -3.562640016898513
+                            },
+                            "count": 2
+                        }
+                    },
+                    {
+                        "key": "4/2/6",
+                        "doc_count": 2,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 33.33805083297193,
+                                "lon": -117.79899979010224
+                            },
+                            "count": 2
+                        }
+                    },
+                    {
+                        "key": "4/9/6",
+                        "doc_count": 1,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 40.97689816262573,
+                                "lon": 28.814599961042404
+                            },
+                            "count": 1
+                        }
+                    },
+                    {
+                        "key": "4/4/9",
+                        "doc_count": 1,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": -33.39300158433616,
+                                "lon": -70.78579715453088
+                            },
+                            "count": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

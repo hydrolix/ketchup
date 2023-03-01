@@ -1,0 +1,126 @@
+{
+    "isPartial": false,
+    "isRunning": false,
+    "rawResponse": {
+        "took": 2,
+        "timed_out": false,
+        "_shards": {
+            "total": 1,
+            "successful": 1,
+            "skipped": 0,
+            "failed": 0
+        },
+        "hits": {
+            "total": 1051,
+            "max_score": null,
+            "hits": []
+        },
+        "aggregations": {
+            "gridSplit": {
+                "buckets": [
+                    {
+                        "key": "4/10/6",
+                        "doc_count": 214,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 25.00887848160482,
+                                "lon": 52.13271025411576
+                            },
+                            "count": 214
+                        }
+                    },
+                    {
+                        "key": "4/4/6",
+                        "doc_count": 207,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 40.782125585550524,
+                                "lon": -74.00000003166497
+                            },
+                            "count": 207
+                        }
+                    },
+                    {
+                        "key": "4/7/5",
+                        "doc_count": 133,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 52.01127817619704,
+                                "lon": -1.020300775640329
+                            },
+                            "count": 133
+                        }
+                    },
+                    {
+                        "key": "4/8/5",
+                        "doc_count": 121,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 43.63471071074201,
+                                "lon": 7.138842896612222
+                            },
+                            "count": 121
+                        }
+                    },
+                    {
+                        "key": "4/9/6",
+                        "doc_count": 114,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 30.09999997448176,
+                                "lon": 31.29999996162951
+                            },
+                            "count": 114
+                        }
+                    },
+                    {
+                        "key": "4/7/6",
+                        "doc_count": 91,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 31.599999968893826,
+                                "lon": -8.000000026077032
+                            },
+                            "count": 91
+                        }
+                    },
+                    {
+                        "key": "4/2/6",
+                        "doc_count": 79,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 34.09999998752028,
+                                "lon": -118.20000001229346
+                            },
+                            "count": 79
+                        }
+                    },
+                    {
+                        "key": "4/9/5",
+                        "doc_count": 50,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 40.999999986961484,
+                                "lon": 28.999999947845936
+                            },
+                            "count": 50
+                        }
+                    },
+                    {
+                        "key": "4/4/7",
+                        "doc_count": 42,
+                        "gridCentroid": {
+                            "location": {
+                                "lat": 4.599999985657632,
+                                "lon": -74.10000007599592
+                            },
+                            "count": 42
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "total": 1,
+    "loaded": 1
+}

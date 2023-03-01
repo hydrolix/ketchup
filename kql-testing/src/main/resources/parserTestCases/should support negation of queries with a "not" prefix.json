@@ -1,0 +1,44 @@
+{
+    "name": "should support negation of queries with a \"not\" prefix",
+    "kql": "not (foo or bar)",
+    "parsed": {
+        "type": "NOT",
+        "operand": {
+            "type": "OR",
+            "children": [
+                {
+                    "type": "FIELD_MATCH",
+                    "target": {
+                        "type": "DEFAULT_FIELDS"
+                    },
+                    "value": {
+                        "type": "SINGLE_VALUES",
+                        "value": {
+                            "type": "STRING_LIT",
+                            "value": "foo",
+                            "valueType": "STRING"
+                        }
+                    },
+                    "valueType": "BOOLEAN"
+                },
+                {
+                    "type": "FIELD_MATCH",
+                    "target": {
+                        "type": "DEFAULT_FIELDS"
+                    },
+                    "value": {
+                        "type": "SINGLE_VALUES",
+                        "value": {
+                            "type": "STRING_LIT",
+                            "value": "bar",
+                            "valueType": "STRING"
+                        }
+                    },
+                    "valueType": "BOOLEAN"
+                }
+            ],
+            "valueType": "BOOLEAN"
+        },
+        "valueType": "BOOLEAN"
+    }
+}

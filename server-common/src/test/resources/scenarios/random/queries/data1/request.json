@@ -1,0 +1,85 @@
+{
+  "timerange": {
+    "timezone": "America/Vancouver",
+    "min": "2013-06-26T23:09:01.830Z",
+    "max": "2013-08-05T17:24:19.607Z"
+  },
+  "query": [
+    {
+      "query": "",
+      "language": "kuery"
+    }
+  ],
+  "filters": [],
+  "panels": [
+    {
+      "time_range_mode": "entire_time_range",
+      "id": "02345404-263f-476f-ae55-60a0a7751def",
+      "type": "metric",
+      "series": [
+        {
+          "time_range_mode": "entire_time_range",
+          "id": "f96578c2-0fd0-4816-b044-decbe1590da2",
+          "color": "#68BC00",
+          "split_mode": "everything",
+          "palette": {
+            "type": "palette",
+            "name": "default"
+          },
+          "metrics": [
+            {
+              "id": "66054ffc-7b21-4b27-a4f0-07d55873b0e3",
+              "type": "filter_ratio",
+              "numerator": {
+                "query": "IsMobile : 1",
+                "language": "kuery"
+              },
+              "denominator": {
+                "query": "IsMobile : 0",
+                "language": "kuery"
+              }
+            }
+          ],
+          "separate_axis": 0,
+          "axis_position": "right",
+          "formatter": "percent",
+          "chart_type": "line",
+          "line_width": 1,
+          "point_size": 1,
+          "fill": 0.5,
+          "stacked": "none",
+          "override_index_pattern": 0,
+          "series_drop_last_bucket": 0,
+          "label": "IsMobile"
+        }
+      ],
+      "time_field": "",
+      "use_kibana_indexes": true,
+      "interval": "",
+      "axis_position": "left",
+      "axis_formatter": "number",
+      "axis_scale": "normal",
+      "show_legend": 1,
+      "truncate_legend": 1,
+      "max_lines_legend": 1,
+      "show_grid": 1,
+      "tooltip_mode": "show_all",
+      "drop_last_bucket": 0,
+      "background_color_rules": [
+        {
+          "id": "a4e0e8c0-1865-11ed-894e-c7cf9c4e4f5e"
+        }
+      ],
+      "isModelInvalid": false,
+      "index_pattern": {
+        "id": "82471b20-1803-11ed-84b7-abd4e47428f1"
+      }
+    }
+  ],
+  "state": {},
+  "searchSession": {
+    "sessionId": "210f08fb-048b-4cf5-a28b-8ed46d4601ec",
+    "isRestore": false,
+    "isStored": false
+  }
+}

@@ -1,0 +1,796 @@
+{
+  "is_partial": false,
+  "is_running": false,
+  "start_time_in_millis": 1673981623008,
+  "expiration_time_in_millis": 1674413623008,
+  "response": {
+    "took": 41,
+    "timed_out": false,
+    "_shards": {
+      "total": 4,
+      "successful": 4,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 99997497,
+        "relation": "eq"
+      },
+      "max_score": null,
+      "hits": []
+    },
+    "aggregations": {
+      "date_histogram#timeseries": {
+        "meta": {
+          "dataViewId": "82471b20-1803-11ed-84b7-abd4e47428f1",
+          "panelId": "ef25b801-3ce6-4123-ad0d-73f232804ef0",
+          "indexPatternString": "hits",
+          "normalized": true,
+          "timeField": "EventTime",
+          "intervalString": "43200s",
+          "seriesId": "c88c29ca-d35f-4a1d-ac9c-71c3f5231a59"
+        },
+        "buckets": [
+          {
+            "key_as_string": "2013-06-26 12:00:00",
+            "key": 1372273200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-27 00:00:00",
+            "key": 1372316400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-27 12:00:00",
+            "key": 1372359600000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-28 00:00:00",
+            "key": 1372402800000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-28 12:00:00",
+            "key": 1372446000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-29 00:00:00",
+            "key": 1372489200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-29 12:00:00",
+            "key": 1372532400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-30 00:00:00",
+            "key": 1372575600000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-06-30 12:00:00",
+            "key": 1372618800000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-01 00:00:00",
+            "key": 1372662000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-01 12:00:00",
+            "key": 1372705200000,
+            "doc_count": 1706475,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 311392
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": null
+            }
+          },
+          {
+            "key_as_string": "2013-07-02 00:00:00",
+            "key": 1372748400000,
+            "doc_count": 1846015,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 336498
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 311392
+            }
+          },
+          {
+            "key_as_string": "2013-07-02 12:00:00",
+            "key": 1372791600000,
+            "doc_count": 4662283,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 667901
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 323945
+            }
+          },
+          {
+            "key_as_string": "2013-07-03 00:00:00",
+            "key": 1372834800000,
+            "doc_count": 4900263,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 691181
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 438597
+            }
+          },
+          {
+            "key_as_string": "2013-07-03 12:00:00",
+            "key": 1372878000000,
+            "doc_count": 418973,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 86412
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 501743
+            }
+          },
+          {
+            "key_as_string": "2013-07-04 00:00:00",
+            "key": 1372921200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-04 12:00:00",
+            "key": 1372964400000,
+            "doc_count": 2064004,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 332905
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 418676.8
+            }
+          },
+          {
+            "key_as_string": "2013-07-05 00:00:00",
+            "key": 1373007600000,
+            "doc_count": 2238690,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 359203
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 404381.5
+            }
+          },
+          {
+            "key_as_string": "2013-07-05 12:00:00",
+            "key": 1373050800000,
+            "doc_count": 3318929,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 480424
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 397927.4285714286
+            }
+          },
+          {
+            "key_as_string": "2013-07-06 00:00:00",
+            "key": 1373094000000,
+            "doc_count": 3400330,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 476820
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 422074.85714285716
+            }
+          },
+          {
+            "key_as_string": "2013-07-06 12:00:00",
+            "key": 1373137200000,
+            "doc_count": 813927,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 116897
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 442120.85714285716
+            }
+          },
+          {
+            "key_as_string": "2013-07-07 00:00:00",
+            "key": 1373180400000,
+            "doc_count": 545040,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 72408
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 363406
+            }
+          },
+          {
+            "key_as_string": "2013-07-07 12:00:00",
+            "key": 1373223600000,
+            "doc_count": 1119385,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 133409
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 275009.85714285716
+            }
+          },
+          {
+            "key_as_string": "2013-07-08 00:00:00",
+            "key": 1373266800000,
+            "doc_count": 1173679,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 132471
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 281723.71428571426
+            }
+          },
+          {
+            "key_as_string": "2013-07-08 12:00:00",
+            "key": 1373310000000,
+            "doc_count": 6273593,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 607078
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 253090.2857142857
+            }
+          },
+          {
+            "key_as_string": "2013-07-09 00:00:00",
+            "key": 1373353200000,
+            "doc_count": 6735050,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 632273
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 288501
+            }
+          },
+          {
+            "key_as_string": "2013-07-09 12:00:00",
+            "key": 1373396400000,
+            "doc_count": 3230618,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 451825
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 310193.71428571426
+            }
+          },
+          {
+            "key_as_string": "2013-07-10 00:00:00",
+            "key": 1373439600000,
+            "doc_count": 2897914,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 410227
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 306623
+            }
+          },
+          {
+            "key_as_string": "2013-07-10 12:00:00",
+            "key": 1373482800000,
+            "doc_count": 242843,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 50591
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 348527.28571428574
+            }
+          },
+          {
+            "key_as_string": "2013-07-11 00:00:00",
+            "key": 1373526000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-11 12:00:00",
+            "key": 1373569200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-12 00:00:00",
+            "key": 1373612400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-12 12:00:00",
+            "key": 1373655600000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-13 00:00:00",
+            "key": 1373698800000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-13 12:00:00",
+            "key": 1373742000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-14 00:00:00",
+            "key": 1373785200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-14 12:00:00",
+            "key": 1373828400000,
+            "doc_count": 5777813,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 1042831
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 345410.5714285714
+            }
+          },
+          {
+            "key_as_string": "2013-07-15 00:00:00",
+            "key": 1373871600000,
+            "doc_count": 6317997,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 1121532
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 475328
+            }
+          },
+          {
+            "key_as_string": "2013-07-15 12:00:00",
+            "key": 1373914800000,
+            "doc_count": 526021,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 150524
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 616622.4285714285
+            }
+          },
+          {
+            "key_as_string": "2013-07-16 00:00:00",
+            "key": 1373958000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-16 12:00:00",
+            "key": 1374001200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-17 00:00:00",
+            "key": 1374044400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-17 12:00:00",
+            "key": 1374087600000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-18 00:00:00",
+            "key": 1374130800000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-18 12:00:00",
+            "key": 1374174000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-19 00:00:00",
+            "key": 1374217200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-19 12:00:00",
+            "key": 1374260400000,
+            "doc_count": 199212,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 81590
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 551400.4285714285
+            }
+          },
+          {
+            "key_as_string": "2013-07-20 00:00:00",
+            "key": 1374303600000,
+            "doc_count": 213098,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 89105
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 472731.4285714286
+            }
+          },
+          {
+            "key_as_string": "2013-07-20 12:00:00",
+            "key": 1374346800000,
+            "doc_count": 7646902,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 1728117
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 420914.28571428574
+            }
+          },
+          {
+            "key_as_string": "2013-07-21 00:00:00",
+            "key": 1374390000000,
+            "doc_count": 8301340,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 1827302
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 609184.2857142857
+            }
+          },
+          {
+            "key_as_string": "2013-07-21 12:00:00",
+            "key": 1374433200000,
+            "doc_count": 1288679,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 365739
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 863000.1428571428
+            }
+          },
+          {
+            "key_as_string": "2013-07-22 00:00:00",
+            "key": 1374476400000,
+            "doc_count": 664864,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 163639
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 766272.7142857143
+            }
+          },
+          {
+            "key_as_string": "2013-07-22 12:00:00",
+            "key": 1374519600000,
+            "doc_count": 643062,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 162310
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 629430.8571428572
+            }
+          },
+          {
+            "key_as_string": "2013-07-23 00:00:00",
+            "key": 1374562800000,
+            "doc_count": 638584,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 156724
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 631114.5714285715
+            }
+          },
+          {
+            "key_as_string": "2013-07-23 12:00:00",
+            "key": 1374606000000,
+            "doc_count": 52562,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 16922
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 641848
+            }
+          },
+          {
+            "key_as_string": "2013-07-24 00:00:00",
+            "key": 1374649200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-24 12:00:00",
+            "key": 1374692400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-25 00:00:00",
+            "key": 1374735600000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-25 12:00:00",
+            "key": 1374778800000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-26 00:00:00",
+            "key": 1374822000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-26 12:00:00",
+            "key": 1374865200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-27 00:00:00",
+            "key": 1374908400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-07-27 12:00:00",
+            "key": 1374951600000,
+            "doc_count": 4353903,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 1035675
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 631536.1428571428
+            }
+          },
+          {
+            "key_as_string": "2013-07-28 00:00:00",
+            "key": 1374994800000,
+            "doc_count": 4775874,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 1083644
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 532615.8571428572
+            }
+          },
+          {
+            "key_as_string": "2013-07-28 12:00:00",
+            "key": 1375038000000,
+            "doc_count": 3538215,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 590482
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 426379
+            }
+          },
+          {
+            "key_as_string": "2013-07-29 00:00:00",
+            "key": 1375081200000,
+            "doc_count": 3422906,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 519406
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 458485.14285714284
+            }
+          },
+          {
+            "key_as_string": "2013-07-29 12:00:00",
+            "key": 1375124400000,
+            "doc_count": 322663,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 79491
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 509309
+            }
+          },
+          {
+            "key_as_string": "2013-07-30 00:00:00",
+            "key": 1375167600000,
+            "doc_count": 39254,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 18155
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 497477.71428571426
+            }
+          },
+          {
+            "key_as_string": "2013-07-30 12:00:00",
+            "key": 1375210800000,
+            "doc_count": 1701390,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 157380
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 477682.14285714284
+            }
+          },
+          {
+            "key_as_string": "2013-07-31 00:00:00",
+            "key": 1375254000000,
+            "doc_count": 1834126,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 167211
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 497747.5714285714
+            }
+          },
+          {
+            "key_as_string": "2013-07-31 12:00:00",
+            "key": 1375297200000,
+            "doc_count": 151021,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 19480
+            },
+            "simple_value#1ca36b00-1f2b-11ed-892a-35c94a03ef45": {
+              "value": 373681.28571428574
+            }
+          },
+          {
+            "key_as_string": "2013-08-01 00:00:00",
+            "key": 1375340400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-01 12:00:00",
+            "key": 1375383600000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-02 00:00:00",
+            "key": 1375426800000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-02 12:00:00",
+            "key": 1375470000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-03 00:00:00",
+            "key": 1375513200000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-03 12:00:00",
+            "key": 1375556400000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-04 00:00:00",
+            "key": 1375599600000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-04 12:00:00",
+            "key": 1375642800000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          },
+          {
+            "key_as_string": "2013-08-05 00:00:00",
+            "key": 1375686000000,
+            "doc_count": 0,
+            "cardinality#8a95c599-45c5-49d0-960d-992e224f780f": {
+              "value": 0
+            }
+          }
+        ]
+      }
+    }
+  }
+}

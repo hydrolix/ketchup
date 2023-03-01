@@ -1,0 +1,38 @@
+{
+    "name": "should support inclusive range operators",
+    "kql": "bytes >= 1000 and bytes <= 8000",
+    "parsed": {
+        "type": "AND",
+        "children": [
+            {
+                "type": "GREATER_EQUAL",
+                "left": {
+                    "type": "GET_FIELD",
+                    "fieldName": "bytes",
+                    "valueType": "ANY"
+                },
+                "right": {
+                    "type": "DOUBLE_LIT",
+                    "value": 1000.0,
+                    "valueType": "DOUBLE"
+                },
+                "valueType": "ANY"
+            },
+            {
+                "type": "LESS_EQUAL",
+                "left": {
+                    "type": "GET_FIELD",
+                    "fieldName": "bytes",
+                    "valueType": "ANY"
+                },
+                "right": {
+                    "type": "DOUBLE_LIT",
+                    "value": 8000.0,
+                    "valueType": "DOUBLE"
+                },
+                "valueType": "ANY"
+            }
+        ],
+        "valueType": "BOOLEAN"
+    }
+}

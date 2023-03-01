@@ -1,0 +1,47 @@
+{
+    "params": {
+        "index": "opensearch_dashboards_sample_data_flights",
+        "body": {
+            "size": 0,
+            "aggs": {
+                "gridSplit": {
+                    "geotile_grid": {
+                        "field": "OriginLocation",
+                        "precision": 4,
+                        "size": 10000
+                    },
+                    "aggs": {
+                        "gridCentroid": {
+                            "geo_centroid": {
+                                "field": "OriginLocation"
+                            }
+                        }
+                    }
+                }
+            },
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "range": {
+                                "timestamp": {
+                                    "gte": "2022-07-27T21:50:47.533Z",
+                                    "lte": "2022-07-28T21:50:47.533Z",
+                                    "format": "strict_date_optional_time"
+                                }
+                            }
+                        }
+                    ],
+                    "filter": [
+                        {
+                            "match_all": {}
+                        }
+                    ],
+                    "should": [],
+                    "must_not": []
+                }
+            }
+        },
+        "preference": 1659044750801
+    }
+}

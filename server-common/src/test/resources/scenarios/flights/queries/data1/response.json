@@ -1,0 +1,243 @@
+{
+    "type": "timeseries",
+    "uiRestrictions": {
+        "whiteListedMetrics": {
+            "*": true
+        },
+        "whiteListedGroupByFields": {
+            "*": true
+        },
+        "whiteListedTimerangeModes": {
+            "*": true
+        }
+    },
+    "61ca57f0-469d-11e7-af02-69e470af7417": {
+        "annotations": {
+            "53b7dff0-4c89-11e8-a66a-6989ad5a0a39": [
+                {
+                    "key": 1658966400000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "OpenSearch-Air",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T00:05:46"
+                        }
+                    ]
+                },
+                {
+                    "key": 1658973600000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "OpenSearch Dashboards Airlines",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T02:05:42"
+                        }
+                    ]
+                },
+                {
+                    "key": 1658978400000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "Logstash Airways",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T03:29:04"
+                        }
+                    ]
+                },
+                {
+                    "key": 1658982000000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "OpenSearch-Air",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T04:20:24"
+                        }
+                    ]
+                },
+                {
+                    "key": 1658982600000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "BeatsWest",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T04:35:45"
+                        }
+                    ]
+                },
+                {
+                    "key": 1658985000000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "OpenSearch Dashboards Airlines",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T05:10:00"
+                        }
+                    ]
+                },
+                {
+                    "key": 1658985600000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "OpenSearch Dashboards Airlines",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T05:24:41"
+                        }
+                    ]
+                },
+                {
+                    "key": 1659000000000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "BeatsWest",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T09:22:14"
+                        }
+                    ]
+                },
+                {
+                    "key": 1659025200000,
+                    "docs": [
+                        {
+                            "FlightDelay": true,
+                            "Carrier": "Logstash Airways",
+                            "Cancelled": true,
+                            "timestamp": "2022-07-28T16:24:19"
+                        }
+                    ]
+                }
+            ]
+        },
+        "id": "61ca57f0-469d-11e7-af02-69e470af7417",
+        "series": [
+            {
+                "id": "61ca57f1-469d-11e7-af02-69e470af7417",
+                "label": "Percent Delays",
+                "color": "rgb(0, 156, 224)",
+                "data": [
+                    [
+                        1658955600000,
+                        0
+                    ],
+                    [
+                        1658959200000,
+                        0.2
+                    ],
+                    [
+                        1658962800000,
+                        0.35714285714285715
+                    ],
+                    [
+                        1658966400000,
+                        0.25
+                    ],
+                    [
+                        1658970000000,
+                        0.14285714285714285
+                    ],
+                    [
+                        1658973600000,
+                        0.3888888888888889
+                    ],
+                    [
+                        1658977200000,
+                        0.16666666666666666
+                    ],
+                    [
+                        1658980800000,
+                        0.26666666666666666
+                    ],
+                    [
+                        1658984400000,
+                        0.4375
+                    ],
+                    [
+                        1658988000000,
+                        0.07692307692307693
+                    ],
+                    [
+                        1658991600000,
+                        0.08333333333333333
+                    ],
+                    [
+                        1658995200000,
+                        0.15789473684210525
+                    ],
+                    [
+                        1658998800000,
+                        0.3333333333333333
+                    ],
+                    [
+                        1659002400000,
+                        0.16666666666666666
+                    ],
+                    [
+                        1659006000000,
+                        0.4
+                    ],
+                    [
+                        1659009600000,
+                        0.3333333333333333
+                    ],
+                    [
+                        1659013200000,
+                        0.15384615384615385
+                    ],
+                    [
+                        1659016800000,
+                        0
+                    ],
+                    [
+                        1659020400000,
+                        0.36363636363636365
+                    ],
+                    [
+                        1659024000000,
+                        0.4166666666666667
+                    ],
+                    [
+                        1659027600000,
+                        0.5
+                    ],
+                    [
+                        1659031200000,
+                        0.36363636363636365
+                    ],
+                    [
+                        1659034800000,
+                        0.1111111111111111
+                    ],
+                    [
+                        1659038400000,
+                        0.42857142857142855
+                    ]
+                ],
+                "seriesId": "61ca57f1-469d-11e7-af02-69e470af7417",
+                "stack": "none",
+                "lines": {
+                    "show": true,
+                    "fill": 0.5,
+                    "lineWidth": 2,
+                    "steps": false
+                },
+                "points": {
+                    "show": false,
+                    "radius": 1,
+                    "lineWidth": 5
+                },
+                "bars": {
+                    "show": false,
+                    "fill": 0.5,
+                    "lineWidth": 2
+                }
+            }
+        ]
+    }
+}

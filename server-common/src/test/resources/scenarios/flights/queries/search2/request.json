@@ -1,0 +1,61 @@
+{
+    "params": {
+        "index": "opensearch_dashboards_sample_data_flights",
+        "body": {
+            "size": 0,
+            "aggs": {
+                "maxAgg": {
+                    "max": {
+                        "field": "FlightDelayMin"
+                    }
+                },
+                "minAgg": {
+                    "min": {
+                        "field": "FlightDelayMin"
+                    }
+                }
+            },
+            "stored_fields": [
+                "*"
+            ],
+            "script_fields": {
+                "hour_of_day": {
+                    "script": {
+                        "source": "doc['timestamp'].value.hourOfDay",
+                        "lang": "painless"
+                    }
+                }
+            },
+            "docvalue_fields": [
+                {
+                    "field": "timestamp",
+                    "format": "date_time"
+                }
+            ],
+            "_source": {
+                "excludes": []
+            },
+            "query": {
+                "bool": {
+                    "must": [],
+                    "filter": [
+                        {
+                            "match_all": {}
+                        }
+                    ],
+                    "should": [],
+                    "must_not": [
+                        {
+                            "match_phrase": {
+                                "FlightDelayMin": {
+                                    "query": 0
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "preference": 1659044750801
+    }
+}
