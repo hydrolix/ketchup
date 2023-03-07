@@ -26,7 +26,7 @@ is provided.
 It accepts “wrapped” queries which include an index name so the request can be self-contained:
    
     {
-      "index": "elasticlogsnt*:search-logs",
+      "index": "my_index",
       "body": { /* (the usual Elastic search request) */ }
     }
     

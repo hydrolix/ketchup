@@ -334,31 +334,12 @@ class DefaultTranslator(
                         // TODO check for other disqualifying features too
                         BooleanLiteral.True
                     } else {
-                        // TODO inject the default field into the parser, or post-process?
-                        val fld = queryString.defaultField()
-                        // TODO Kibana sends us the field name and the query string separately; this returns the wrong kind of expression
                         when (val res = FastparseKql.parseKql(queryString.query())) {
-                            is Either.Left -> {
-                                throw Untranslatable(UntranslatableReason.KqlParse, queryString.query())
-                            }
+                            is Either.Left -> throw Untranslatable(UntranslatableReason.KqlParse, queryString.query())
                             is Either.Right -> {
-                                // TODO it's gross to do this here, figure out how to smuggle fields into the parser maybe
-                                if (queryString.fields().isNotEmpty()) {
-                                    val replaced = when (val v = res.value) {
-                                        is FieldMatchPred -> {
-                                            when (v.target) {
-                                                is DefaultFields -> {
-                                                    v.copy(target = SelectedFields(queryString.fields()))
-                                                }
-                                                else -> v
-                                            }
-                                        }
-                                        else -> v
-                                    }
-                                    replaced
-                                } else {
-                                    res.value
-                                }
+                                val fields = listOfNotNull(queryString.defaultField()) + queryString.fields()
+
+                                populateDefaultFields(res.value, fields)
                             }
                         }
                     }
@@ -461,6 +442,28 @@ class DefaultTranslator(
                 }
 
                 else -> throw Untranslatable(UntranslatableReason.UnsupportedQuery, query._kind().name)
+            }
+        }
+
+        /**
+         * Update the anonymous predicates coming from a purely local KQL/Lucene query string with whatever field
+         * names are available from context (`default_field` and/or `fields`)
+         */
+        private fun populateDefaultFields(expr: Expr<Boolean>, fields: List<String>): Expr<Boolean> {
+            if (fields.isEmpty()) return expr
+
+            return when (expr) {
+                is And -> And(expr.children.map { populateDefaultFields(it, fields) })
+                is Or -> Or(expr.children.map { populateDefaultFields(it, fields) })
+                is Not -> Not(populateDefaultFields(expr.operand, fields))
+                is FieldMatchPred -> {
+                    val newTarget = when (expr.target) {
+                        is DefaultFields -> SelectedFields(fields)
+                        else -> expr.target
+                    }
+                    FieldMatchPred(newTarget, expr.value)
+                }
+                else -> expr
             }
         }
 

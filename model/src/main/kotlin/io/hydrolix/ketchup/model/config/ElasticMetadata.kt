@@ -11,7 +11,7 @@ import java.sql.JDBCType
 data class ElasticMetadata(
     val indexName: String,
     val indexAliases: List<String>? = null,
-    val primaryKeyField: String,
+    val primaryKeyField: String?,
     val timestampField: String,
     val nestedFieldsConfig: NestedFieldsConfig = NestedFieldsConfig.default,
     val columnMappings: List<MappedColumn>,

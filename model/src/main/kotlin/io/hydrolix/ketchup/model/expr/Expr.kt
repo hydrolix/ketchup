@@ -53,7 +53,7 @@ import io.hydrolix.ketchup.model.kql.*
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type")
 @JsonPropertyOrder("type")
 /**
- * This is the root of an IR between ELK queries and SQL
+ * This is the root of an expression AST
  */
 interface Expr<out R : Any> {
     val valueType: ValueType

@@ -50,7 +50,7 @@ object FastparseKql extends KqlParser[Parsed.Failure] {
     | pExpression
   )
 
-  private def pExpression[_: P] = P(pFieldRangeExpression | pFieldValueExpression | pValueExpression.map {
+  private def pExpression[_: P] = P(pFieldExistsExpression | pFieldRangeExpression | pFieldValueExpression | pValueExpression.map {
     case w: StringLiteral if w.getValue == "*" =>
       new FieldMatchPred(DefaultFields.INSTANCE, AnyValue.INSTANCE) // TODO treat prefix+wildcard specially?
     case lit =>
@@ -94,6 +94,10 @@ object FastparseKql extends KqlParser[Parsed.Failure] {
       }
 
       new FieldMatchPred(target, matchValue)
+  }
+
+  private def pFieldExistsExpression[_: P] = P("_exists_" ~ ":" ~ pField.!).map { fieldName =>
+    new IsNotNull(new GetField(fieldName, ValueType.ANY))
   }
 
   private def pValueExpression[_: P] = P(pValue)
